@@ -131,6 +131,17 @@ footer p:last-child {
     margin-bottom: 0;
 }
 
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+th, td {
+    min-width: 100px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
 #bg {
     position: fixed;
     z-index: -1;
@@ -153,7 +164,6 @@ footer p:last-child {
 .indent-2 {
     margin-left: 2rem;
 }
-
 
 @media screen and (max-width: 750px) {
     body {
