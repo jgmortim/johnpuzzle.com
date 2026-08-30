@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>John Puzzle - Spectrograms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://johnpuzzle.com/blog/spectrograms/">
+    <link rel="stylesheet" href="../../css/index.css">
+</head>
+<body>
+<h1>JohnPuzzle.com - Exploring Spectrograms</h1>
+<main>
+    <div id="breadcrumbs">
+        <a href="/">Home</a> > Blog > Spectrograms
+    </div>
+    <p>Published: 2026-08-30 &nbsp; Updated: 2026-08-30</p>
+    <h2>0 // Overview</h2>
+    <hr>
+    <p>
+        A spectrogram is a visual representation of the spectrum of frequencies of a signal over time. Spectrograms, especially in audio signals,
+        are an extremely common technique used in ARGs and puzzle hunts. They are so common that, on their own, they present virtually no challenge
+        to those with a modicum of ARG experience. This article serve as a case study of my exploration of the medium of spectrograms and dives into
+        ways to increase variety and difficulty in spectrogram-based puzzles.
+    </p>
+    <h2>1 // Barcode</h2>
+    <p>
+        In <a href="https://findbuzzy.com/listenwithyourheartyouwillunderstand-h9syb532/" target="_blank">Puzzle 10</a> of the Find Buzzy ARG, I designed a
+        .wav file for which the spectrogram displayed a standard Code-128 barcode. And scanning the barcode revealed the answer to the puzzle. This is a
+        simple technique, but it gets you out of the cliché of simple text. Viewing the spectrogram is now just one step in decoding the file.
+        <img src="../images/barcode-spectrogram.png" width="90%" alt="Screenshot from Audacity showing a Spectrogram with the appearance of a barcode"/>
+    </p>
+    <h2>2 // Track Manipulation</h2>
+    <h3>2.1 // First Iteration</h3>
+    <p>
+        In Puzzle 12 of the 2025 XIXMAS ARG, I wanted to create an audio file that had to be manipulated before the spectrogram would reveal its message.
+        What I came up with was a stereo track called
+        <a href="https://soundcloud.com/tuvsulkgweiytuft/two-voices-one-truth" target="_blank">Two Voices, One Truth</a>, which is hosted on SoundCloud.
+        For context, part of the puzzle was first finding the SoundCloud account. The track appears to be just white noise and the album art is also TV static.
+        However, if you mix the stereo down to mono (as hinted by the track name), all the noise cancels out and the true message is revealed. In Audacity,
+        this can be done with: <code>Tracks > Mix > Mix Stero Down to Mono</code>.
+    </p>
+    <p>
+        The screenshots below show the original mp3 (top) with left and right audio that appear to be just white noise, and the resulting mixed mono track
+        (bottom).
+        <img src="../images/two-voices-one-truth.png" width="90%" alt="Screenshot from Audacity showing a Spectrogram before and after mixing stereo down to mono"/>
+    </p>
+    <p>
+        There is a downside to this technique, however. Some online spectrogram viewing websites automatically mix the audio down to mono before rendering
+        the spectrogram. Given players the answer without them even knowing that mixing was required.
+    </p>
+    <h3>2.1 // Second Iteration</h3>
+    <p>
+        To combat that, I took this technique to the extreme in chapter 4 of the RUNE ARG. Players are given 7 .wav files and told to find a message hidden
+        in the noise. Each of the .wav files contains multiple sections of dense noise, sections of silence, and a single fetch command viewable in the
+        spectrogram. All the immediately viewable commands are red herrings which do not help the play progress in the game.
+
+    </p>
+    <img src="../images/perception.png" width="75%"/>
+    <p>
+        The noise in these 7 track was carefully engineered so that a new message would be revealed only when all 7 were mixed together. When mixed, all
+        the red herring messages get buried in dense noise, but a new message appears in the middle via destructive interference. This is the same principle
+        as the XIXMAS puzzle, but with additional false leads, and it completely eliminates the pitfall of only spectrogram viewers. To my knowledge, there
+        aren't any online tools that allow you to mix multiple files together. But even if there were, it would be a conscious choice of the player and not
+        something they could skip without knowing.
+        <img src="../images/fetch-discernment.png" width="90%"/>
+    </p>
+
+</main>
+<footer>
+    <p>&copy; 2026 John Mortimore. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
