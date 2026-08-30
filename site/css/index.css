@@ -67,6 +67,7 @@ h1 a:link, h1 a:visited {
 
 h2, h3 {
     padding-top: 1rem;
+    font-size: 1.25em;
     color: var(--text-green);
 
     text-shadow:
@@ -92,6 +93,13 @@ a:link, a:visited {
             0 0 15px color-mix(in srgb, var(--text-green) 50%, transparent),
             0 0 25px color-mix(in srgb, var(--text-green) 30%, transparent);
 
+    filter: blur(0.15px);
+}
+
+hr {
+    border: none;
+    border-top: 2px dashed var(--text-orange);
+    width: 100%;
     filter: blur(0.15px);
 }
 
@@ -132,9 +140,14 @@ footer p:last-child {
     padding-top: 1rem;
 }
 
-.indent {
+.indent-1 {
+    margin-left: 1rem;
+}
+
+.indent-2 {
     margin-left: 2rem;
 }
+
 
 @media screen and (max-width: 750px) {
     body {
