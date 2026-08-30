@@ -23,6 +23,13 @@
         to those with a modicum of ARG experience. This article serves as a case study of my exploration of the medium of spectrograms and dives into
         ways to increase variety and difficulty in spectrogram-based puzzles.
     </p>
+    <p>
+        Before we dive in, I want to note that this website is a portfolio, not a cookbook. Just as a restaurant would not give you its recipes, I will
+        not be detailing the specifics of how I've made these puzzles.
+    </p>
+    <p>
+        This page will be expanded with new techniques as time goes on.
+    </p>
     <hr>
     <h2>1 // Moving Away From Pure Text</h2>
     <hr>
@@ -30,8 +37,8 @@
     <p>
         For a bit more visual flair, in <a href="https://findbuzzy.com/listenwithyourheartyouwillunderstand-h9syb532/" target="_blank">Puzzle 22</a>
         of the <a href="https://findbuzzy.com/" target="_blank">Find Buzzy ARG</a>, I created a .wav file with an image-based spectrogram. The image then
-        contains text which amounts to a type of book cipher. On the left is an identifier that can be used to find the "book", in this case a policy report.
-        And on the right, you see the indexing key used to extract words from the policy report.
+        contained text which amounted to a type of book cipher. As shown in the screenshot bellow: on the left is an identifier that can be used to find the
+        "book", in this case a policy report. And on the right, you see the indexing key used to extract words from the policy report.
         <img src="../images/buzzy-22-spectrogram.png"/>
         But we are not limited to just images containing ciphers; the sky really is the limit here. A spectrogram could contain an image of a rebus, or some
         other type of visual riddle. And you can mix and match puzzle delivery techniques to add additional variety.
@@ -43,7 +50,7 @@
         barcode. And scanning the barcode revealed the answer to the puzzle. This is another simple technique, but it gets you out of the cliché of simple
         text. Like in the example above, viewing the spectrogram is now just one step in decoding the file.
         <img src="../images/barcode-spectrogram.png" alt="Screenshot from Audacity showing a Spectrogram with the appearance of a barcode"/>
-        Code 128 is just one example, there are many scannable codes out there. A popular one would be a QR code.
+        Code 128 is just one example, there are many scannable codes out there. A popular one to use in a puzzle would be a QR code.
     </p>
     <hr>
     <h2>2 // Track Manipulation</h2>
@@ -68,15 +75,15 @@
     </p>
     <h3>2.2 // Second Iteration</h3>
     <p>
-        <img src="../images/perception.png" style="float: right; max-height: 300px"/>
+        <img src="../images/perception.png" style="float: right; max-height: 300px; margin: .5rem"/>
         To combat that issue, I took this technique to the extreme in Chapter 4 of the <a href="https://www.cicadachallenge.com/vault/" target="_blank">RUNE ARG</a>.
         Players were given seven .wav files and told to find a message hidden in the noise. Each of the .wav files contained multiple sections of dense noise,
-        sections of silence, and a single "fetch" command viewable in the spectrogram. All the immediately viewable commands are red herrings which do not help
+        sections of silence, and a single "fetch" command viewable in the spectrogram. All the immediately viewable commands were red herrings which did not help
         the player progress in the game.
     </p>
     <p>
         The noise in these seven tracks was carefully engineered so that a new message would be revealed only when all seven were mixed together. When mixed,
-        all the red herring messages get buried in dense noise, but a new message appears in the middle via destructive interference.
+        all the red herring messages got buried in dense noise, but a new message appeared in the middle via destructive interference.
     </p>
     <p>
         This is the same principle as the XIXMAS puzzle, but with additional false leads, and it completely eliminates the pitfall of certain online spectrogram
@@ -88,7 +95,7 @@
     <h2>3 // Physical Media</h2>
     <hr>
     <p>
-        <img src="../images/buzzy-22-cassettes.jpg" style="float: right; max-height: 200px"/>
+        <img src="../images/buzzy-22-cassettes.jpg" style="float: right; max-height: 200px; margin: .5rem"/>
         For the trailhead of <a href="https://findbuzzy.com/listenwithyourheartyouwillunderstand-h9syb532/" target="_blank">Puzzle 22</a> of the
         <a href="https://findbuzzy.com/" target="_blank">Find Buzzy ARG</a>, I created audio cassettes which were hidden in the Birmingham 8 theater in
         Birmingham, MI. The tapes were hidden in the hour leading up to a showing of the documentary
@@ -96,7 +103,7 @@
     </p>
     <p>
         The cassettes contained the URL for the puzzle which could only be found by viewing the spectrogram of the audio. Unlike other techniques discussed
-        on this page, there are no extra steps the player needs to take after viewing the spectrogram. Instead, we've made it more difficult to view the
+        on this page, there were no additional steps the players needed to take after viewing the spectrogram. Instead, I've made it more difficult to view the
         spectrogram by requiring the players to use a tape deck in order to access the audio. While this medium does result in a loss of clarity in the
         spectrogram, it is still perfectly viable as shown in the screenshot below.
     </p>
