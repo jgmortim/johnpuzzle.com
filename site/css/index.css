@@ -1,0 +1,144 @@
+/* Styling for core elements that are present on all pages. */
+:root {
+    --main-color: black;
+    --background-color: #111;
+    --text-orange: #ff5a00;
+    --text-green: #80ffd5;
+}
+
+body {
+    min-width: 280px;
+    margin: 8px;
+    font-family: "Courier New", "Noto Sans Mono", monospace;
+    background-color: var(--background-color);
+}
+
+main {
+    box-sizing: border-box;
+    width: min(100%, 1250px);
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    color: var(--text-orange);
+    border-radius: 10px;
+    background-color: var(--main-color);
+
+    /*font-weight: 700;*/
+    line-height: 1.05;
+
+    letter-spacing: 0.02em;
+    white-space: pre;
+    text-wrap: wrap;
+
+    /* CRT phosphor glow */
+    text-shadow:
+            0 0 1px var(--text-orange),
+            0 0 3px var(--text-orange),
+            0 0 7px color-mix(in srgb, var(--text-orange) 90%, transparent),
+            0 0 15px color-mix(in srgb, var(--text-orange) 50%, transparent),
+            0 0 25px color-mix(in srgb, var(--text-orange) 30%, transparent);
+
+    /* Slight CRT softness */
+    filter: blur(0.15px);
+}
+
+h1 {
+    width: min(100%, 1250px);
+    margin: auto auto 8px;
+    font-weight: 900;
+    color: var(--text-green);
+
+    text-shadow:
+            0 0 1px var(--text-green),
+            0 0 3px var(--text-green),
+            0 0 7px color-mix(in srgb, var(--text-green) 90%, transparent),
+            0 0 15px color-mix(in srgb, var(--text-green) 50%, transparent),
+            0 0 25px color-mix(in srgb, var(--text-green) 30%, transparent);
+
+    filter: blur(0.15px);
+}
+
+h1 a:link, h1 a:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+h2 {
+    padding-top: 1rem;
+    color: var(--text-green);
+
+    text-shadow:
+            0 0 1px var(--text-green),
+            0 0 3px var(--text-green),
+            0 0 7px color-mix(in srgb, var(--text-green) 90%, transparent),
+            0 0 15px color-mix(in srgb, var(--text-green) 50%, transparent),
+            0 0 25px color-mix(in srgb, var(--text-green) 30%, transparent);
+
+    filter: blur(0.15px);
+}
+
+h2:first-child {
+    margin-top: 0;
+}
+
+a:link, a:visited {
+    color: var(--text-green);
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: fit-content;
+    margin-top: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0.5rem;
+    text-align: center;
+    color: var(--text-orange);
+    border-radius: 10px;
+    background-color: var(--main-color);
+}
+
+footer p:first-child {
+    margin-top: 0;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
+}
+
+#bg {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+}
+
+#breadcrumbs {
+    margin-bottom: -1rem;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        margin: 1vw;
+    }
+
+    main {
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+
+    h1, h2, label {
+        text-align: center;
+    }
+
+    footer {
+        margin-top: 1vw;
+    }
+}
