@@ -29,7 +29,7 @@ main {
     line-height: 1.05;
 
     letter-spacing: 0.02em;
-    white-space: pre;
+    /*white-space: pre-line;*/
     text-wrap: wrap;
 
     /* CRT phosphor glow */
@@ -65,7 +65,7 @@ h1 a:link, h1 a:visited {
     color: inherit;
 }
 
-h2 {
+h2, h3 {
     padding-top: 1rem;
     color: var(--text-green);
 
@@ -85,6 +85,14 @@ h2:first-child {
 
 a:link, a:visited {
     color: var(--text-green);
+    text-shadow:
+            0 0 1px var(--text-green),
+            0 0 3px var(--text-green),
+            0 0 7px color-mix(in srgb, var(--text-green) 90%, transparent),
+            0 0 15px color-mix(in srgb, var(--text-green) 50%, transparent),
+            0 0 25px color-mix(in srgb, var(--text-green) 30%, transparent);
+
+    filter: blur(0.15px);
 }
 
 footer {
@@ -122,6 +130,10 @@ footer p:last-child {
 #breadcrumbs {
     margin-bottom: -1rem;
     padding-top: 1rem;
+}
+
+.indent {
+    margin-left: 2rem;
 }
 
 @media screen and (max-width: 750px) {
