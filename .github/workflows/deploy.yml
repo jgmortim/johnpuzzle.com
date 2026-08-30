@@ -1,0 +1,47 @@
+name: Deploy Website
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
+
+      - name: Install esbuild
+        run: npm install esbuild
+
+      - name: Build site
+        run: |
+          mkdir -p dist
+
+          # Copy static assets
+          rsync -av --exclude='*.js' --exclude='*.css' site/ dist/
+
+          # Bundle + minify JS
+          npx esbuild site/js/*.js --bundle --minify --outdir=dist/js
+
+          # Minify CSS
+          npx esbuild site/css/*.css --minify --outdir=dist/css
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan ${{ secrets.DREAMHOST_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Deploy via rsync
+        run: |
+          rsync -avz --delete \
+            dist/ \
+            ${{ secrets.DREAMHOST_USERNAME }}@${{ secrets.DREAMHOST_HOST }}:/home/${{ secrets.DREAMHOST_USERNAME }}/johnpuzzle.com/
