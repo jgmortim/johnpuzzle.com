@@ -89,6 +89,10 @@ h2:first-child {
     margin-top: 0;
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 a:link, a:visited {
     color: var(--text-green);
     text-shadow:
@@ -228,6 +232,35 @@ th, td {
             0 0 20px color-mix(in srgb, var(--text-green) 40%, transparent);
 }
 
+.project-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.project-img {
+    align-items: center;
+    align-content: center;
+}
+
+.project-img img {
+    min-width: 90px;
+    max-width: 90px
+}
+
+.project-description {
+    flex-grow: 2;
+}
+
+.project-description p {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.project-description p:last-child {
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 750px) {
     body {
         margin: 1vw;
@@ -244,5 +277,16 @@ th, td {
 
     footer {
         margin-top: 1vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .project-container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .project-img img {
+        float: right;
     }
 }
