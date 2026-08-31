@@ -278,6 +278,10 @@ th, td {
     footer {
         margin-top: 1vw;
     }
+
+    #nav-header {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 500px) {
