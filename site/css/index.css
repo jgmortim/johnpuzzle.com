@@ -6,11 +6,17 @@
     --text-green: #80ffd5;
 }
 
+html {
+    overflow: auto;
+    scrollbar-gutter: stable;
+}
+
 body {
     min-width: 280px;
     margin: 8px;
     font-family: "Courier New", "Noto Sans Mono", monospace;
     background-color: var(--background-color);
+    scrollbar-gutter: stable;
 }
 
 main {
@@ -206,12 +212,13 @@ th, td {
 .nav-bar-active, .nav-btn:hover + .nav-bar  {
     display: inline-block;
     padding: 1px;
+    height: 1px;
 
     color: var(--text-green);
     background: var(--text-green);
 
     border: 2px solid var(--text-green);
-    border-radius: 10px;
+    border-radius: 2px;
 
     text-decoration: none;
     box-shadow:
