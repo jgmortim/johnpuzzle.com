@@ -1,7 +1,7 @@
 /* Styling for core elements that are present on all pages. */
 :root {
-    --main-color: black;
-    --background-color: #111;
+    --main-color: #050505;
+    --background-color: #050505;
     --text-orange: #ff5a00;
     --text-green: #80ffd5;
 }
