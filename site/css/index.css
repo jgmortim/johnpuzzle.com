@@ -156,7 +156,6 @@ table, th, td {
 }
 
 th, td {
-    min-width: 100px;
     padding-right: 1rem;
     padding-left: 1rem;
 }
