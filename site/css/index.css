@@ -183,6 +183,20 @@ th, td {
     margin-left: 2rem;
 }
 
+#site-header {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: min(100%, 1250px);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#site-header-text {
+    margin: auto auto auto 1rem;
+    flex-grow: 2;
+}
+
 #nav-header {
     display: flex;
     flex-direction: row;
@@ -276,6 +290,20 @@ th, td {
 
     footer {
         margin-top: 1vw;
+    }
+
+    #site-header {
+        flex-direction: column;
+    }
+
+    #site-header img {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #site-header-text {
+        margin: auto auto auto auto;
+        flex-grow: 2;
     }
 
     #nav-header {
