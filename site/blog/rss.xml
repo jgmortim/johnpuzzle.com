@@ -6,6 +6,7 @@
         <description>Posts from John Puzzle's blog</description>
         <language>en-us</language>
         <copyright>2026 John Mortimore. All Rights Reserved.</copyright>
+        <pubDate>2026-08-30</pubDate>
         <image>
             <url>../images/trilobyte.svg</url>
             <title>Trilobyte logo</title>
@@ -14,7 +15,6 @@
         <item>
             <title>Spectrograms Case Study</title>
             <link>https://johnpuzzle.com/blog/spectrograms/</link>
-            <guid>https://johnpuzzle.com/blog/spectrograms/</guid>
             <pubDate>2026-08-30</pubDate>
             <description>
                 A spectrogram is a visual representation of the spectrum of frequencies of a signal over time. Spectrograms, especially in audio signals,
@@ -23,11 +23,6 @@
                 into ways to increase variety and difficulty in spectrogram-based puzzles.
                 [continue reading in article...]
             </description>
-            <image>
-                <url>images/buzzy-22-spectrogram.png</url>
-                <title>Image of a spectrogram</title>
-            </image>
-
         </item>
     </channel>
 </rss>

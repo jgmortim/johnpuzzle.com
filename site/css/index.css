@@ -119,6 +119,11 @@ img {
     max-height: 400px;
 }
 
+.icon {
+    display: inline;
+    margin: 0;
+}
+
 figure img {
     margin: 0 0 .5rem;
     max-width: 100%;
@@ -272,6 +277,16 @@ th, td {
 
 .project-description p:last-child {
     margin-bottom: 0;
+}
+
+.rss {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    align-items: center;
 }
 
 @media screen and (max-width: 750px) {
