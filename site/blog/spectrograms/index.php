@@ -1,3 +1,6 @@
+<?php
+$currentTab = "BLOG";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

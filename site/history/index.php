@@ -1,11 +1,11 @@
 <?php
-$currentPage = "HISTORY";
+$currentTab = "HISTORY";
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>John Puzzle - ARG History</title>
+    <title>John Puzzle - History</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../images/trilobyte.svg">
     <link rel="canonical" href="https://johnpuzzle.com/history/">
@@ -17,7 +17,7 @@ include('../includes/header.php');
 ?>
 <main>
     <div id="breadcrumbs">
-        <a href="/">Home</a> > ARG History
+        <a href="/">Home</a> > History
     </div>
     <hr>
     <h2>0 // Puzzle Solver</h2>
