@@ -5,7 +5,7 @@
         }
 		tspan {
             white-space:pre;
-            font-size: 24px;
+            font-size: 32px;
             fill: var(--text-orange);
             font-weight: 400;
             font-family: Courier New, Noto Sans Mono, monospace;
@@ -17,16 +17,16 @@
         }
 	</style>
 	<g>
-		<text transform="translate(68,72.5)">
+		<text transform="translate(34,36.25)">
             <tspan x="0" y="0">    _______</tspan>
-			<tspan x="0" y="28.8">  ,'-./ \.-',</tspan>
-			<tspan x="0" y="57.6"> /_  |   |  _\</tspan>
-			<tspan x="0" y="86.4">|/ `'&lt; * &gt;`' \|</tspan>
-			<tspan x="0" y="115.2">/,..~'&lt;*&gt;'~..,\</tspan>
-			<tspan x="0" y="144"> ,..~'&lt;*&gt;'~..,</tspan>
-			<tspan x="0" y="172.8">  ,..~'*'~..,</tspan>
-			<tspan x="0" y="201.6">   ,.~'*'~.,</tspan>
-			<tspan x="0" y="230.4">    ,~'*'~,</tspan>
+			<tspan x="0" y="33.05">  ,'-./ \.-',</tspan>
+			<tspan x="0" y="66.1"> /_  |   |  _\</tspan>
+			<tspan x="0" y="99.15">|/ `'&lt; * &gt;`' \|</tspan>
+			<tspan x="0" y="132.2">/,..~'&lt;*&gt;'~..,\</tspan>
+			<tspan x="0" y="165.25"> ,..~'&lt;*&gt;'~..,</tspan>
+			<tspan x="0" y="198.3">  ,..~'*'~..,</tspan>
+			<tspan x="0" y="231.35">   ,.~'*'~.,</tspan>
+			<tspan x="0" y="264.4">    ,~'*'~,</tspan>
 		</text>
 	</g>
 </svg>

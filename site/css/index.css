@@ -210,7 +210,7 @@ th, td {
     width: min(100%, 1250px);
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     padding-left: .5rem;
     justify-content: flex-start;
     gap: 1rem;
@@ -337,6 +337,7 @@ th, td {
 @media screen and (max-width: 750px) {
     body {
         margin: 1vw;
+        margin-top: 1rem;
     }
 
     main {
