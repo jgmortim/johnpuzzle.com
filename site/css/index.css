@@ -30,12 +30,8 @@ main {
     color: var(--text-orange);
     border-radius: 10px;
     background-color: var(--main-color);
-
-    /*font-weight: 700;*/
     line-height: 1.05;
-
     letter-spacing: 0.02em;
-    /*white-space: pre-line;*/
     text-wrap: wrap;
 
     /* CRT phosphor glow */
@@ -196,7 +192,6 @@ th, td {
 
 #site-header-text {
     margin: auto 0 auto 1rem;
-    /*flex-grow: 2;*/
 }
 
 #site-header img {
@@ -336,8 +331,7 @@ th, td {
 
 @media screen and (max-width: 750px) {
     body {
-        margin: 1vw;
-        margin-top: 1rem;
+        margin: 1rem 1vw 1vw;
     }
 
     main {
@@ -362,8 +356,7 @@ th, td {
     }
 
     #site-header-text {
-        margin: auto auto auto auto;
-        flex-grow: 2;
+        margin: auto auto .5rem;
     }
 
     #nav-header {
