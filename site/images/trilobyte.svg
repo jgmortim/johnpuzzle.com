@@ -2,6 +2,7 @@
 	<style>
         :root {
             --text-orange: #ff5a00;
+            --background: #050505;
         }
 		tspan {
             white-space:pre;
@@ -15,8 +16,14 @@
                          0 0 15px color-mix(in srgb,var(--text-orange) 50%,transparent),
                          0 0 25px color-mix(in srgb,var(--text-orange) 30%,transparent)
         }
+        rect {
+            fill: var(--background);
+            stroke: var(--text-orange);
+            stroke-width: 4;
+        }
 	</style>
 	<g>
+        <rect x="2" y="2" width="356" height="356" rx="38" ry="38"/>
 		<text transform="translate(34,36.25)">
             <tspan x="0" y="0">    _______</tspan>
 			<tspan x="0" y="33.05">  ,'-./ \.-',</tspan>
