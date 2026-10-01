@@ -1,5 +1,5 @@
 <?php
-$currentPage = "BLOG";
+$currentTab = "BLOG";
 ?>
 <!DOCTYPE html>
 <html lang="en">

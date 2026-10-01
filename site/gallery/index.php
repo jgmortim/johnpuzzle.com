@@ -1,5 +1,5 @@
 <?php
-$currentPage = "GALLERY";
+$currentTab = "GALLERY";
 $photos = [
     [
         "src" => "../images/qledcode-video-frame.jpg",
