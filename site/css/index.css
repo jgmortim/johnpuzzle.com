@@ -51,8 +51,9 @@ main {
 }
 
 h1 {
+    text-align: center;
     width: min(100%, 1250px);
-    margin: auto auto 8px;
+    margin: auto;
     font-weight: 900;
     color: var(--text-green);
 
@@ -190,11 +191,16 @@ th, td {
     width: min(100%, 1250px);
     margin-right: auto;
     margin-left: auto;
+    justify-content: space-between;
 }
 
 #site-header-text {
-    margin: auto auto auto 1rem;
-    flex-grow: 2;
+    margin: auto 0 auto 1rem;
+    /*flex-grow: 2;*/
+}
+
+#site-header img {
+    margin: 0 1rem 0 0;
 }
 
 #nav-header {
@@ -351,8 +357,7 @@ th, td {
     }
 
     #site-header img {
-        margin-top: 0;
-        margin-bottom: 0;
+        margin: 0 auto;
     }
 
     #site-header-text {
