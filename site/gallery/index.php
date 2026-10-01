@@ -98,6 +98,8 @@ include('../includes/header.php');
         <a href="/">Home</a> > Gallery
     </div>
     <hr>
+    <h2>0 // Photo Gallery</h2>
+    <hr>
     <article class="grid-gallery">
         <?php for ($i = 0; $i < count($photos); $i++): ?>
         <figure>
