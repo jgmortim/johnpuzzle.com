@@ -1,0 +1,105 @@
+:root {
+    --text-orange: #ff5a00;
+}
+
+figure {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    place-items: start center;
+}
+
+.image-thumbnail {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.image-thumbnail img {
+    display: block;
+}
+
+.image-thumbnail::after {
+    content: "";
+    position: absolute;
+    right: 0.75rem;
+    bottom: 0.75rem;
+
+    width: 1.25rem;
+    height: 1.25rem;
+
+    background-color: rgb(0 0 0 / 60%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cline x1='16.65' y1='16.65' x2='21' y2='21'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65%;
+
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.image-thumbnail:focus-visible {
+    border: 1px solid var(--text-orange);
+}
+
+/* The image popup */
+.image-popup-container {
+    width: 100%;
+    height: 100%;
+    /*padding: 1rem;*/
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.image-popup-container:popover-open {
+    display: flex;
+}
+
+.image-popup {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    max-width: calc(100% - 5vh);
+}
+
+/* Full-size image */
+.image-popup img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 95vh;
+    margin: 0;
+}
+
+.image-popup-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: white;
+    width: 2rem;
+    height: 2rem;
+}
+
+@media screen and (max-width: 750px) {
+    .grid-gallery {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .grid-gallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}

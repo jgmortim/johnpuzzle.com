@@ -1,3 +1,6 @@
+<?php
+$currentPage = "HISTORY";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,26 +12,9 @@
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
-<div id="site-header">
-    <div id="site-header-text">
-        <h1>John Puzzle</h1>
-        <nav id="nav-header">
-            <div class="nav-option">
-                <a href="/" class="nav-btn">Home</a>
-                <div class="nav-bar"></div>
-            </div>
-            <div class="nav-option">
-                <a href="/history/" class="nav-btn-current">ARG History</a>
-                <div class="nav-bar-active"></div>
-            </div>
-            <div class="nav-option">
-                <a href="/blog/" class="nav-btn">Blog</a>
-                <div class="nav-bar"></div>
-            </div>
-        </nav>
-    </div>
-    <img src="../images/trilobyte.svg" height="100" width="100" alt="ASCII art Trilobyte logo"/>
-</div>
+<?php
+include('../includes/header.php');
+?>
 <main>
     <div id="breadcrumbs">
         <a href="/">Home</a> > ARG History
@@ -37,7 +23,7 @@
     <h2>0 // Puzzle Solver</h2>
     <hr>
     <figure style="float: right; min-width: 225px; max-width: 30%; margin: .5rem">
-        <img src="images/cicada-detroit-win.jpg" alt="Image of the closing celebration for Cicada Detroit"/>
+        <img src="../images/cicada-detroit-win.jpg" alt="Image of the closing celebration for Cicada Detroit"/>
         <figcaption>Closing celebration for <i>Cicada Detroit</i>.</figcaption>
     </figure>
     <p>
@@ -124,12 +110,8 @@
     </table>
     <hr>
 </main>
-<footer>
-    <div class="rss">
-        <img src="../images/rss.svg" alt="RSS feed icon">
-        <a href="../blog/rss.xml">Blog RSS Feed</a>
-    </div>
-    <p>&copy; 2026 John Mortimore. All Rights Reserved.</p>
-</footer>
+<?php
+    include('../includes/footer.php');
+?>
 </body>
 </html>
