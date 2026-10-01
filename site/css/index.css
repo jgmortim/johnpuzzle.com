@@ -226,18 +226,22 @@ th, td {
     cursor: default;
 }
 
-.nav-bar-active, .nav-btn:hover + .nav-bar  {
+.nav-bar, .nav-bar-active {
     display: inline-block;
     padding: 1px;
     height: 1px;
+    border-radius: 2px;
+    text-decoration: none;
+}
 
+.nav-bar {
+    border: 2px solid transparent;
+}
+
+.nav-bar-active, .nav-btn:hover + .nav-bar  {
     color: var(--text-green);
     background: var(--text-green);
-
     border: 2px solid var(--text-green);
-    border-radius: 2px;
-
-    text-decoration: none;
     box-shadow:
             0 0 2px var(--text-green),
             0 0 5px var(--text-green),

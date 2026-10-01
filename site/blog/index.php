@@ -1,3 +1,6 @@
+<?php
+$currentPage = "BLOG";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,26 +13,9 @@
     <link rel="alternate" type="application/rss+xml" title="John Puzzle's Blog" href="./rss.xml">
 </head>
 <body>
-<div id="site-header">
-    <div id="site-header-text">
-        <h1>John Puzzle</h1>
-        <nav id="nav-header">
-            <div class="nav-option">
-                <a href="/" class="nav-btn">Home</a>
-                <div class="nav-bar"></div>
-            </div>
-            <div class="nav-option">
-                <a href="/history/" class="nav-btn">ARG History</a>
-                <div class="nav-bar"></div>
-            </div>
-            <div class="nav-option">
-                <a href="/blog/" class="nav-btn-current">Blog</a>
-                <div class="nav-bar-active"></div>
-            </div>
-        </nav>
-    </div>
-    <img src="../images/trilobyte.svg" height="100" width="100" alt="ASCII art Trilobyte logo"/>
-</div>
+<?php
+include('../includes/header.php');
+?>
 <main>
     <div id="breadcrumbs">
         <a href="/">Home</a> > Blog
@@ -50,12 +36,8 @@
     </div>
     <hr>
 </main>
-<footer>
-    <div class="rss">
-        <img src="../images/rss.svg" alt="RSS feed icon">
-        <a href="./rss.xml">Blog RSS Feed</a>
-    </div>
-    <p>&copy; 2026 John Mortimore. All Rights Reserved.</p>
-</footer>
+<?php
+    include('../includes/footer.php');
+?>
 </body>
 </html>
