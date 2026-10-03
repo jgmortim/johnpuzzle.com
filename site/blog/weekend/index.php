@@ -1,7 +1,7 @@
 <?php
 include('../../includes/header.php');
 include('../../includes/footer.php');
-include('../../includes/gallery.php');
+include('../../includes/images.php');
 
 $photos = [
     [
