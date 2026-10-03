@@ -1,7 +1,6 @@
 <?php
-$currentTab = "BLOG";
-include "../../includes/expandable-image.php";
-include("../../includes/gallery.php");
+include('../../includes/header.php');
+include('../../includes/gallery.php');
 
 $photos = [
     [
@@ -29,7 +28,7 @@ $photos = [
 </head>
 <body>
 <?php
-include('../../includes/header.php');
+renderHeader('BLOG');
 ?>
 <main>
     <div id="breadcrumbs">

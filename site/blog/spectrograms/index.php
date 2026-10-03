@@ -1,5 +1,5 @@
 <?php
-$currentTab = "BLOG";
+include('../../includes/header.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +13,7 @@ $currentTab = "BLOG";
 </head>
 <body>
 <?php
-include('../../includes/header.php');
+renderHeader('BLOG');
 ?>
 <main>
     <div id="breadcrumbs">

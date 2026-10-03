@@ -1,5 +1,6 @@
 <?php
-$currentTab = "GALLERY";
+include('../includes/header.php');
+include('../includes/gallery.php');
 $photos = [
     [
         "src" => "../images/early-stego.jpg",
@@ -82,7 +83,6 @@ $photos = [
         "caption" => "2026-09-19: <i>Cell Ops</i> Team 10 (and BNS) with the katana we would later win for being first to complete Node 15."
     ]
 ];
-include('../includes/gallery.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -97,7 +97,7 @@ include('../includes/gallery.php');
 </head>
 <body>
 <?php
-include('../includes/header.php');
+renderHeader('GALLERY');
 ?>
 <main>
     <div id="breadcrumbs">

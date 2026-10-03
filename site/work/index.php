@@ -1,5 +1,5 @@
 <?php
-$currentTab = "WORK";
+include('../includes/header.php');
 
 $weekendPhotos = [
     [
@@ -22,7 +22,7 @@ $weekendPhotos = [
 </head>
 <body>
 <?php
-include('../includes/header.php');
+renderHeader('WORK');
 ?>
 <main>
     <div id="breadcrumbs">

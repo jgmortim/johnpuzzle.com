@@ -1,5 +1,5 @@
 <?php
-$currentTab = "HISTORY";
+include('../includes/header.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +13,7 @@ $currentTab = "HISTORY";
 </head>
 <body>
 <?php
-include('../includes/header.php');
+renderHeader('HISTORY');
 ?>
 <main>
     <div id="breadcrumbs">
