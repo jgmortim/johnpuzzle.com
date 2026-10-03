@@ -10,7 +10,7 @@ $photos = [
         "caption" => "My original paper concept vs the final design for the cipher wheel."
     ],
     [
-        "src" => "../../images/weekend-original-wheel.png",
+        "src" => "../../images/weekend-original-wheel.webp",
         "alt" => "",
         "caption" => "Early version of the cipher wheel with the poem still included."
     ]
