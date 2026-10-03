@@ -330,6 +330,17 @@ th, td {
     margin-top: .5rem;
 }
 
+
+.blink {
+    animation: blinker 1.25s step-start infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0
+    }
+}
+
 @media screen and (max-width: 750px) {
     body {
         margin: 1rem 1vw 1vw;

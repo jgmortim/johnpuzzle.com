@@ -1,4 +1,11 @@
 .work-item {
+    border-radius: 10px;
+    padding: 1rem .5rem 1rem 1rem;
+    border: 2px solid var(--text-orange);
+    margin: .5rem 0;
+}
+
+.work-item-content {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -14,7 +21,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .work-item {
+    .work-item-content {
         flex-direction: column;
     }
 
