@@ -1,6 +1,7 @@
 <?php
 include('../includes/header.php');
 include('../includes/footer.php');
+include('../includes/images.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,6 +12,7 @@ include('../includes/footer.php');
     <link rel="icon" type="image/x-icon" href="../images/trilobyte.svg">
     <link rel="canonical" href="https://johnpuzzle.com/history/">
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/gallery.css">
 </head>
 <body>
 <?php renderHeader('HISTORY'); ?>
@@ -21,10 +23,13 @@ include('../includes/footer.php');
     <hr>
     <h2>0 // Puzzle Solver</h2>
     <hr>
-    <figure style="float: right; min-width: 225px; max-width: 30%; margin: .5rem">
-        <img src="../images/cicada-detroit-win.webp" alt="Image of the closing celebration for Cicada Detroit"/>
-        <figcaption>Closing celebration for <i>Cicada Detroit</i>.</figcaption>
-    </figure>
+    <div style="float: right; min-width: 225px; max-width: 30%; margin: .5rem">
+        <?php renderExpandableImage(
+                '../images/cicada-detroit-win.webp',
+                'Image of the closing celebration for Cicada Detroit',
+                'Closing celebration for <i>Cicada Detroit</i>.')
+        ?>
+    </div>
     <p>
         The first ARG I ever participated in was the
         <a href="https://news.samsung.com/us/samsung-qledecode-unlock-ultimate-cyberpunk-2077-next-gen-gaming-setup-twitch" target="_blank">QLEDecode ARG</a>
@@ -111,5 +116,6 @@ include('../includes/footer.php');
     <hr>
 </main>
 <?php renderFooter(); ?>
+<script src="../js/index.js"></script>
 </body>
 </html>
