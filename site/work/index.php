@@ -40,7 +40,8 @@ include('../includes/footer.php');
                     limited-run VHS copies. In addition to doing the programming for the point-and-click environment, I also designed a
                     number of the game's puzzles. Most significantly, the final of puzzle of the game.
                 </p>
-                <p> <span class="blink">></span>
+                <p>
+                    <span class="blink">></span>
                     <a href="/blog/weekend/" class="article-link">View Project Highlights</a>
                 </p>
             </div>

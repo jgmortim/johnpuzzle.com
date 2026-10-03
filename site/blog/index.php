@@ -31,6 +31,7 @@ include('../includes/footer.php');
             Most significantly, the final of puzzle of the game.
         </p>
         <p class="indent-2">
+            <span class="blink">></span>
             <a href="/blog/weekend/" class="article-link">Continue Reading</a>
         </p>
     </div>
@@ -45,6 +46,7 @@ include('../includes/footer.php');
             ways to increase variety and difficulty in spectrogram-based puzzles.
         </p>
         <p class="indent-2">
+            <span class="blink">></span>
             <a href="/blog/spectrograms/" class="article-link">Continue Reading</a>
         </p>
     </div>

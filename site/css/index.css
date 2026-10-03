@@ -337,7 +337,7 @@ th, td {
 
 @keyframes blinker {
     50% {
-        opacity: 0
+        opacity: 15%
     }
 }
 
