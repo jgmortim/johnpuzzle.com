@@ -22,7 +22,7 @@ include('../includes/footer.php');
     <h2>0 // Puzzle Solver</h2>
     <hr>
     <figure style="float: right; min-width: 225px; max-width: 30%; margin: .5rem">
-        <img src="../images/cicada-detroit-win.jpg" alt="Image of the closing celebration for Cicada Detroit"/>
+        <img src="../images/cicada-detroit-win.webp" alt="Image of the closing celebration for Cicada Detroit"/>
         <figcaption>Closing celebration for <i>Cicada Detroit</i>.</figcaption>
     </figure>
     <p>

@@ -4,7 +4,7 @@ include('../includes/footer.php');
 include('../includes/gallery.php');
 $photos = [
     [
-        "src" => "../images/early-stego.jpg",
+        "src" => "../images/early-stego.webp",
         "alt" => "",
         "caption" => "2016-11-07: Developing my own custom generative steganography application."
     ],
@@ -34,7 +34,7 @@ $photos = [
         "caption" => "2025-08-02: Bug Squad stuck on Puzzle 42 of <i>Cicada Detroit</i> at the Heidelberg Project."
     ],
     [
-        "src" => "../images/cicada-detroit-win.jpg",
+        "src" => "../images/cicada-detroit-win.webp",
         "alt" => "Image of the closing celebration for Cicada Detroit",
         "caption" => "2025-08-03: Award ceremony for <i>Cicada Detroit</i>."
     ],
@@ -44,7 +44,7 @@ $photos = [
         "caption" => "2025-09-27: Geocaching in a storm drain with my brother. This was my 200th find [D/T: 5.0/4.5]."
     ],
     [
-        "src" => "../images/cicada-detroit-43.jpg",
+        "src" => "../images/cicada-detroit-43.webp",
         "alt" => "",
         "caption" => "2025-12-03: Floppy disks for <i>Cicada Detroit</i> Puzzle 43, one of my first professional ARG projects."
     ],
@@ -79,7 +79,7 @@ $photos = [
         "caption" => "2026-06-20: Team Cicada Conclave's finish time in the qualifiers for 2026 <i>Escape Room World Championships</i>."
     ],
     [
-        "src" => "../images/cell-ops-katana.jpg",
+        "src" => "../images/cell-ops-katana.webp",
         "alt" => "",
         "caption" => "2026-09-19: <i>Cell Ops</i> Team 10 (and BNS) with the katana we would later win for being first to complete Node 15."
     ]
