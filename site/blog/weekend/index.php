@@ -31,7 +31,7 @@ $photos = [
 <?php renderHeader('BLOG'); ?>
 <main>
     <div id="breadcrumbs">
-        <a href="/">Home</a> > <a href="/blog">Blog</a> > Weekend at the End of the World
+        <a href="/">Home</a> > <a href="/blog/">Blog</a> > Weekend at the End of the World
     </div>
     <p>Published: 2026-10-03</p>
     <hr>

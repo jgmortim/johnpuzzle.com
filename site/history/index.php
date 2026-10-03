@@ -60,7 +60,8 @@ include('../includes/footer.php');
         <a href="https://www.cicadadetroit.com/xixmas" target="_blank">XIXMAS Challenge</a>, which was a <i>Cicada Detroit</i> side mission.
     </p>
     <p>
-        Since then, I have worked on numerous ARGHouse project as detailed in the table below.
+        Since then, I have worked on numerous ARGHouse project as detailed in the table below. For a more detailed look at my work,
+        see the <a href="/work/">work</a> section of this website.
     </p>
     <table style="min-width: 50%">
         <tr>
