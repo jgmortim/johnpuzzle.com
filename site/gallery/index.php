@@ -82,6 +82,7 @@ $photos = [
         "caption" => "2026-09-19: <i>Cell Ops</i> Team 10 (and BNS) with the katana we would later win for being first to complete Node 15."
     ]
 ];
+include('../includes/gallery.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -106,7 +107,7 @@ include('../includes/header.php');
     <h2>0 // Photo Gallery</h2>
     <hr>
     <?php
-    include('../includes/gallery.php');
+    renderPhotoGallery($photos, 4)
     ?>
     <hr>
 </main>

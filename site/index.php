@@ -33,9 +33,21 @@ $currentTab = "HOME";
 			full-stack web development. Some of my independent software projects are listed below.
 		</p>
         <hr>
-		<h2>1 // SOFTWARE PROJECTS</h2>
+        <h2>1 // LATEST BLOG POST</h2>
+        <hr>
+        <p class="indent-1">Article: <a href="/blog/weekend/">Project Highlight: Weekend at the End of the World</a> &nbsp; <nobr>Published: 2026-10-03</nobr></p>
+        <p class="indent-1">Abstract:</p>
+        <p class="indent-2">
+            Weekend at the End of the World is a horror-comedy film directed by Gille Klabin. In which, the primary setting
+            is a hunted cabin. Through my job at ARGHouse, I helped players experience that cabin for themselves via an interactive
+            point-and-click puzzle game. Player who completed the game were eligible to win props from the movie and limited-run VHS copies.
+            In addition to doing the programming for the point-and-click environment, I also designed a number of the game's puzzles.
+            Most significantly, the final of puzzle of the game.
+        </p>
+        <hr>
+		<h2>2 // SOFTWARE PROJECTS</h2>
 		<hr>
-		<h3>1.0 // Mornay</h3>
+		<h3>2.0 // Mornay</h3>
         <div class="project-container">
             <div class="project-img">
                 <img src="images/mornary-icon.png" alt="Mornay app icon and logo"/>
@@ -50,7 +62,7 @@ $currentTab = "HOME";
                 </p>
             </div>
         </div>
-		<h3>1.1 // Codon64</h3>
+		<h3>2.1 // Codon64</h3>
         <div class="project-container">
             <div class="project-img">
                 <img src="images/codon64-icon.svg" alt="Codon64 logo"/>
@@ -64,17 +76,6 @@ $currentTab = "HOME";
                 </p>
             </div>
         </div>
-        <hr>
-        <h2>2 // LATEST BLOG POSTS</h2>
-        <hr>
-        <p class="indent-1">Article: <a href="/blog/spectrograms/">Spectrograms Case Study</a> &nbsp; Published: 2026-08-30</p>
-        <p class="indent-1">Abstract:</p>
-        <p class="indent-2">
-            A spectrogram is a visual representation of the spectrum of frequencies of a signal over time. Spectrograms, especially in audio signals,
-            are an extremely common technique used in ARGs and puzzle hunts. They are so common that, on their own, they present virtually no challenge
-            to those with a modicum of ARG experience. This article serve as a case study of my exploration of the medium of spectrograms and dives into
-            ways to increase variety and difficulty in spectrogram-based puzzles.
-        </p>
         <hr>
         <h2>3 // ARG Walkthroughs</h2>
         <hr>
