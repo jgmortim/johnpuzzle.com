@@ -1,13 +1,6 @@
 <?php
 include('../includes/header.php');
-
-$weekendPhotos = [
-    [
-        "src" => "../images/weekend-ca.png",
-        "alt" => "",
-        "caption" => "Concept art I created for the cipher wheel vs the final asset"
-    ]
-];
+include('../includes/footer.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,9 +14,7 @@ $weekendPhotos = [
     <link rel="stylesheet" href="../css/work.css">
 </head>
 <body>
-<?php
-renderHeader('WORK');
-?>
+<?php renderHeader('WORK'); ?>
 <main>
     <div id="breadcrumbs">
         <a href="/">Home</a> > Work
@@ -83,8 +74,6 @@ renderHeader('WORK');
     </div>
     <hr>
 </main>
-<?php
-include('../includes/footer.php');
-?>
+<?php renderFooter(); ?>
 </body>
 </html>

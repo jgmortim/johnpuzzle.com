@@ -1,5 +1,6 @@
 <?php
 include('../includes/header.php');
+include('../includes/footer.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,9 +14,7 @@ include('../includes/header.php');
     <link rel="alternate" type="application/rss+xml" title="John Puzzle's Blog" href="./rss.xml">
 </head>
 <body>
-<?php
-renderHeader('BLOG');
-?>
+<?php renderHeader('BLOG'); ?>
 <main>
     <div id="breadcrumbs">
         <a href="/">Home</a> > Blog
@@ -51,8 +50,6 @@ renderHeader('BLOG');
     </div>
     <hr>
 </main>
-<?php
-    include('../includes/footer.php');
-?>
+<?php renderFooter(); ?>
 </body>
 </html>

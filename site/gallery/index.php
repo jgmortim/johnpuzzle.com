@@ -1,5 +1,6 @@
 <?php
 include('../includes/header.php');
+include('../includes/footer.php');
 include('../includes/gallery.php');
 $photos = [
     [
@@ -96,9 +97,7 @@ $photos = [
     <link rel="stylesheet" href="../css/gallery.css">
 </head>
 <body>
-<?php
-renderHeader('GALLERY');
-?>
+<?php renderHeader('GALLERY'); ?>
 <main>
     <div id="breadcrumbs">
         <a href="/">Home</a> > Gallery
@@ -106,14 +105,10 @@ renderHeader('GALLERY');
     <hr>
     <h2>0 // Photo Gallery</h2>
     <hr>
-    <?php
-    renderPhotoGallery($photos, 4)
-    ?>
+    <?php renderPhotoGallery($photos, 4) ?>
     <hr>
 </main>
-<?php
-    include('../includes/footer.php');
-?>
+<?php renderFooter(); ?>
 <script src="../js/index.js"></script>
 </body>
 </html>

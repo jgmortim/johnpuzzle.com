@@ -1,5 +1,6 @@
 <?php
 include('../../includes/header.php');
+include('../../includes/footer.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,9 +13,7 @@ include('../../includes/header.php');
     <link rel="stylesheet" href="../../css/index.css">
 </head>
 <body>
-<?php
-renderHeader('BLOG');
-?>
+<?php renderHeader('BLOG'); ?>
 <main>
     <div id="breadcrumbs">
         <a href="/">Home</a> > <a href="/blog">Blog</a> > Spectrograms
@@ -122,8 +121,6 @@ renderHeader('BLOG');
     </p>
     <hr>
 </main>
-<?php
-    include('../../includes/footer.php');
-?>
+<?php renderFooter(); ?>
 </body>
 </html>

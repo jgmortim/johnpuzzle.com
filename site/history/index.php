@@ -1,5 +1,6 @@
 <?php
 include('../includes/header.php');
+include('../includes/footer.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,9 +13,7 @@ include('../includes/header.php');
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
-<?php
-renderHeader('HISTORY');
-?>
+<?php renderHeader('HISTORY'); ?>
 <main>
     <div id="breadcrumbs">
         <a href="/">Home</a> > History
@@ -110,8 +109,6 @@ renderHeader('HISTORY');
     </table>
     <hr>
 </main>
-<?php
-    include('../includes/footer.php');
-?>
+<?php renderFooter(); ?>
 </body>
 </html>

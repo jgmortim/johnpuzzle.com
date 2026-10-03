@@ -1,5 +1,6 @@
 <?php
 include('../../includes/header.php');
+include('../../includes/footer.php');
 include('../../includes/gallery.php');
 
 $photos = [
@@ -27,9 +28,7 @@ $photos = [
     <link rel="stylesheet" href="../../css/gallery.css">
 </head>
 <body>
-<?php
-renderHeader('BLOG');
-?>
+<?php renderHeader('BLOG'); ?>
 <main>
     <div id="breadcrumbs">
         <a href="/">Home</a> > <a href="/blog">Blog</a> > Weekend at the End of the World
@@ -88,9 +87,7 @@ renderHeader('BLOG');
         In doing so, players would discover the word "FRIENDSHIP" — an important theme in the movie — was a word that could be
         spelled with the available bigrams. And upon entering it, they would receive the password need to claim a prize.
     </p>
-    <?php
-    renderPhotoGallery($photos, 2)
-    ?>
+    <?php renderPhotoGallery($photos, 2) ?>
     <p>
         As a few players discovered by digging through the website's files, I originally wrote a poem to be included in the middle
         of the cipher wheel:
@@ -109,8 +106,6 @@ renderHeader('BLOG');
     </p>
     <hr>
 </main>
-<?php
-include('../../includes/footer.php');
-?>
+<?php renderFooter(); ?>
 </body>
 </html>
