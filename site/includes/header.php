@@ -12,6 +12,10 @@ if (!isset($currentTab)) {
                 <div class="<?php echo $currentTab == "HISTORY" ? 'nav-bar-active' : 'nav-bar'; ?>"></div>
             </div>
             <div class="nav-option">
+                <a href="/work/" class="nav-btn">Work</a>
+                <div class="<?php echo $currentTab == "WORK" ? 'nav-bar-active' : 'nav-bar'; ?>"></div>
+            </div>
+            <div class="nav-option">
                 <a href="/blog/" class="nav-btn">Blog</a>
                 <div class="<?php echo $currentTab == "BLOG" ? 'nav-bar-active' : 'nav-bar'; ?>"></div>
             </div>

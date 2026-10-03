@@ -1,0 +1,32 @@
+.work-item {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.work-description-wrapper {
+    flex-grow: 2;
+    width: 70%;
+}
+
+.work-image {
+    max-height: 300px;
+}
+
+@media screen and (max-width: 600px) {
+    .work-item {
+        flex-direction: column;
+    }
+
+    .work-description-wrapper {
+        width: 100%;
+    }
+
+    .work-image-wrapper {
+        width: 100%;
+    }
+
+    .work-image {
+        height: 300px;
+    }
+}
