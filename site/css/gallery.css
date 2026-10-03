@@ -4,13 +4,10 @@
 
 figure {
     margin: 0;
-    display: table;
-}
-
-figcaption {
-    display: table-caption;
-    caption-side: bottom;
-    margin-block-start: .5em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .grid-gallery-2, .grid-gallery-3, .grid-gallery-4 {
@@ -40,6 +37,8 @@ figcaption {
     cursor: pointer;
     object-fit: contain;
     width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .image-thumbnail img {

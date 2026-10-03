@@ -87,7 +87,9 @@ $photos = [
         In doing so, players would discover the word "FRIENDSHIP" — an important theme in the movie — was a word that could be
         spelled with the available bigrams. And upon entering it, they would receive the password need to claim a prize.
     </p>
-    <?php renderPhotoGallery($photos, 2) ?>
+    <div style="max-width: 900px; margin-left: auto; margin-right: auto;">
+        <?php renderPhotoGallery($photos, 2) ?>
+    </div>
     <p>
         As a few players discovered by digging through the website's files, I originally wrote a poem to be included in the middle
         of the cipher wheel:
@@ -107,5 +109,6 @@ $photos = [
     <hr>
 </main>
 <?php renderFooter(); ?>
+<script src="../../js/index.js"></script>
 </body>
 </html>
