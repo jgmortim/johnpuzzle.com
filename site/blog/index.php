@@ -32,7 +32,7 @@ include('../includes/header.php');
             Most significantly, the final of puzzle of the game.
         </p>
         <p class="indent-2">
-            <a href="/blog/spectrograms/" class="article-link">Continue Reading</a>
+            <a href="/blog/weekend/" class="article-link">Continue Reading</a>
         </p>
     </div>
     <div class="article">
