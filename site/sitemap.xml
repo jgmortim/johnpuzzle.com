@@ -7,11 +7,16 @@
         <priority>1.0000</priority>
     </url>
     <url>
+        <loc>https://johnpuzzle.com/work/</loc>
+        <priority>0.8000</priority>
+    </url>
+    <url>
         <loc>https://johnpuzzle.com/history/</loc>
         <priority>0.8000</priority>
     </url>
     <url>
-        <loc>https://johnpuzzle.com/work/</loc>
+        <loc>https://johnpuzzle.com/gallery/</loc>
+        <lastmod>2026-10-01</lastmod>
         <priority>0.8000</priority>
     </url>
     <url>
@@ -19,9 +24,12 @@
         <priority>0.8000</priority>
     </url>
     <url>
-        <loc>https://johnpuzzle.com/gallery/</loc>
-        <lastmod>2026-10-01</lastmod>
-        <priority>0.8000</priority>
+        <loc>https://johnpuzzle.com/about/privacy-policy/</loc>
+        <priority>0.2000</priority>
+    </url>
+    <url>
+        <loc>https://johnpuzzle.com/about/accessibility/</loc>
+        <priority>0.2000</priority>
     </url>
     <url>
         <loc>https://johnpuzzle.com/blog/weekend/</loc>
