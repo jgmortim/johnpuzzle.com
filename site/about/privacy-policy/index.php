@@ -24,7 +24,7 @@ include('../../includes/footer.php');
     <p>
         johnpuzzle.com does not collect any personal data. I am not the government, I am not a corporation, and I'm not your
         cazy ex. I don't care who you are, what your shopping preferences are, or what demographics you belong to. In case you
-        missed it, there aren't any ad on this website. Nor will there ever be. I make puzzles, I don't have time for any of that
+        missed it, there aren't any ads on this website. Nor will there ever be. I make puzzles, I don't have time for any of that
         nonsense.
     </p>
     <p>
