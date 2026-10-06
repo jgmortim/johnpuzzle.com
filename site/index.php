@@ -49,7 +49,7 @@ include('./includes/footer.php');
 		<h3>2.0 // Mornay</h3>
         <div class="project-container">
             <div class="project-img">
-                <img src="images/mornary-icon.png" alt="Mornay app icon and logo"/>
+                <img src="images/mornary-icon.webp" alt="Mornay app icon and logo"/>
             </div>
             <div class="project-description">
                 <p>Page: <a href="https://mornary.com/" target="_blank">mornary.com</a></p>

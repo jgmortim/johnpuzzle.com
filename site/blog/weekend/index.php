@@ -5,14 +5,14 @@ include('../../includes/images.php');
 
 $photos = [
     [
-        "src" => "../../images/weekend-ca.png",
-        "alt" => "",
-        "caption" => "My original paper concept vs the final design for the cipher wheel."
+        'src' => '../../images/weekend-ca.webp',
+        'alt' => '',
+        'caption' => 'My original paper concept vs the final design for the cipher wheel.'
     ],
     [
-        "src" => "../../images/weekend-original-wheel.webp",
-        "alt" => "",
-        "caption" => "Early version of the cipher wheel with the poem still included."
+        'src' => '../../images/weekend-original-wheel.webp',
+        'alt' => '',
+        'caption' => 'Early version of the cipher wheel with the poem still included.'
     ]
 ];
 ?>

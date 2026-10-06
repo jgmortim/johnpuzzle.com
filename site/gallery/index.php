@@ -14,12 +14,12 @@ $photos = [
         'caption' => '2020-11-15: Recording a walkthrough video for the Cyberpunk 2077 ARG <i>QLEDecode</i>.'
     ],
     [
-        'src' => '../images/btc1-final.png',
+        'src' => '../images/btc1-final.webp',
         'alt' => '',
         'caption' => '2020-12-03: Final scorecard for <i>Break the Code 1</i>.'
     ],
     [
-        'src' => '../images/btc2-top-20-na.jpg',
+        'src' => '../images/btc2-top-20-na.webp',
         'alt' => '"Top 20 in North America" share card from the final level of Break the Code 2',
         'caption' => '2022-03-31: My "Top 20 in North America" share card from the final level of <i>Break the Code 2</i>.'
     ],
@@ -29,7 +29,7 @@ $photos = [
         'caption' => '2025-08-01: First meetup of "Bug Squad" during Round 1 of <i>Cicada Detroit</i>.'
     ],
     [
-        'src' => '../images/cicada-detroit-heidelberg.jpg',
+        'src' => '../images/cicada-detroit-heidelberg.webp',
         'alt' => '',
         'caption' => '2025-08-02: Bug Squad stuck on Puzzle 42 of <i>Cicada Detroit</i> at the Heidelberg Project.'
     ],
@@ -54,22 +54,22 @@ $photos = [
         'caption' => '2025-12-12: <i>Cicada Detroit</i> Round 2 meetup at the Painted Lady.'
     ],
     [
-        'src' => '../images/mr-wilson.jpg',
+        'src' => '../images/mr-wilson.webp',
         'alt' => '',
         'caption' => '2025-12-13: Visiting Mr Wilson during <i>Cicada Detroit</i> Round 2.'
     ],
     [
-        'src' => '../images/cell-ops-extraction-001.jpg',
+        'src' => '../images/cell-ops-extraction-001.webp',
         'alt' => '',
         'caption' => '2026-01-10: Leaderboard for <i>Cell Ops</i> Extraction 001.'
     ],
     [
-        'src' => '../images/cell-ops-003r.jpg',
+        'src' => '../images/cell-ops-003r.webp',
         'alt' => '',
         'caption' => '2026-02-20: Claiming recon charm 003r in the <i>Cell Ops</i> Scout mission R3C0N.'
     ],
     [
-        'src' => '../images/stolen-kingdom.jpg',
+        'src' => '../images/stolen-kingdom.webp',
         'alt' => '',
         'caption' => '2026-06-05: At the Birmingham 8 theater for an official tour stop showing of <i>Stolen Kingdom</i>. And where ARGHouse hid a trailhead for the <i>Find Buzzy</i> ARG.'
     ],
