@@ -79,11 +79,6 @@ include('./includes/footer.php');
         <h2>3 // ARG Walkthroughs</h2>
         <hr>
         <div class="youtube-container">
-            <iframe src="https://www.youtube.com/embed/videoseries?si=2q8UCQv8K5WNS8lO&amp;list=PLkW0VtWWrk_R6FoL9G_b0aI1VeE3L_Lxw"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe>
             <div class="youtube-description">
                 <h3>3.0 // Cicada Detroit</h3>
                 <p>
@@ -98,11 +93,6 @@ include('./includes/footer.php');
             </div>
         </div>
         <div class="youtube-container">
-            <iframe src="https://www.youtube.com/embed/videoseries?si=wvsi1SU1x6Boegnn&amp;list=PLkW0VtWWrk_TmW0_YtMjgxerBoXyMlyxA"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe>
             <div class="youtube-description">
                 <h3>3.1 // QLEDecode</h3>
                 <p>

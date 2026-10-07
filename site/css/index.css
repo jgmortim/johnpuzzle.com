@@ -305,7 +305,7 @@ th, td {
     align-items: center;
 }
 
-.youtube-container iframe {
+.yt-video {
     aspect-ratio: 16 / 9;
     height: 32%;
     width: 32%;
@@ -380,7 +380,7 @@ th, td {
         flex-direction: column-reverse;
     }
 
-    .youtube-container iframe {
+    .yt-video {
         width: 80%;
     }
 }
@@ -395,7 +395,7 @@ th, td {
         float: right;
     }
 
-    .youtube-container iframe {
+    .yt-video {
         width: 90%;
     }
 }
