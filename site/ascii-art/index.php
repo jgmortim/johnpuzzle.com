@@ -19,9 +19,10 @@ include('../includes/footer.php');
     <div id="breadcrumbs">
         <a href="/">Home</a> > Secrets > ASCII Art
     </div>
-    <hr>
+    <p>Congrats! You found a secret page. This secret page contains a collection of ASCII Art that I've created.</p>
+    <p style="overflow: hidden; white-space: nowrap;">"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-.</p>
     <h2>My ASCII ART</h2>
-    <hr>
+    <p style="overflow: hidden; white-space: nowrap;">"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-.</p>
     <h3>Peggy</h3>
     <pre>
                              ___
@@ -85,7 +86,7 @@ include('../includes/footer.php');
 ¦___/___________/__//
 '==-\___________\==´
     </pre>
-    <hr>
+    <p style="overflow: hidden; white-space: nowrap;">"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-.</p>
 </main>
 <?php renderFooter(); ?>
 <script src="../js/index.js"></script>
