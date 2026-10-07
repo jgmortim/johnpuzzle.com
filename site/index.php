@@ -39,9 +39,9 @@ include('./includes/footer.php');
         <p class="indent-2">
             Weekend at the End of the World is a horror-comedy film directed by Gille Klabin. In which, the primary setting
             is a hunted cabin. Through my job at ARGHouse, I helped players experience that cabin for themselves via an interactive
-            point-and-click puzzle game. Player who completed the game were eligible to win props from the movie and limited-run VHS copies.
-            In addition to doing the programming for the point-and-click environment, I also designed a number of the game's puzzles.
-            Most significantly, the final of puzzle of the game.
+            point-and-click puzzle game. Players who completed the game were eligible to win props from the movie and limited-run
+            VHS copies. In addition to doing the programming for the point-and-click environment, I also designed a number of the
+            game's puzzles. Most significantly, the final of puzzle of the game.
         </p>
         <hr>
 		<h2>2 // SOFTWARE PROJECTS</h2>
