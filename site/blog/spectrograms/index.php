@@ -122,5 +122,6 @@ include('../../includes/footer.php');
     <hr>
 </main>
 <?php renderFooter(); ?>
+<script src="../../js/index.js"></script>
 </body>
 </html>

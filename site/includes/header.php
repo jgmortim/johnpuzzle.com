@@ -24,7 +24,7 @@ function renderHeader(string $currentTab = ''): void
                 </div>
             </nav>
         </div>
-        <img src="/images/trilobyte.svg" height="100" width="100" alt="ASCII art Trilobyte logo"/>
+        <img id="logo" src="/images/trilobyte.svg" height="100" width="100" alt="ASCII art Trilobyte logo"/>
     </div>
     <?php
 }

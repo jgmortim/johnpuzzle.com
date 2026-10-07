@@ -1,4 +1,4 @@
-const popupContainers = document.getElementsByClassName("image-popup-container")
+const popupContainers = document.getElementsByClassName('image-popup-container')
 
 Array.from(popupContainers).forEach((el) => {
     el.addEventListener('click', (event) => {
@@ -8,3 +8,8 @@ Array.from(popupContainers).forEach((el) => {
         }
     });
 });
+
+
+document.getElementById('logo').addEventListener("dblclick", (event) => {
+    window.location.href = "https://johnpuzzle.com/ascii-art/";
+})
