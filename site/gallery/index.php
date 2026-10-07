@@ -9,7 +9,7 @@ $photos = [
         'caption' => '2016-11-07: Developing my own custom generative steganography application.'
     ],
     [
-        'src' => '../images/qledcode-video-frame.jpg',
+        'src' => '../images/qledcode-video-frame.webp',
         'alt' => '',
         'caption' => '2020-11-15: Recording a walkthrough video for the Cyberpunk 2077 ARG <i>QLEDecode</i>.'
     ],
