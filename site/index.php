@@ -41,7 +41,7 @@ include('./includes/footer.php');
             is a hunted cabin. Through my job at ARGHouse, I helped players experience that cabin for themselves via an interactive
             point-and-click puzzle game. Players who completed the game were eligible to win props from the movie and limited-run
             VHS copies. In addition to doing the programming for the point-and-click environment, I also designed a number of the
-            game's puzzles. Most significantly, the final of puzzle of the game.
+            game's puzzles. Most significantly, the final puzzle of the game.
         </p>
         <hr>
 		<h2>2 // SOFTWARE PROJECTS</h2>

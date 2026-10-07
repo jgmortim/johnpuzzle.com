@@ -43,7 +43,7 @@ $photos = [
         point-and-click puzzle game (which you can <a href="https://www.weekendattheendoftheworld.com/" target="_blank">still play</a>).
         Players who completed the game were eligible to win props from the movie and limited-run VHS copies.
         In addition to doing the programming for the point-and-click environment, I also designed a number of the game's puzzles.
-        Most significantly, the final of puzzle of the game.
+        Most significantly, the final puzzle of the game.
     </p>
     <br>
     <video width="90%" autoplay loop controls muted style="display: block; margin: 0 auto;">
