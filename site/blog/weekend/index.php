@@ -101,7 +101,7 @@ $photos = [
         a full sequence; knowledge bestowed
     </blockquote>
     <p>
-        This was later replaced with a clock motif. Removing the poem increased the puzzle's difficult and forced players to
+        This was later replaced with a clock motif. Removing the poem increased the puzzle's difficultly and forced players to
         experient more in order to find the solution. While the lamp connection was still possible due to their being seven of them;
         the same as the number of bits for each bigram. We still needed something to indicate the importances of the bell in
         the grandfather clock. Which is why the clock motif was chosen.
