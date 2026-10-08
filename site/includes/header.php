@@ -2,7 +2,7 @@
 function renderHeader(string $currentTab = ''): void
 {
     ?>
-    <div id="site-header">
+    <header>
         <div id="site-header-text">
             <h1><a href="/">John Puzzle</a></h1>
             <nav id="nav-header">
@@ -24,7 +24,7 @@ function renderHeader(string $currentTab = ''): void
                 </div>
             </nav>
         </div>
-        <img id="logo" src="/images/trilobyte.svg" height="100" width="100" alt="ASCII art Trilobyte logo"/>
-    </div>
+        <img id="header-logo" src="/images/trilobyte.svg" alt="ASCII art Trilobyte logo"/>
+    </header>
     <?php
 }

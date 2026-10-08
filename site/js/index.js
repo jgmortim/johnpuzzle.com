@@ -10,6 +10,6 @@ Array.from(popupContainers).forEach((el) => {
 });
 
 
-document.getElementById('logo').addEventListener("dblclick", (event) => {
+document.getElementById('header-logo').addEventListener("dblclick", () => {
     window.location.href = "https://johnpuzzle.com/ascii-art/";
 })
