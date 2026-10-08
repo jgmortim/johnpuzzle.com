@@ -15,9 +15,9 @@ include('../../includes/footer.php');
 <body>
 <?php renderHeader('BLOG'); ?>
 <main>
-    <div id="breadcrumbs">
+    <nav id="breadcrumbs">
         <a href="/">Home</a> > <a href="/blog/">Blog</a> > Spectrograms
-    </div>
+    </nav>
     <p>Published: 2026-08-30 &nbsp; Updated: 2026-08-30</p>
     <hr>
     <h2>0 // Overview</h2>

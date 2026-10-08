@@ -16,9 +16,9 @@ include('../includes/footer.php');
 <body>
 <?php renderHeader('WORK'); ?>
 <main>
-    <div id="breadcrumbs">
+    <nav id="breadcrumbs">
         <a href="/">Home</a> > Work
-    </div>
+    </nav>
     <hr>
     <div class="work-item">
         <h2>Weekend at the End of The World ARG</h2>

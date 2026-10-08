@@ -15,9 +15,9 @@ include('../../includes/footer.php');
 <body>
 <?php renderHeader('ABOUT'); ?>
 <main>
-    <div id="breadcrumbs">
+    <nav id="breadcrumbs">
         <a href="/">Home</a> > About > Privacy Policy
-    </div>
+    </nav>
     <hr>
     <h2>Privacy Policy</h2>
     <hr>

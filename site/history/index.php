@@ -17,9 +17,9 @@ include('../includes/images.php');
 <body>
 <?php renderHeader('HISTORY'); ?>
 <main>
-    <div id="breadcrumbs">
+    <nav id="breadcrumbs">
         <a href="/">Home</a> > History
-    </div>
+    </nav>
     <hr>
     <h2>0 // Puzzle Solver</h2>
     <hr>

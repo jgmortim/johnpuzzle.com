@@ -99,9 +99,9 @@ $photos = [
 <body>
 <?php renderHeader('GALLERY'); ?>
 <main>
-    <div id="breadcrumbs">
+    <nav id="breadcrumbs">
         <a href="/">Home</a> > Gallery
-    </div>
+    </nav>
     <hr>
     <h2>0 // Photo Gallery</h2>
     <hr>
