@@ -1,6 +1,6 @@
 .work-item {
     border-radius: 10px;
-    padding: 1rem .5rem 1rem 1rem;
+    padding: 1rem;
     border: 2px solid var(--text-orange);
     margin: .5rem 0;
 }
@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+	gap: 1rem;
 }
 
 .work-description-wrapper {
@@ -23,6 +24,7 @@
 @media screen and (max-width: 600px) {
     .work-item-content {
         flex-direction: column;
+		gap: 0;
     }
 
     .work-description-wrapper {
@@ -34,6 +36,8 @@
     }
 
     .work-image {
+		display: block;
         height: 300px;
+		margin: auto;
     }
 }
