@@ -1,1 +1,5 @@
 .idea
+
+# ignore compiled css
+*.css
+*.css.map
