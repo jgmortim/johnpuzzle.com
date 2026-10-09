@@ -1,11 +1,24 @@
-@mixin crt-text($color) {
-	color: $color;
+@mixin crt-text-green() {
+	color: var(--text-green);
 	/* CRT phosphor glow */
-	text-shadow: 0 0 1px $color,
-				 0 0 3px $color,
-				 0 0 7px color-mix(in srgb, $color 90%, transparent),
-				 0 0 15px color-mix(in srgb, $color 50%, transparent),
-				 0 0 25px color-mix(in srgb, $color 30%, transparent);
+	text-shadow: 0 0 1px color-mix(in srgb, var(--text-green) 80%, transparent),
+				 0 0 3px color-mix(in srgb, var(--text-green) 60%, transparent),
+				 0 0 7px color-mix(in srgb, var(--text-green) 30%, transparent),
+				 0 0 15px color-mix(in srgb, var(--text-green) 20%, transparent),
+				 0 0 25px color-mix(in srgb, var(--text-green) 10%, transparent);
+
+	/* Slight CRT softness */
+	filter: blur(0.15px);
+}
+
+@mixin crt-text-orange() {
+	color: var(--text-orange);
+	/* CRT phosphor glow */
+	text-shadow: 0 0 1px var(--text-orange),
+			     0 0 3px var(--text-orange),
+			     0 0 7px color-mix(in srgb, var(--text-orange) 90%, transparent),
+			     0 0 15px color-mix(in srgb, var(--text-orange) 50%, transparent),
+			     0 0 25px color-mix(in srgb, var(--text-orange) 30%, transparent);
 
 	/* Slight CRT softness */
 	filter: blur(0.15px);
@@ -47,7 +60,7 @@ main {
 	padding-left: 1rem;
 	border-radius: 10px;
 	background-color: var(--main-color);
-	@include crt-text(var(--text-orange));
+	@include crt-text-orange();
 }
 
 header {
@@ -71,7 +84,7 @@ footer {
 	text-align: center;
 	border-radius: 10px;
 	background-color: var(--main-color);
-	@include crt-text(var(--text-orange));
+	@include crt-text-orange();
 }
 
 h1 {
@@ -79,7 +92,7 @@ h1 {
 	margin: auto;
 	font-weight: 900;
 	text-align: center;
-	@include crt-text(var(--text-green));
+	@include crt-text-green();
 }
 
 h1 a:link, h1 a:visited {
@@ -90,7 +103,7 @@ h1 a:link, h1 a:visited {
 h2, h3 {
 	font-size: 1.25em;
 	font-weight: 400;
-	@include crt-text(var(--text-green));
+	@include crt-text-green();
 }
 
 h2 {
@@ -105,7 +118,7 @@ hr {
 }
 
 a:link, a:visited {
-	@include crt-text(var(--text-green));
+	@include crt-text-green();
 }
 
 pre {
