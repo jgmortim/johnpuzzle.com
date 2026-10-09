@@ -1,3 +1,24 @@
+@mixin crt-text($color) {
+	color: $color;
+	/* CRT phosphor glow */
+	text-shadow: 0 0 1px $color,
+				 0 0 3px $color,
+				 0 0 7px color-mix(in srgb, $color 90%, transparent),
+				 0 0 15px color-mix(in srgb, $color 50%, transparent),
+				 0 0 25px color-mix(in srgb, $color 30%, transparent);
+
+	/* Slight CRT softness */
+	filter: blur(0.15px);
+}
+
+@mixin crt-boarder($color) {
+	border: 2px solid $color;
+	box-shadow: 0 0 2px $color,
+		        0 0 5px $color,
+		        0 0 10px color-mix(in srgb, $color 80%, transparent),
+		        0 0 20px color-mix(in srgb, $color 40%, transparent);
+}
+
 :root {
 	--main-color: #050505;
 	--background-color: #050505;
@@ -24,19 +45,9 @@ main {
 	padding-right: 1rem;
 	padding-bottom: 1rem;
 	padding-left: 1rem;
-	color: var(--text-orange);
 	border-radius: 10px;
 	background-color: var(--main-color);
-
-	/* CRT phosphor glow */
-	text-shadow: 0 0 1px var(--text-orange),
-	0 0 3px var(--text-orange),
-	0 0 7px color-mix(in srgb, var(--text-orange) 90%, transparent),
-	0 0 15px color-mix(in srgb, var(--text-orange) 50%, transparent),
-	0 0 25px color-mix(in srgb, var(--text-orange) 30%, transparent);
-
-	/* Slight CRT softness */
-	filter: blur(0.15px);
+	@include crt-text(var(--text-orange));
 }
 
 header {
@@ -58,18 +69,9 @@ footer {
 	margin-left: auto;
 	padding: 0.5rem;
 	text-align: center;
-	color: var(--text-orange);
 	border-radius: 10px;
 	background-color: var(--main-color);
-	/* CRT phosphor glow */
-	text-shadow: 0 0 1px var(--text-orange),
-	0 0 3px var(--text-orange),
-	0 0 7px color-mix(in srgb, var(--text-orange) 90%, transparent),
-	0 0 15px color-mix(in srgb, var(--text-orange) 50%, transparent),
-	0 0 25px color-mix(in srgb, var(--text-orange) 30%, transparent);
-
-	/* Slight CRT softness */
-	filter: blur(0.15px);
+	@include crt-text(var(--text-orange));
 }
 
 h1 {
@@ -77,15 +79,7 @@ h1 {
 	margin: auto;
 	font-weight: 900;
 	text-align: center;
-	color: var(--text-green);
-
-	text-shadow: 0 0 1px var(--text-green),
-	0 0 3px var(--text-green),
-	0 0 7px color-mix(in srgb, var(--text-green) 90%, transparent),
-	0 0 15px color-mix(in srgb, var(--text-green) 50%, transparent),
-	0 0 25px color-mix(in srgb, var(--text-green) 30%, transparent);
-
-	filter: blur(0.15px);
+	@include crt-text(var(--text-green));
 }
 
 h1 a:link, h1 a:visited {
@@ -96,15 +90,7 @@ h1 a:link, h1 a:visited {
 h2, h3 {
 	font-size: 1.25em;
 	font-weight: 400;
-	color: var(--text-green);
-
-	text-shadow: 0 0 1px var(--text-green),
-	0 0 3px var(--text-green),
-	0 0 7px color-mix(in srgb, var(--text-green) 90%, transparent),
-	0 0 15px color-mix(in srgb, var(--text-green) 50%, transparent),
-	0 0 25px color-mix(in srgb, var(--text-green) 30%, transparent);
-
-	filter: blur(0.15px);
+	@include crt-text(var(--text-green));
 }
 
 h2 {
@@ -119,14 +105,7 @@ hr {
 }
 
 a:link, a:visited {
-	color: var(--text-green);
-	text-shadow: 0 0 1px var(--text-green),
-	0 0 3px var(--text-green),
-	0 0 7px color-mix(in srgb, var(--text-green) 90%, transparent),
-	0 0 15px color-mix(in srgb, var(--text-green) 50%, transparent),
-	0 0 25px color-mix(in srgb, var(--text-green) 30%, transparent);
-
-	filter: blur(0.15px);
+	@include crt-text(var(--text-green));
 }
 
 pre {
@@ -207,12 +186,8 @@ footer p:last-child {
 
 .nav-bar-active, .nav-btn:hover + .nav-bar {
 	color: var(--text-green);
-	border: 2px solid var(--text-green);
 	background: var(--text-green);
-	box-shadow: 0 0 2px var(--text-green),
-	0 0 5px var(--text-green),
-	0 0 10px color-mix(in srgb, var(--text-green) 80%, transparent),
-	0 0 20px color-mix(in srgb, var(--text-green) 40%, transparent);
+	@include crt-boarder(var(--text-green));
 }
 
 .project-container {
@@ -275,14 +250,9 @@ footer p:last-child {
 	max-width: 400px;
 	height: 32%;
 	padding: 1px;
-	border: 2px solid var(--text-orange);
 	border-radius: 8px;
-	box-shadow: 0 0 2px var(--text-orange),
-	0 0 5px var(--text-orange),
-	0 0 10px color-mix(in srgb, var(--text-orange) 80%, transparent),
-	0 0 20px color-mix(in srgb, var(--text-orange) 40%, transparent);
-
 	aspect-ratio: 16 / 9;
+	@include crt-boarder(var(--text-orange));
 }
 
 .youtube-description {
@@ -295,16 +265,6 @@ footer p:last-child {
 
 .blink {
 	animation: blinker 1.25s step-start infinite;
-}
-
-#bg {
-	position: fixed;
-	z-index: -1;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	pointer-events: none;
 }
 
 #breadcrumbs {

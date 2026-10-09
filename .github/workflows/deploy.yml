@@ -18,20 +18,27 @@ jobs:
           node-version: 24
 
       - name: Install esbuild
-        run: npm install esbuild
+        run: npm install --no-save esbuild sass
 
       - name: Build site
         run: |
           mkdir -p dist
 
-          # Copy static assets
-          rsync -av --exclude='*.js' --exclude='*.css' site/ dist/
+          # Copy static assets, excluding source JS, CSS, and SCSS
+          rsync -av \
+            --exclude='*.js' \
+            --exclude='*.css' \
+            --exclude='*.scss' \
+            site/ dist/
 
           # Bundle + minify JS
           npx esbuild site/js/*.js --bundle --minify --outdir=dist/js
 
           # Minify CSS
           npx esbuild site/css/*.css --minify --outdir=dist/css
+
+          # Compile SCSS to minified CSS 
+          npx sass site/scss:dist/css --style=compressed
 
       - name: Setup SSH
         run: |
