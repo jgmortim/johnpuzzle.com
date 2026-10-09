@@ -46,7 +46,7 @@ include('./includes/footer.php');
         <hr>
 		<h2>2 // SOFTWARE PROJECTS</h2>
 		<hr>
-		<h3>2.0 // Mornay</h3>
+		<h3>2.0 // Mornary</h3>
         <div class="project-container">
             <div class="project-img">
                 <img src="images/mornary-icon.webp" alt="Mornay app icon and logo"/>
