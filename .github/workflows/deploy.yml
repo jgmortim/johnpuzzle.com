@@ -34,9 +34,6 @@ jobs:
           # Bundle + minify JS
           npx esbuild site/js/*.js --bundle --minify --outdir=dist/js
 
-          # Minify CSS
-          npx esbuild site/css/*.css --minify --outdir=dist/css
-
           # Compile SCSS to minified CSS 
           npx sass site/scss:dist/css --style=compressed
 
