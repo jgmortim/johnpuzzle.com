@@ -18,112 +18,122 @@ include('../../includes/footer.php');
     <nav id="breadcrumbs">
         <a href="/">Home</a> > <a href="/blog/">Blog</a> > Spectrograms
     </nav>
-    <p>Published: 2026-08-30 &nbsp; Updated: 2026-08-30</p>
-    <hr>
-    <h2>0 // Overview</h2>
-    <hr>
-    <p>
-        A spectrogram is a visual representation of the spectrum of frequencies of a signal over time. Spectrograms, especially in audio signals,
-        are an extremely common technique used in ARGs and puzzle hunts. They are so common that, on their own, they present virtually no challenge
-        to those with a modicum of ARG experience. This article serves as a case study of my exploration of the medium of spectrograms and dives into
-        ways to increase variety and difficulty in spectrogram-based puzzles.
-    </p>
-    <p>
-        Before we dive in, I want to note that this website is a portfolio, not a cookbook. Just as a restaurant would not give you its recipes, I will
-        not be detailing the specifics of how I've made these puzzles.
-    </p>
-    <p>
-        This page will be expanded with new techniques as time goes on.
-    </p>
-    <hr>
-    <h2>1 // Moving Away From Pure Text</h2>
-    <hr>
-    <h3>1.1 // Images</h3>
-    <p>
-        For a bit more visual flair, in <a href="https://findbuzzy.com/listenwithyourheartyouwillunderstand-h9syb532/" target="_blank">Puzzle 22</a>
-        of the <a href="https://findbuzzy.com/" target="_blank">Find Buzzy ARG</a>, I created a .wav file with an image-based spectrogram. The image then
-        contained text which amounted to a type of book cipher. As shown in the screenshot below: on the left is an identifier that can be used to find the
-        "book", in this case a policy report. And on the right, you see the indexing key used to extract words from the policy report.
-    </p>
-    <img src="../../images/buzzy-22-spectrogram.webp" class="inline-img" alt="Screenshot from Audacity showing a spectrogram featuring the image of Buzzy and a book cipher"/>
-    <p>
-        But we are not limited to just images containing ciphers; the sky really is the limit here. A spectrogram could contain an image of a rebus, or some
-        other type of visual riddle. And you can mix and match puzzle delivery techniques to add additional variety.
-    </p>
-    <h3>1.2 // Barcodes</h3>
-    <p>
-        In <a href="https://findbuzzy.com/listenwithyourheartyouwillunderstand-h9syb532/" target="_blank">Puzzle 10</a> of the
-        <a href="https://findbuzzy.com/" target="_blank">Find Buzzy ARG</a>, I designed a .wav file for which the spectrogram displayed a standard Code 128
-        barcode. And scanning the barcode revealed the answer to the puzzle. This is another simple technique, but it gets you out of the cliché of simple
-        text. Like in the example above, viewing the spectrogram is now just one step in decoding the file.
-    </p>
-    <img src="../../images/barcode-spectrogram.webp" class="inline-img" alt="Screenshot from Audacity showing a spectrogram with the appearance of a barcode"/>
-    <p>
-        Code 128 is just one example, there are many scannable codes out there. A popular one to use in a puzzle would be a QR code.
-    </p>
-    <hr>
-    <h2>2 // Track Mixing</h2>
-    <hr>
-    <h3>2.1 // First Iteration</h3>
-    <p>
-        In Puzzle 12 of the 2025 <a href="https://www.cicadadetroit.com/xixmas" target="_blank">XIXMAS ARG</a>, I wanted to create an audio file that had to
-        be manipulated before the spectrogram would reveal its message. What I came up with was a stereo track called
-        <a href="https://soundcloud.com/tuvsulkgweiytuft/two-voices-one-truth" target="_blank">Two Voices, One Truth</a>, which was hosted on SoundCloud.
-        For context, part of the puzzle was first finding the SoundCloud account. The track appeared to be just white noise, with the album art depicting
-        TV static. However, if you mixed the stereo down to mono (as hinted by the track name), the noise canceled out and the true message was revealed.
-        In Audacity, this can be done with: <code>Tracks > Mix > Mix Stereo Down to Mono</code>.
-    </p>
-    <p>
-        The screenshots below show the original mp3 (top) with separate left and right audio that appear to be just white noise, and the resulting mixed
-        mono track (bottom).
-    </p>
-    <img src="../../images/two-voices-one-truth.webp" class="inline-img" alt="Screenshot from Audacity showing a spectrogram before and after mixing stereo down to mono"/>
-    <p>
-        There is a downside to this technique, however. Some online spectrogram viewing websites automatically mix the audio down to mono before rendering
-        the spectrogram. Giving players the answer without them even knowing that mixing was required.
-    </p>
-    <h3>2.2 // Second Iteration</h3>
-    <img src="../../images/perception.webp" class="inline-img" style="float: right; max-height: 300px; max-width: 50%; margin: .5rem"
-         alt="Screenshot from Audacity showing spectrograms of seven tracks with white noise and red herring messages"/>
-    <p>
-        To combat that issue, I took this technique to the extreme in Chapter 4 of the <a href="https://www.cicadachallenge.com/vault/" target="_blank">RUNE ARG</a>.
-        Players were given seven .wav files and told to find a message hidden in the noise. Each of the .wav files contained multiple sections of dense noise,
-        sections of silence, and a single "fetch" command viewable in the spectrogram. All the immediately viewable commands were red herrings which did not help
-        the player progress in the game.
-    </p>
-    <p>
-        The noise in these seven tracks was carefully engineered so that a new message would be revealed only when all seven were mixed together. When mixed,
-        all the red herring messages got buried in dense noise, but a new message appeared in the middle via destructive interference.
-    </p>
-    <p>
-        This is the same principle as the XIXMAS puzzle, but with additional false leads, and it completely eliminates the pitfall of certain online spectrogram
-        viewers. To my knowledge, there are no online spectrogram tools that allow you to mix multiple files together. But even if there were, it would be a
-        conscious choice of the player and not something they could skip without knowing.
-    </p>
-    <img src="../../images/fetch-discernment.webp" class="inline-img"
-         alt="Screenshot from Audacity showing the resulting spectrogram after of mixing the seven tracks down to one, revealing the true hidden message"/>
-    <hr>
-    <h2>3 // Physical Media</h2>
-    <hr>
-    <img src="../../images/buzzy-22-cassettes.webp" class="inline-img" style="float: right; max-height: 200px; margin: .5rem" alt="Image of cassette tapes from the Find Buzzy ARG"/>
-    <p>
-        For the trailhead of <a href="https://findbuzzy.com/listenwithyourheartyouwillunderstand-h9syb532/" target="_blank">Puzzle 22</a> of the
-        <a href="https://findbuzzy.com/" target="_blank">Find Buzzy ARG</a>, I created audio cassettes which were hidden in the Birmingham 8 theater in
-        Birmingham, MI. The tapes were hidden in the hour leading up to a showing of the documentary
-        <a href="https://www.stolenkingdomfilm.com/" target="_blank">Stolen Kingdom</a> as part of the film's official Q&A Tour.
-    </p>
-    <p>
-        The cassettes contained the URL for the puzzle which could only be found by viewing the spectrogram of the audio. Unlike other techniques discussed
-        on this page, there were no additional steps the players needed to take after viewing the spectrogram. Instead, I've made it more difficult to view the
-        spectrogram by requiring the players to use a tape deck in order to access the audio. While this medium does result in a loss of clarity in the
-        spectrogram, it is still perfectly viable as shown in the screenshot below.
-    </p>
-    <p>
-        As an additional note, the cassettes were packaged with custom labels and cases. While this aspect doesn't impact the puzzle itself, it does a lot
-        to distinguish it from other spectrogram-based puzzles and certainly improves memorability.
-    </p>
-    <img src="../../images/buzzy-22-trailhead.webp" class="inline-img" alt="Screenshot from Audacity showing the spectrogram of the contents on the Find Buzzy cassettes"/>
-    <hr>
+    <article>
+        <p>Published: 2026-08-30 &nbsp; Updated: 2026-08-30</p>
+        <section>
+            <hr>
+            <h2>0 // Overview</h2>
+            <hr>
+            <p>
+                A spectrogram is a visual representation of the spectrum of frequencies of a signal over time. Spectrograms, especially in audio signals,
+                are an extremely common technique used in ARGs and puzzle hunts. They are so common that, on their own, they present virtually no challenge
+                to those with a modicum of ARG experience. This article serves as a case study of my exploration of the medium of spectrograms and dives into
+                ways to increase variety and difficulty in spectrogram-based puzzles.
+            </p>
+            <p>
+                Before we dive in, I want to note that this website is a portfolio, not a cookbook. Just as a restaurant would not give you its recipes, I will
+                not be detailing the specifics of how I've made these puzzles.
+            </p>
+            <p>
+                This page will be expanded with new techniques as time goes on.
+            </p>
+        </section>
+        <section>
+            <hr>
+            <h2>1 // Moving Away From Pure Text</h2>
+            <hr>
+            <h3>1.1 // Images</h3>
+            <p>
+                For a bit more visual flair, in <a href="https://findbuzzy.com/listenwithyourheartyouwillunderstand-h9syb532/" target="_blank">Puzzle 22</a>
+                of the <a href="https://findbuzzy.com/" target="_blank">Find Buzzy ARG</a>, I created a .wav file with an image-based spectrogram. The image then
+                contained text which amounted to a type of book cipher. As shown in the screenshot below: on the left is an identifier that can be used to find the
+                "book", in this case a policy report. And on the right, you see the indexing key used to extract words from the policy report.
+            </p>
+            <img src="../../images/buzzy-22-spectrogram.webp" class="inline-img" alt="Screenshot from Audacity showing a spectrogram featuring the image of Buzzy and a book cipher"/>
+            <p>
+                But we are not limited to just images containing ciphers; the sky really is the limit here. A spectrogram could contain an image of a rebus, or some
+                other type of visual riddle. And you can mix and match puzzle delivery techniques to add additional variety.
+            </p>
+            <h3>1.2 // Barcodes</h3>
+            <p>
+                In <a href="https://findbuzzy.com/listenwithyourheartyouwillunderstand-h9syb532/" target="_blank">Puzzle 10</a> of the
+                <a href="https://findbuzzy.com/" target="_blank">Find Buzzy ARG</a>, I designed a .wav file for which the spectrogram displayed a standard Code 128
+                barcode. And scanning the barcode revealed the answer to the puzzle. This is another simple technique, but it gets you out of the cliché of simple
+                text. Like in the example above, viewing the spectrogram is now just one step in decoding the file.
+            </p>
+            <img src="../../images/barcode-spectrogram.webp" class="inline-img" alt="Screenshot from Audacity showing a spectrogram with the appearance of a barcode"/>
+            <p>
+                Code 128 is just one example, there are many scannable codes out there. A popular one to use in a puzzle would be a QR code.
+            </p>
+        </section>
+        <section>
+            <hr>
+            <h2>2 // Track Mixing</h2>
+            <hr>
+            <h3>2.1 // First Iteration</h3>
+            <p>
+                In Puzzle 12 of the 2025 <a href="https://www.cicadadetroit.com/xixmas" target="_blank">XIXMAS ARG</a>, I wanted to create an audio file that had to
+                be manipulated before the spectrogram would reveal its message. What I came up with was a stereo track called
+                <a href="https://soundcloud.com/tuvsulkgweiytuft/two-voices-one-truth" target="_blank">Two Voices, One Truth</a>, which was hosted on SoundCloud.
+                For context, part of the puzzle was first finding the SoundCloud account. The track appeared to be just white noise, with the album art depicting
+                TV static. However, if you mixed the stereo down to mono (as hinted by the track name), the noise canceled out and the true message was revealed.
+                In Audacity, this can be done with: <code>Tracks > Mix > Mix Stereo Down to Mono</code>.
+            </p>
+            <p>
+                The screenshots below show the original mp3 (top) with separate left and right audio that appear to be just white noise, and the resulting mixed
+                mono track (bottom).
+            </p>
+            <img src="../../images/two-voices-one-truth.webp" class="inline-img" alt="Screenshot from Audacity showing a spectrogram before and after mixing stereo down to mono"/>
+            <p>
+                There is a downside to this technique, however. Some online spectrogram viewing websites automatically mix the audio down to mono before rendering
+                the spectrogram. Giving players the answer without them even knowing that mixing was required.
+            </p>
+            <h3>2.2 // Second Iteration</h3>
+            <img src="../../images/perception.webp" class="inline-img" style="float: right; max-height: 300px; max-width: 50%; margin: .5rem"
+                 alt="Screenshot from Audacity showing spectrograms of seven tracks with white noise and red herring messages"/>
+            <p>
+                To combat that issue, I took this technique to the extreme in Chapter 4 of the <a href="https://www.cicadachallenge.com/vault/" target="_blank">RUNE ARG</a>.
+                Players were given seven .wav files and told to find a message hidden in the noise. Each of the .wav files contained multiple sections of dense noise,
+                sections of silence, and a single "fetch" command viewable in the spectrogram. All the immediately viewable commands were red herrings which did not help
+                the player progress in the game.
+            </p>
+            <p>
+                The noise in these seven tracks was carefully engineered so that a new message would be revealed only when all seven were mixed together. When mixed,
+                all the red herring messages got buried in dense noise, but a new message appeared in the middle via destructive interference.
+            </p>
+            <p>
+                This is the same principle as the XIXMAS puzzle, but with additional false leads, and it completely eliminates the pitfall of certain online spectrogram
+                viewers. To my knowledge, there are no online spectrogram tools that allow you to mix multiple files together. But even if there were, it would be a
+                conscious choice of the player and not something they could skip without knowing.
+            </p>
+            <img src="../../images/fetch-discernment.webp" class="inline-img"
+                 alt="Screenshot from Audacity showing the resulting spectrogram after of mixing the seven tracks down to one, revealing the true hidden message"/>
+        </section>
+        <section>
+            <hr>
+            <h2>3 // Physical Media</h2>
+            <hr>
+            <img src="../../images/buzzy-22-cassettes.webp" class="inline-img" style="float: right; max-height: 200px; margin: .5rem" alt="Image of cassette tapes from the Find Buzzy ARG"/>
+            <p>
+                For the trailhead of <a href="https://findbuzzy.com/listenwithyourheartyouwillunderstand-h9syb532/" target="_blank">Puzzle 22</a> of the
+                <a href="https://findbuzzy.com/" target="_blank">Find Buzzy ARG</a>, I created audio cassettes which were hidden in the Birmingham 8 theater in
+                Birmingham, MI. The tapes were hidden in the hour leading up to a showing of the documentary
+                <a href="https://www.stolenkingdomfilm.com/" target="_blank">Stolen Kingdom</a> as part of the film's official Q&A Tour.
+            </p>
+            <p>
+                The cassettes contained the URL for the puzzle which could only be found by viewing the spectrogram of the audio. Unlike other techniques discussed
+                on this page, there were no additional steps the players needed to take after viewing the spectrogram. Instead, I've made it more difficult to view the
+                spectrogram by requiring the players to use a tape deck in order to access the audio. While this medium does result in a loss of clarity in the
+                spectrogram, it is still perfectly viable as shown in the screenshot below.
+            </p>
+            <p>
+                As an additional note, the cassettes were packaged with custom labels and cases. While this aspect doesn't impact the puzzle itself, it does a lot
+                to distinguish it from other spectrogram-based puzzles and certainly improves memorability.
+            </p>
+            <img src="../../images/buzzy-22-trailhead.webp" class="inline-img" alt="Screenshot from Audacity showing the spectrogram of the contents on the Find Buzzy cassettes"/>
+        </section>
+        <hr>
+    </article>
 </main>
 <?php renderFooter(); ?>
 <script src="../../js/index.js"></script>

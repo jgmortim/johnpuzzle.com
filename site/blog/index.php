@@ -19,7 +19,7 @@ include('../includes/footer.php');
     <nav id="breadcrumbs">
         <a href="/">Home</a> > Blog
     </nav>
-    <article>
+    <section>
         <hr>
         <h2><span class="article-date">2026-10-03</span> // <span class="article-title">Project Highlight: Weekend at the End of the World</span></h2>
         <hr>
@@ -34,8 +34,8 @@ include('../includes/footer.php');
             <span class="blink">></span>
             <a href="/blog/weekend/" class="article-link">Continue Reading</a>
         </p>
-    </article>
-    <article>
+    </section>
+    <section>
         <hr>
         <h2><span class="article-date">2026-08-30</span> // <span class="article-title">Spectrograms Case Study</span></h2>
         <hr>
@@ -49,7 +49,7 @@ include('../includes/footer.php');
             <span class="blink">></span>
             <a href="/blog/spectrograms/" class="article-link">Continue Reading</a>
         </p>
-    </article>
+    </section>
     <hr>
 </main>
 <?php renderFooter(); ?>
