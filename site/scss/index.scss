@@ -1,35 +1,74 @@
 @mixin crt-text-green() {
 	color: var(--text-green);
-	/* CRT phosphor glow */
 	text-shadow: 0 0 1px color-mix(in srgb, var(--text-green) 80%, transparent),
-				 0 0 3px color-mix(in srgb, var(--text-green) 60%, transparent),
-				 0 0 7px color-mix(in srgb, var(--text-green) 30%, transparent),
-				 0 0 15px color-mix(in srgb, var(--text-green) 20%, transparent),
-				 0 0 25px color-mix(in srgb, var(--text-green) 10%, transparent);
-
-	/* Slight CRT softness */
+	             0 0 3px color-mix(in srgb, var(--text-green) 60%, transparent),
+	             0 0 7px color-mix(in srgb, var(--text-green) 30%, transparent),
+	             0 0 15px color-mix(in srgb, var(--text-green) 20%, transparent),
+	             0 0 25px color-mix(in srgb, var(--text-green) 10%, transparent);
 	filter: blur(0.15px);
 }
 
 @mixin crt-text-orange() {
 	color: var(--text-orange);
-	/* CRT phosphor glow */
-	text-shadow: 0 0 1px var(--text-orange),
-			     0 0 3px var(--text-orange),
-			     0 0 7px color-mix(in srgb, var(--text-orange) 90%, transparent),
-			     0 0 15px color-mix(in srgb, var(--text-orange) 50%, transparent),
-			     0 0 25px color-mix(in srgb, var(--text-orange) 30%, transparent);
-
-	/* Slight CRT softness */
+	text-shadow: 0 0 1px color-mix(in srgb, var(--text-orange) 85%, transparent),
+	             0 0 3px color-mix(in srgb, var(--text-orange) 70%, transparent),
+	             0 0 7px color-mix(in srgb, var(--text-orange) 40%, transparent),
+	             0 0 15px color-mix(in srgb, var(--text-orange) 20%, transparent),
+	             0 0 25px color-mix(in srgb, var(--text-orange) 10%, transparent);
 	filter: blur(0.15px);
 }
 
 @mixin crt-boarder($color) {
 	border: 2px solid $color;
-	box-shadow: 0 0 2px $color,
-		        0 0 5px $color,
-		        0 0 10px color-mix(in srgb, $color 80%, transparent),
-		        0 0 20px color-mix(in srgb, $color 40%, transparent);
+	box-shadow: 0 0 2px color-mix(in srgb, $color 70%, transparent),
+	            0 0 5px color-mix(in srgb, $color 50%, transparent),
+	            0 0 10px color-mix(in srgb, $color 30%, transparent),
+	            0 0 20px color-mix(in srgb, $color 10%, transparent);
+}
+
+/* Roboto Condensed */
+
+@font-face {
+	font-family: 'Roboto Condensed';
+	src: local('Roboto Condensed'),
+	local('Roboto Condensed Regular'),
+	url('../fonts/roboto-condensed.regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Condensed';
+	src: local('Roboto Condensed Bold'),
+	url('../fonts/roboto-condensed.bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+/* Roboto Mono */
+
+@font-face {
+	font-family: 'Roboto Mono';
+	src: local('Roboto Mono Regular'),
+	url('../fonts/RobotoMono-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Mono';
+	src: local('Roboto Mono Italic'),
+	url('../fonts/RobotoMono-Italic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto Mono';
+	src: local('Roboto Mono Bold'),
+	url('../fonts/RobotoMono-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
 }
 
 :root {
@@ -46,7 +85,7 @@ html {
 body {
 	min-width: 280px;
 	margin: 8px;
-	font-family: "Courier New", "Noto Sans Mono", monospace;
+	font-family: "Roboto Mono", "Noto Sans Mono", monospace;
 	background-color: var(--background-color);
 }
 
@@ -90,8 +129,9 @@ footer {
 h1 {
 	width: min(100%, 1250px);
 	margin: auto;
-	font-weight: 900;
+	font-weight: 700;
 	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
 	@include crt-text-green();
 }
 
@@ -101,13 +141,17 @@ h1 a:link, h1 a:visited {
 }
 
 h2, h3 {
-	font-size: 1.25em;
-	font-weight: 400;
+	font-weight: 700;
 	@include crt-text-green();
 }
 
 h2 {
+	font-size: 1.25em;
 	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1.125em;
 }
 
 hr {
@@ -174,15 +218,12 @@ footer p:last-child {
 	margin: .5rem auto;
 }
 
-.nav-btn, .nav-btn-current {
+.nav-btn {
 	display: inline-block;
 	padding: 4px 12px;
 	text-decoration: none;
 	inset: -1em;
-}
-
-.nav-btn-current {
-	cursor: default;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .nav-bar, .nav-bar-active {
@@ -283,6 +324,10 @@ footer p:last-child {
 #breadcrumbs {
 	margin-bottom: 1rem;
 	padding-top: 1rem;
+}
+
+#breadcrumbs a {
+	text-decoration-line: none;
 }
 
 #site-header-text {
