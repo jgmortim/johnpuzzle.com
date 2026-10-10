@@ -78,6 +78,11 @@
 	--text-green: #80ffd5;
 }
 
+:focus {
+	outline: none;
+	animation: blinker 1s step-start infinite;
+}
+
 html {
 	scrollbar-gutter: stable;
 }
@@ -165,6 +170,10 @@ a:link, a:visited {
 	@include crt-text-green();
 }
 
+a:focus {
+	text-decoration: none;
+}
+
 pre {
 	overflow: auto;
 }
@@ -242,7 +251,7 @@ footer p:last-child {
 	border: 2px solid transparent;
 }
 
-.nav-bar-active, .nav-btn:hover + .nav-bar {
+.nav-bar-active, .nav-btn:hover + .nav-bar, .nav-btn:focus + .nav-bar {
 	color: var(--text-green);
 	background: var(--text-green);
 	@include crt-boarder(var(--text-green));

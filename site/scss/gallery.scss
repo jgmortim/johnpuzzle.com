@@ -64,10 +64,6 @@ figure {
 	pointer-events: none;
 }
 
-.image-thumbnail:focus-visible {
-	border: 1px solid var(--text-orange);
-}
-
 /* The image popup */
 .image-popup-container {
 	width: 100%;
