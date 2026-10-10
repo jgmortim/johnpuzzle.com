@@ -22,7 +22,7 @@ include('./includes/footer.php');
             <hr>
             <h2>0 // WELCOME</h2>
             <hr>
-            <p>My name is John, I'm a software engineer and puzzle designer, and this is my personal website.</p>
+            <p>My name is John, I'm a puzzle maker and software engineer, and this is my personal website.</p>
             <p>
                 I design and build interactive web infrastructure and puzzle systems at <a href="https://arghouse.com/" target="_blank">ARGHouse</a>,
                 supporting the development of live Alternate Reality Games (ARGs) and immersive interactive experiences. My work bridges narrative design,
