@@ -20,99 +20,103 @@ include('../includes/images.php');
     <nav id="breadcrumbs">
         <a href="/">Home</a> > History
     </nav>
-    <hr>
-    <h2>0 // Puzzle Solver</h2>
-    <hr>
-    <div style="float: right; min-width: 225px; max-width: 30%; margin: .5rem">
-        <?php renderExpandableImage(
-                '../images/cicada-detroit-win.webp',
-                'Image of the closing celebration for Cicada Detroit',
-                'Closing celebration for <i>Cicada Detroit</i>.')
-        ?>
-    </div>
-    <p>
-        The first ARG I ever participated in was the
-        <a href="https://news.samsung.com/us/samsung-qledecode-unlock-ultimate-cyberpunk-2077-next-gen-gaming-setup-twitch" target="_blank">QLEDecode ARG</a>
-        in 2020. A joint collaboration between Samsung, XBox, and CD Projekt Red to promote the then-upcoming release of Cyberpunk 2077. While I narrowly missed
-        out on qualifying for the finals, it was a lot of fun and I made many new friends over the course of the game. To this day, I remain good friends with
-        the winner.
-    </p>
-    <p>
-        Over the next few years I would participate in many more ARGs, mostly with friends I made in QLEDecode. The most notable of which would be
-        <a href="https://s1.breakthecode.tech/" target="_blank">Break the Code</a> and <a href="https://breakthecode.tech/" target="_blank">Break the Code 2</a>,
-        where I finished top 20 in North America. I'd also like to shoutout two ARGs I played in this time that were never finished but which I found to be a lot
-        of fun. Those being <a href="https://www.nightmind.info/puzzleproj/ecgo" target="_blank">ECGO</a> and <i>HISAC</i> (Hookland Institude of Science
-        Automatic Computer).
-    </p>
-    <p>
-        After a couple year lull, I got heavily involved in ARGs again in early 2025 when I discovered
-        <a href="https://www.cicadadetroit.com/" target="_blank">Cicada Detroit</a> — a 42 puzzle challenge taking place online and in-person in metro Detroit.
-        Which I ultimately took first place in later that year. Over the course of 2025, I made many new friends through <i>Cicada Detroit</i>, and together we
-        claimed 5 of the 11 prizes in KFC's
-        <a href="https://www.argn.com/2025/07/kfc_launches_special_blend_of_11_secret_codes_and_puzzles/" target="_blank">The Colonel’s Secret</a> ARG.
-    </p>
-    <p>
-        In 2026, I was Team Captain of the <a href="https://erchamp.com/team/9844" target="_blank">Cicada Conclave</a> team competing in the qualifiers for
-        the <a href="https://erchamp.com/championship/2026" target="_blank">2026 Escape Room World Championships</a>. Together we finished 100th out of over
-        700 teams. We will be competing again next year and hope to qualify for the finals.
-    </p>
-    <hr>
-    <h2>1 // Puzzle Maker</h2>
-    <hr>
-    <p>
-        After winning <i>Cicada Detroit</i>, I was recruited to the team at <a href="https://arghouse.com/" target="_blank">ARGHouse</a> — the company behind
-        it. Thus beginning my professional career in ARGs as both a puzzle designer and software engineer. The first project I worked on was the 2025
-        <a href="https://www.cicadadetroit.com/xixmas" target="_blank">XIXMAS Challenge</a>, which was a <i>Cicada Detroit</i> side mission.
-    </p>
-    <p>
-        Since then, I have worked on numerous ARGHouse project as detailed in the table below. For a more detailed look at my work,
-        see the <a href="/work/">work</a> section of this website.
-    </p>
-    <table style="min-width: 50%">
-        <tr>
-            <th>Year</th>
-            <th>ARG</th>
-            <th>Role(s)</th>
-        </tr>
-        <tr>
-            <td rowspan="2">2025</td>
-            <td><a href="https://www.cicadadetroit.com/xixmas" target="_blank">Cicada Detroit: XIXMAS</a></td>
-            <td>Puzzle design</td>
-        </tr>
-        <tr>
-            <td>Cicada Detroit: Puzzle 43</td>
-            <td>Puzzle design</td>
-        </tr>
-        <tr>
-            <td rowspan="7">2026</td>
-            <td><a href="https://celloperations.com/" target="_blank">Cell Operations</a></td>
-            <td>Web infrastructure, puzzle consultation</td>
-        </tr>
-        <tr>
-            <td><a href="https://www.weekendattheendoftheworld.com/" target="_blank">Weekend At the End Of the World</a></td>
-            <td>Puzzle design, web design</td>
-        </tr>
-        <tr>
-            <td><a href="https://www.cicadadetroit.com/cicadahilaria" target="_blank">Cicada Detroit: Cicada Hilaria</a></td>
-            <td>Puzzle design</td>
-        </tr>
-        <tr>
-            <td><a href="https://findbuzzy.com/" target="_blank">Find Buzzy</a></td>
-            <td>Puzzle design</td>
-        </tr>
-        <tr>
-            <td><a href="https://www.cicadachallenge.com/vault/" target="_blank">Cicada Challenge: RUNE</a></td>
-            <td>Puzzle design, web design, story editing</td>
-        </tr>
-        <tr>
-            <td><a href="https://plushyplayground.org/" target="_blank">Plushy's Playground</a></td>
-            <td>Puzzle design, web design</td>
-        </tr>
-        <tr>
-            <td><a href="https://www.cicadachallenge.com/vault/" target="_blank">Cicada Challenge: Cicada Foods</a></td>
-            <td>Puzzle design, web design</td>
-        </tr>
-    </table>
+    <section class="main-section">
+        <hr>
+        <h2>0 // Puzzle Solver</h2>
+        <hr>
+        <div style="float: right; min-width: 225px; max-width: 30%; margin: .5rem">
+            <?php renderExpandableImage(
+                    '../images/cicada-detroit-win.webp',
+                    'Image of the closing celebration for Cicada Detroit',
+                    'Closing celebration for <i>Cicada Detroit</i>.')
+            ?>
+        </div>
+        <p>
+            The first ARG I ever participated in was the
+            <a href="https://news.samsung.com/us/samsung-qledecode-unlock-ultimate-cyberpunk-2077-next-gen-gaming-setup-twitch" target="_blank">QLEDecode ARG</a>
+            in 2020. A joint collaboration between Samsung, XBox, and CD Projekt Red to promote the then-upcoming release of Cyberpunk 2077. While I narrowly missed
+            out on qualifying for the finals, it was a lot of fun and I made many new friends over the course of the game. To this day, I remain good friends with
+            the winner.
+        </p>
+        <p>
+            Over the next few years I would participate in many more ARGs, mostly with friends I made in QLEDecode. The most notable of which would be
+            <a href="https://s1.breakthecode.tech/" target="_blank">Break the Code</a> and <a href="https://breakthecode.tech/" target="_blank">Break the Code 2</a>,
+            where I finished top 20 in North America. I'd also like to shoutout two ARGs I played in this time that were never finished but which I found to be a lot
+            of fun. Those being <a href="https://www.nightmind.info/puzzleproj/ecgo" target="_blank">ECGO</a> and <i>HISAC</i> (Hookland Institude of Science
+            Automatic Computer).
+        </p>
+        <p>
+            After a couple year lull, I got heavily involved in ARGs again in early 2025 when I discovered
+            <a href="https://www.cicadadetroit.com/" target="_blank">Cicada Detroit</a> — a 42 puzzle challenge taking place online and in-person in metro Detroit.
+            Which I ultimately took first place in later that year. Over the course of 2025, I made many new friends through <i>Cicada Detroit</i>, and together we
+            claimed 5 of the 11 prizes in KFC's
+            <a href="https://www.argn.com/2025/07/kfc_launches_special_blend_of_11_secret_codes_and_puzzles/" target="_blank">The Colonel’s Secret</a> ARG.
+        </p>
+        <p>
+            In 2026, I was Team Captain of the <a href="https://erchamp.com/team/9844" target="_blank">Cicada Conclave</a> team competing in the qualifiers for
+            the <a href="https://erchamp.com/championship/2026" target="_blank">2026 Escape Room World Championships</a>. Together we finished 100th out of over
+            700 teams. We will be competing again next year and hope to qualify for the finals.
+        </p>
+    </section>
+    <section class="main-section">
+        <hr>
+        <h2>1 // Puzzle Maker</h2>
+        <hr>
+        <p>
+            After winning <i>Cicada Detroit</i>, I was recruited to the team at <a href="https://arghouse.com/" target="_blank">ARGHouse</a> — the company behind
+            it. Thus beginning my professional career in ARGs as both a puzzle designer and software engineer. The first project I worked on was the 2025
+            <a href="https://www.cicadadetroit.com/xixmas" target="_blank">XIXMAS Challenge</a>, which was a <i>Cicada Detroit</i> side mission.
+        </p>
+        <p>
+            Since then, I have worked on numerous ARGHouse project as detailed in the table below. For a more detailed look at my work,
+            see the <a href="/work/">work</a> section of this website.
+        </p>
+        <table style="min-width: 50%">
+            <tr>
+                <th>Year</th>
+                <th>ARG</th>
+                <th>Role(s)</th>
+            </tr>
+            <tr>
+                <td rowspan="2">2025</td>
+                <td><a href="https://www.cicadadetroit.com/xixmas" target="_blank">Cicada Detroit: XIXMAS</a></td>
+                <td>Puzzle design</td>
+            </tr>
+            <tr>
+                <td>Cicada Detroit: Puzzle 43</td>
+                <td>Puzzle design</td>
+            </tr>
+            <tr>
+                <td rowspan="7">2026</td>
+                <td><a href="https://celloperations.com/" target="_blank">Cell Operations</a></td>
+                <td>Web infrastructure, puzzle consultation</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.weekendattheendoftheworld.com/" target="_blank">Weekend At the End Of the World</a></td>
+                <td>Puzzle design, web design</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.cicadadetroit.com/cicadahilaria" target="_blank">Cicada Detroit: Cicada Hilaria</a></td>
+                <td>Puzzle design</td>
+            </tr>
+            <tr>
+                <td><a href="https://findbuzzy.com/" target="_blank">Find Buzzy</a></td>
+                <td>Puzzle design</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.cicadachallenge.com/vault/" target="_blank">Cicada Challenge: RUNE</a></td>
+                <td>Puzzle design, web design, story editing</td>
+            </tr>
+            <tr>
+                <td><a href="https://plushyplayground.org/" target="_blank">Plushy's Playground</a></td>
+                <td>Puzzle design, web design</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.cicadachallenge.com/vault/" target="_blank">Cicada Challenge: Cicada Foods</a></td>
+                <td>Puzzle design, web design</td>
+            </tr>
+        </table>
+    </section>
     <hr>
 </main>
 <?php renderFooter(); ?>

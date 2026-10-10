@@ -102,10 +102,12 @@ $photos = [
     <nav id="breadcrumbs">
         <a href="/">Home</a> > Gallery
     </nav>
-    <hr>
-    <h2>0 // Photo Gallery</h2>
-    <hr>
-    <?php renderPhotoGallery($photos, 4) ?>
+    <section class="main-section">
+        <hr>
+        <h2>0 // Photo Gallery</h2>
+        <hr>
+        <?php renderPhotoGallery($photos, 4) ?>
+    </section>
     <hr>
 </main>
 <?php renderFooter(); ?>

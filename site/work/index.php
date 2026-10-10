@@ -20,7 +20,7 @@ include('../includes/footer.php');
         <a href="/">Home</a> > Work
     </nav>
     <hr>
-    <div class="work-item">
+    <section class="work-item">
         <h2>Weekend at the End of The World ARG</h2>
         <div class="work-item-content">
             <div class="work-image-wrapper">
@@ -46,8 +46,8 @@ include('../includes/footer.php');
                 </p>
             </div>
         </div>
-    </div>
-    <div class="work-item">
+    </section>
+    <section class="work-item">
         <h2>Stolen Kingdom // Find Buzzy ARG</h2>
         <div class="work-item-content">
             <div class="work-image-wrapper">
@@ -73,7 +73,7 @@ include('../includes/footer.php');
                 </p>
             </div>
         </div>
-    </div>
+    </section>
     <hr>
 </main>
 <?php renderFooter(); ?>
