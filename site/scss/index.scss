@@ -198,6 +198,10 @@ footer p:last-child {
 	margin-bottom: 0;
 }
 
+.main-section {
+	margin-bottom: 2rem;
+ }
+
 .indent-1 {
 	margin-left: 1rem;
 }
@@ -289,34 +293,6 @@ footer p:last-child {
 	margin: 0;
 }
 
-.youtube-container {
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	gap: 1rem;
-}
-
-.yt-video {
-	width: 32%;
-	min-width: 300px;
-	max-width: 400px;
-	height: 32%;
-	padding: 1px;
-	border-radius: 8px;
-	aspect-ratio: 16 / 9;
-	@include crt-boarder(var(--text-orange));
-}
-
-.youtube-description {
-	align-self: flex-start;
-}
-
-.youtube-description h3 {
-	margin-top: .5rem;
-}
-
 .blink {
 	animation: blinker 1.25s step-start infinite;
 }
@@ -381,14 +357,6 @@ footer p:last-child {
 		margin-top: 1vw;
 	}
 
-	.youtube-container {
-		flex-direction: column-reverse;
-	}
-
-	.yt-video {
-		width: 80%;
-	}
-
 	#header-logo {
 		margin: 0 auto;
 	}
@@ -411,9 +379,5 @@ footer p:last-child {
 
 	.project-img img {
 		float: right;
-	}
-
-	.yt-video {
-		width: 90%;
 	}
 }
