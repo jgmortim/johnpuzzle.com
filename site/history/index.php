@@ -27,7 +27,7 @@ include('../includes/images.php');
         <div style="float: right; min-width: 225px; max-width: 30%; margin: .5rem">
             <?php renderExpandableImage(
                     '../images/cicada-detroit-win.webp',
-                    'Image of the closing celebration for Cicada Detroit',
+                    'From left-to-right: Shelby (2nd), Carl (host), and me (1st) at the closing celebration for Cicada Detroit.',
                     'Closing celebration for <i>Cicada Detroit</i>.')
             ?>
         </div>

@@ -6,12 +6,12 @@ include('../../includes/images.php');
 $photos = [
     [
         'src' => '../../images/weekend-ca.webp',
-        'alt' => '',
+        'alt' => 'Composite image showing the a paper proof of concept along side the final in-game design for the cipher wheel.',
         'caption' => 'My original paper concept vs the final design for the cipher wheel.'
     ],
     [
         'src' => '../../images/weekend-original-wheel.webp',
-        'alt' => '',
+        'alt' => 'Early model of the cipher wheel featuring the poem in the middle.',
         'caption' => 'Early version of the cipher wheel with the poem still included.'
     ]
 ];
@@ -49,6 +49,11 @@ $photos = [
         <br>
         <video width="90%" autoplay loop controls muted style="display: block; margin: 0 auto;">
             <source src="../../videos/weekend-highlight.webm" type="video/webm">
+            <track
+                kind="captions"
+                src="../../videos/vtt/weekend-highlight.vtt"
+                srclang="en"
+            />
         </video>
         <p>
             Using the Twine engine as a base, I combined behind-the-scenes stills and 3D objects — created by the other talented folks
@@ -65,6 +70,11 @@ $photos = [
         </p>
         <video width="90%" autoplay loop controls muted style="display: block; margin: 0 auto;">
             <source src="../../videos/weekend-final-puzzle.webm" type="video/webm">
+            <track
+                    kind="captions"
+                    src="../../videos/vtt/weekend-final-puzzle.vtt"
+                    srclang="en"
+            />
         </video>
         <p>
             The final puzzle consisted of players finding a cipher wheel and needing to use the environment to spell a word with

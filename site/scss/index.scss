@@ -78,7 +78,7 @@
 	--text-green: #80ffd5;
 }
 
-:focus {
+:focus:not(video) {
 	outline: none;
 	animation: blinker 1s step-start infinite;
 }
@@ -207,9 +207,13 @@ footer p:last-child {
 	margin-bottom: 0;
 }
 
+video {
+	text-shadow: initial;
+}
+
 .main-section {
 	margin-bottom: 2rem;
- }
+}
 
 .indent-1 {
 	margin-left: 1rem;

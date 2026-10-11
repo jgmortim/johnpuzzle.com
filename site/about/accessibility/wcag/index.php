@@ -59,7 +59,7 @@ include('../../../includes/footer.php');
             <tr>
                 <td>1.1.1 Non-text Content</td>
                 <td>A</td>
-                <td></td>
+                <td>&#9989;</td>
                 <td></td>
             </tr>
             <tr style="text-align: left">
@@ -68,7 +68,7 @@ include('../../../includes/footer.php');
             <tr>
                 <td>1.2.1 Audio-only and Video-only (Prerecorded)</td>
                 <td>A</td>
-                <td></td>
+                <td>&#9989;</td>
                 <td></td>
             </tr>
             <tr>
@@ -80,7 +80,7 @@ include('../../../includes/footer.php');
             <tr>
                 <td>1.2.3 Audio Description or Media Alternative (Prerecorded)</td>
                 <td>A</td>
-                <td></td>
+                <td>&#9989;</td>
                 <td></td>
             </tr>
             <tr style="text-align: left">
@@ -89,7 +89,7 @@ include('../../../includes/footer.php');
             <tr>
                 <td>1.3.1 Info and Relationships</td>
                 <td>A</td>
-                <td></td>
+                <td>&#9989;</td>
                 <td></td>
             </tr>
             <tr>
@@ -101,7 +101,7 @@ include('../../../includes/footer.php');
             <tr>
                 <td>1.3.3 Sensory Characteristics</td>
                 <td>A</td>
-                <td></td>
+                <td>&#9989;</td>
                 <td></td>
             </tr>
             <tr style="text-align: left">
