@@ -15,7 +15,7 @@ function renderExpandableImage(string $source, string $alt, string $caption): vo
     ?>
 
     <figure>
-        <button popovertarget="photo-<?= $source ?>" type="button" class="image-thumbnail">
+        <button popovertarget="photo-<?= $source ?>" type="button" class="image-thumbnail" onclick="this.blur()">
             <img src="<?= $source ?>" alt="<?= $alt ?>"/>
         </button>
         <figcaption><?= $caption ?></figcaption>
