@@ -31,7 +31,7 @@ include('../../../includes/footer.php');
         </p>
         <p>
             This website is still being developed, but I am making an effort to adhere to the WCAG 2.2 standards. Starting with a focus
-            on level A criteria and then working through AA and AAA as I progress. Tracking of WCAG 2.2 compliance is detailed below.
+            on level A Criterion and then working through AA and AAA as I progress. Tracking of WCAG 2.2 compliance is detailed below.
         </p>
         <h3>Disclaimer</h3>
         <p>
@@ -48,7 +48,7 @@ include('../../../includes/footer.php');
         <p>Information and user interface components must be presentable to users in ways they can perceive.</p>
         <table style="min-width: 50%">
             <tr>
-                <th>Success Criteria</th>
+                <th>Success Criterion</th>
                 <th>Level</th>
                 <th>Met</th>
                 <th>Notes</th>
@@ -83,6 +83,18 @@ include('../../../includes/footer.php');
                 <td>&#9989;</td>
                 <td></td>
             </tr>
+            <tr>
+                <td>1.2.4 Captions (Live)</td>
+                <td>AA</td>
+                <td>&#9989;</td>
+                <td>There is no audio on this site</td>
+            </tr>
+            <tr>
+                <td>1.2.5 Audio Description (Prerecorded)</td>
+                <td>AA</td>
+                <td>&#x274C;</td>
+                <td></td>
+            </tr>
             <tr style="text-align: left">
                 <th colspan="4">1.3 Adaptable</th>
             </tr>
@@ -104,6 +116,18 @@ include('../../../includes/footer.php');
                 <td>&#9989;</td>
                 <td></td>
             </tr>
+            <tr>
+                <td>1.3.4 Orientation</td>
+                <td>AA</td>
+                <td>&#9989;</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.3.5 Identify Input Purpose</td>
+                <td>AA</td>
+                <td>&#9989;</td>
+                <td>This site has no input fields</td>
+            </tr>
             <tr style="text-align: left">
                 <th colspan="4">1.4 Distinguishable</th>
             </tr>
@@ -119,6 +143,48 @@ include('../../../includes/footer.php');
                 <td>&#9989;</td>
                 <td>There is no audio on this site</td>
             </tr>
+            <tr>
+                <td>1.4.3 Contrast (Minimum)</td>
+                <td>AA</td>
+                <td>&#9989;</td>
+                <td>See notes on color contrast below</td>
+            </tr>
+            <tr>
+                <td>1.4.4 Resize Text</td>
+                <td>AA</td>
+                <td>&#9989;</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.4.5 Images of Text</td>
+                <td>AA</td>
+                <td>&#9989;</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.4.10 Reflow</td>
+                <td>AA</td>
+                <td>&#9989;</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.4.11 Non-text Contrast</td>
+                <td>AA</td>
+                <td>&#9989;</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.4.12 Text Spacing</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.4.13 Content on Hover or Focus</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+            </tr>
         </table>
     </section>
     <section class="main-section">
@@ -128,7 +194,7 @@ include('../../../includes/footer.php');
         <p>User interface components and navigation must be operable.</p>
         <table style="min-width: 50%">
             <tr>
-                <th>Success Criteria</th>
+                <th>Success Criterion</th>
                 <th>Level</th>
                 <th>Met</th>
                 <th>Notes</th>
@@ -205,6 +271,30 @@ include('../../../includes/footer.php');
                 <td>&#9989;</td>
                 <td></td>
             </tr>
+            <tr>
+                <td>2.4.5 Multiple Ways</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.4.6 Headings and Labels</td>
+                <td>AA</td>
+                <td>&#9989;</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.4.7 Focus Visible</td>
+                <td>AA</td>
+                <td>&#9989;</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.4.11 Focus Not Obscured (Minimum)</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+            </tr>
             <tr style="text-align: left">
                 <th colspan="4">2.5 Input Modalities</th>
             </tr>
@@ -232,6 +322,18 @@ include('../../../includes/footer.php');
                 <td>&#9989;</td>
                 <td>No motion actuation in use</td>
             </tr>
+            <tr>
+                <td>2.5.7 Dragging Movements</td>
+                <td>AA</td>
+                <td>&#9989;</td>
+                <td>This site does not use dragging movements</td>
+            </tr>
+            <tr>
+                <td>2.5.8 Target Size (Minimum)</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+            </tr>
         </table>
     </section>
     <section class="main-section">
@@ -241,7 +343,7 @@ include('../../../includes/footer.php');
         <p>Information and the operation of the user interface must be understandable.</p>
         <table style="min-width: 50%">
             <tr>
-                <th>Success Criteria</th>
+                <th>Success Criterion</th>
                 <th>Level</th>
                 <th>Met</th>
                 <th>Notes</th>
@@ -252,6 +354,12 @@ include('../../../includes/footer.php');
             <tr>
                 <td>3.1.1 Language of Page</td>
                 <td>A</td>
+                <td>&#9989;</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.1.2 Language of Parts</td>
+                <td>AA</td>
                 <td>&#9989;</td>
                 <td></td>
             </tr>
@@ -267,6 +375,18 @@ include('../../../includes/footer.php');
             <tr>
                 <td>3.2.2 On Input</td>
                 <td>A</td>
+                <td>&#9989;</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.2.3 Consistent Navigation</td>
+                <td>AA</td>
+                <td>&#9989;</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.2.4 Consistent Identification</td>
+                <td>AA</td>
                 <td>&#9989;</td>
                 <td></td>
             </tr>
@@ -292,10 +412,28 @@ include('../../../includes/footer.php');
                 <td>No user input fields on site</td>
             </tr>
             <tr>
+                <td>3.3.3 Error Suggestion</td>
+                <td>AA</td>
+                <td>&#9989;</td>
+                <td>No user input fields on site</td>
+            </tr>
+            <tr>
+                <td>3.3.4 Error Prevention (Legal, Financial, Data)</td>
+                <td>AA</td>
+                <td>&#9989;</td>
+                <td>No legal commitments or financial transactions on site</td>
+            </tr>
+            <tr>
                 <td>3.3.7 Redundant Entry</td>
                 <td>A</td>
                 <td>&#9989;</td>
                 <td>No user input fields on site</td>
+            </tr>
+            <tr>
+                <td>3.3.8 Accessible Authentication (Minimum)</td>
+                <td>AA</td>
+                <td>&#9989;</td>
+                <td></td>
             </tr>
         </table>
     </section>
@@ -306,7 +444,7 @@ include('../../../includes/footer.php');
         <p>Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies.</p>
         <table style="min-width: 50%">
             <tr>
-                <th>Success Criteria</th>
+                <th>Success Criterion</th>
                 <th>Level</th>
                 <th>Met</th>
                 <th>Notes</th>
@@ -323,6 +461,12 @@ include('../../../includes/footer.php');
                 <td>A</td>
                 <td>&#9989;</td>
                 <td></td>
+            </tr>
+            <tr>
+                <td>4.1.3 Status Messages</td>
+                <td>AA</td>
+                <td>&#9989;</td>
+                <td>Site has no status messages</td>
             </tr>
         </table>
     </section>
