@@ -35,6 +35,20 @@ include('../../includes/footer.php');
             <a href="/about/accessibility/wcag/">its own page</a>.
         </p>
     </section>
+    <section>
+        <h3>Zero Bloat</h3>
+        <p>
+            Over time, many companies seemed to have forgotten that not everyone has a fast internet connection. High resolution
+            images and bloated frameworks have become the norm. But here at johnpuzzle.com, I recognize that all data comes with a
+            cost.
+        </p>
+        <p>
+            For that reason, I have made the decision to ensure that every page on this site has a weight of 5mb or less. Which is
+            to say that each page can be loaded by your browser with 5mb or less of data transfer. I would have chosen a lower
+            limit, but this site features a lot a media. And even when reducing dimensions and using compression, there is only so
+            much I do.
+        </p>
+    </section>
     <hr>
 </main>
 <?php renderFooter(); ?>

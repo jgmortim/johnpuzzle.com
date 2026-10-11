@@ -1,24 +1,20 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" width="360" height="360">
 	<style>
-        :root {
-            --text-orange: #ff5a00;
-            --background: #050505;
-        }
 		tspan {
-            white-space:pre;
+            white-space: pre;
             font-size: 32px;
-            fill: var(--text-orange);
+            fill: #ff5a00;
             font-weight: 400;
-            font-family: Courier New, Noto Sans Mono, monospace;
-            text-shadow: 0 0 1px var(--text-orange),
-                         0 0 3px var(--text-orange),
-                         0 0 7px color-mix(in srgb,var(--text-orange) 90%,transparent),
-                         0 0 15px color-mix(in srgb,var(--text-orange) 50%,transparent),
-                         0 0 25px color-mix(in srgb,var(--text-orange) 30%,transparent)
+            font-family: Courier New, monospace;
+            text-shadow: 0 0 1px #ff5a00,
+                         0 0 3px #ff5a00,
+                         0 0 7px color-mix(in srgb, #ff5a00 90%,transparent),
+                         0 0 15px color-mix(in srgb, #ff5a00 50%,transparent),
+                         0 0 25px color-mix(in srgb, #ff5a00 30%,transparent)
         }
         rect {
-            fill: var(--background);
-            stroke: var(--text-orange);
+            fill: #050505;
+            stroke: #ff5a00;
             stroke-width: 4;
         }
 	</style>
