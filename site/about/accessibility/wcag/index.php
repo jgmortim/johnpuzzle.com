@@ -232,8 +232,8 @@ include('../../../includes/footer.php');
             <tr>
                 <td>2.2.2 Pause, Stop, Hide</td>
                 <td>A</td>
-                <td>&#x274C;</td>
-                <td>Blinking is used on some calls to action</td>
+                <td>&#9989;</td>
+                <td>Some pages have blinking cursors, but they stop after 5 seconds.</td>
             </tr>
             <tr style="text-align: left">
                 <th colspan="4">2.3 Seizures and Physical Reactions</th>
