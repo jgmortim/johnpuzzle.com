@@ -24,14 +24,6 @@
         <priority>0.8000</priority>
     </url>
     <url>
-        <loc>https://johnpuzzle.com/about/privacy-policy/</loc>
-        <priority>0.2000</priority>
-    </url>
-    <url>
-        <loc>https://johnpuzzle.com/about/accessibility/</loc>
-        <priority>0.2000</priority>
-    </url>
-    <url>
         <loc>https://johnpuzzle.com/blog/weekend/</loc>
         <lastmod>2026-10-03</lastmod>
         <priority>0.5000</priority>
@@ -40,5 +32,17 @@
         <loc>https://johnpuzzle.com/blog/spectrograms/</loc>
         <lastmod>2026-09-12</lastmod>
         <priority>0.5000</priority>
+    </url>
+    <url>
+        <loc>https://johnpuzzle.com/about/privacy-policy/</loc>
+        <priority>0.2000</priority>
+    </url>
+    <url>
+        <loc>https://johnpuzzle.com/about/accessibility/</loc>
+        <priority>0.2000</priority>
+    </url>
+    <url>
+        <loc>https://johnpuzzle.com/about/accessibility/wcag/</loc>
+        <priority>0.2000</priority>
     </url>
 </urlset>
