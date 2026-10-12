@@ -24,10 +24,9 @@ jobs:
         run: |
           mkdir -p dist
 
-          # Copy static assets, excluding source JS, CSS, and SCSS
+          # Copy static assets, excluding source JS and SCSS
           rsync -av \
             --exclude='*.js' \
-            --exclude='*.css' \
             --exclude='*.scss' \
             site/ dist/
 
