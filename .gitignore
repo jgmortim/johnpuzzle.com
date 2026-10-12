@@ -1,5 +1,5 @@
 .idea
 
 # ignore compiled css
-*.css
-*.css.map
+site/css/*.css
+site/css/*.css.map
