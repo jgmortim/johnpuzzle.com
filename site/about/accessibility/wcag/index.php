@@ -233,7 +233,7 @@ include('../../../includes/footer.php');
                 <td>2.2.2 Pause, Stop, Hide</td>
                 <td>A</td>
                 <td>&#x274C;</td>
-                <td>Blinking is used to show focus traversal and other calls to action</td>
+                <td>Blinking is used on some calls to action</td>
             </tr>
             <tr style="text-align: left">
                 <th colspan="4">2.3 Seizures and Physical Reactions</th>

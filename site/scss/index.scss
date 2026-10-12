@@ -35,11 +35,6 @@
 	--text-green: #80ffd5;
 }
 
-:focus:not(video) {
-	outline: none;
-	animation: blinker 1s step-start infinite;
-}
-
 html {
 	scrollbar-gutter: stable;
 	font-family: "Iosevka Custom Web", monospace;
