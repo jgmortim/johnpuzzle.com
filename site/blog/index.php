@@ -7,6 +7,8 @@ include('../includes/footer.php');
 <head>
     <title>John Puzzle - Blog</title>
     <meta charset="UTF-8">
+    <meta name="keywords" content="John Puzzle, ARG, Puzzle, Blog">
+    <meta name="description" content="John Puzzle's Blog">
     <meta name="author" content="John Mortimore">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../images/trilobyte.svg">

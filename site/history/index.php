@@ -8,6 +8,8 @@ include('../includes/images.php');
 <head>
     <title>John Puzzle - History</title>
     <meta charset="UTF-8">
+    <meta name="keywords" content="John Puzzle, ARG, Puzzle, History, Cicada, Cicada Detroit, Cicada Challenge, ARGHouse, LEDecode, Break the Code, ECGO, HISAC, KFC, Colonel's Secret, ER Champs, XIXMAS, Cell Operations, Weekend at the End of the World, Find Buzzy">
+    <meta name="description" content="John Puzzle's ARG history">
     <meta name="author" content="John Mortimore">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../images/trilobyte.svg">

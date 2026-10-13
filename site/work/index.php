@@ -7,6 +7,8 @@ include('../includes/footer.php');
 <head>
     <title>John Puzzle - Work</title>
     <meta charset="UTF-8">
+    <meta name="keywords" content="John Puzzle, ARG, Software, Puzzle, ARGHouse, Weekend at the End of the World, Stolen Kingdom, Find Buzzy">
+    <meta name="description" content="John Puzzle's professional project highlights">
     <meta name="author" content="John Mortimore">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../images/trilobyte.svg">

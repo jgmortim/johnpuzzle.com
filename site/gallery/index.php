@@ -90,6 +90,8 @@ $photos = [
 <head>
     <title>John Puzzle - Gallery</title>
     <meta charset="UTF-8">
+    <meta name="keywords" content="John Puzzle, ARG, Photo, Gallery, Cicada, Cicada Detroit, Cicada Challenge, ARGHouse, steganography, QLEDecode, Break the Code, Geocaching, Cell Ops, Cell Operations, ER Champs, Stolen Kingdom">
+    <meta name="description" content="John Puzzle's photo gallery">
     <meta name="author" content="John Mortimore">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../images/trilobyte.svg">

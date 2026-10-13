@@ -7,6 +7,8 @@ include('../../includes/footer.php');
 <head>
     <title>John Puzzle - Spectrograms</title>
     <meta charset="UTF-8">
+    <meta name="keywords" content="John Puzzle, Spectrogram, ARG, Blog, Find Buzzy, Book Cipher, barcode, XIXMAS, Rune, Stolen Kingdom, Cassette, Cicada Challenge">
+    <meta name="description" content="Case study of spectrograms in ARG puzzles">
     <meta name="author" content="John Mortimore">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../../images/trilobyte.svg">

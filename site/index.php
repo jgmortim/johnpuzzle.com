@@ -7,6 +7,8 @@ include('./includes/footer.php');
 <head>
 	<title>John Puzzle</title>
     <meta charset="UTF-8">
+    <meta name="keywords" content="John Puzzle, ARG, Software, Puzzle, Blog, Cicada, Cicada Detroit, Cicada Challenge, ARGHouse">
+    <meta name="description" content="Personal Website of John Puzzle">
     <meta name="author" content="John Mortimore">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="images/trilobyte.svg">
