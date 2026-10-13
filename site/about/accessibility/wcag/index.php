@@ -95,6 +95,30 @@ include('../../../includes/footer.php');
                 <td>&#x274C;</td>
                 <td></td>
             </tr>
+            <tr>
+                <td>1.2.6 Sign Language (Prerecorded)</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.2.7 Extended Audio Description (Prerecorded)</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.2.8 Media Alternative (Prerecorded)</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.2.9 Audio-only (Live)</td>
+                <td>AAA</td>
+                <td>&#9989;</td>
+                <td>This site does not utilize live media of any kind.</td>
+            </tr>
             <tr style="text-align: left">
                 <th colspan="4">1.3 Adaptable</th>
             </tr>
@@ -128,6 +152,12 @@ include('../../../includes/footer.php');
                 <td>&#9989;</td>
                 <td>This site has no input fields</td>
             </tr>
+            <tr>
+                <td>1.3.6 Identify Purpose</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
             <tr style="text-align: left">
                 <th colspan="4">1.4 Distinguishable</th>
             </tr>
@@ -159,6 +189,30 @@ include('../../../includes/footer.php');
                 <td>1.4.5 Images of Text</td>
                 <td>AA</td>
                 <td>&#9989;</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.4.6 Contrast (Enhanced)</td>
+                <td>AAA</td>
+                <td>&#x274C;</td>
+                <td>See notes on color contrast below</td>
+            </tr>
+            <tr>
+                <td>1.4.7 Low or No Background Audio</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.4.8 Visual Presentation</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.4.9 Images of Text (No Exception)</td>
+                <td>AAA</td>
+                <td></td>
                 <td></td>
             </tr>
             <tr>
@@ -203,7 +257,7 @@ include('../../../includes/footer.php');
                 <th colspan="4">2.1 Keyboard Accessible</th>
             </tr>
             <tr>
-                <td> 2.1.1 Keyboard</td>
+                <td>2.1.1 Keyboard</td>
                 <td>A</td>
                 <td>&#9989;</td>
                 <td></td>
@@ -211,6 +265,12 @@ include('../../../includes/footer.php');
             <tr>
                 <td>2.1.2 No Keyboard Trap</td>
                 <td>A</td>
+                <td>&#9989;</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.1.3 Keyboard (No Exception)</td>
+                <td>AAA</td>
                 <td>&#9989;</td>
                 <td></td>
             </tr>
@@ -235,6 +295,30 @@ include('../../../includes/footer.php');
                 <td>&#9989;</td>
                 <td>Some pages have blinking cursors, but they stop after 5 seconds.</td>
             </tr>
+            <tr>
+                <td>2.2.3 No Timing</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.2.4 Interruptions</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.2.5 Re-authenticating</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.2.6 Timeouts</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
             <tr style="text-align: left">
                 <th colspan="4">2.3 Seizures and Physical Reactions</th>
             </tr>
@@ -244,11 +328,23 @@ include('../../../includes/footer.php');
                 <td>&#9989;</td>
                 <td></td>
             </tr>
+            <tr>
+                <td>2.3.2 Three Flashes</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.3.3 Animation from Interactions</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
             <tr style="text-align: left">
                 <th colspan="4">2.4 Navigable</th>
             </tr>
             <tr>
-                <td> 2.4.1 Bypass Blocks</td>
+                <td>2.4.1 Bypass Blocks</td>
                 <td>A</td>
                 <td>&#9989;</td>
                 <td></td>
@@ -290,8 +386,38 @@ include('../../../includes/footer.php');
                 <td></td>
             </tr>
             <tr>
+                <td>2.4.8 Location</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.4.9 Link Purpose (Link Only)</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.4.10 Section Headings</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
                 <td>2.4.11 Focus Not Obscured (Minimum)</td>
                 <td>AA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.4.12 Focus Not Obscured (Enhanced)</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.4.13 Focus Appearance</td>
+                <td>AAA</td>
                 <td></td>
                 <td></td>
             </tr>
@@ -321,6 +447,18 @@ include('../../../includes/footer.php');
                 <td>A</td>
                 <td>&#9989;</td>
                 <td>No motion actuation in use</td>
+            </tr>
+            <tr>
+                <td>2.5.5 Target Size (Enhanced)</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.5.6 Concurrent Input Mechanisms</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
                 <td>2.5.7 Dragging Movements</td>
@@ -363,6 +501,30 @@ include('../../../includes/footer.php');
                 <td>&#9989;</td>
                 <td></td>
             </tr>
+            <tr>
+                <td>3.1.3 Unusual Words</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.1.4 Abbreviations</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.1.5 Reading Level</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.1.6 Pronunciation</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
             <tr style="text-align: left">
                 <th colspan="4">3.2 Predictable</th>
             </tr>
@@ -388,6 +550,12 @@ include('../../../includes/footer.php');
                 <td>3.2.4 Consistent Identification</td>
                 <td>AA</td>
                 <td>&#9989;</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.2.5 Change on Request</td>
+                <td>AAA</td>
+                <td></td>
                 <td></td>
             </tr>
             <tr>
@@ -424,6 +592,18 @@ include('../../../includes/footer.php');
                 <td>No legal commitments or financial transactions on site</td>
             </tr>
             <tr>
+                <td>3.3.5 Help</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.3.6 Error Prevention (All)</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
                 <td>3.3.7 Redundant Entry</td>
                 <td>A</td>
                 <td>&#9989;</td>
@@ -433,6 +613,12 @@ include('../../../includes/footer.php');
                 <td>3.3.8 Accessible Authentication (Minimum)</td>
                 <td>AA</td>
                 <td>&#9989;</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.3.9 Accessible Authentication (Enhanced)</td>
+                <td>AAA</td>
+                <td></td>
                 <td></td>
             </tr>
         </table>
