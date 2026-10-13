@@ -15,10 +15,10 @@ include('../../includes/footer.php');
 </head>
 <body>
 <?php renderHeader('ABOUT'); ?>
-<main>
-    <nav id="breadcrumbs">
-        <a href="/">Home</a> > About > Accessibility
-    </nav>
+<nav id="breadcrumbs">
+    <a href="/">Home</a> > About > Accessibility
+</nav>
+<main id="main-content" tabindex="-1">
     <hr>
     <h2>Accessibility</h2>
     <hr>

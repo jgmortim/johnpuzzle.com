@@ -14,10 +14,10 @@ include('../../includes/footer.php');
 </head>
 <body>
 <?php renderHeader('BLOG'); ?>
-<main>
-    <nav id="breadcrumbs">
-        <a href="/">Home</a> > <a href="/blog/">Blog</a> > Spectrograms
-    </nav>
+<nav id="breadcrumbs">
+    <a href="/">Home</a> > <a href="/blog/">Blog</a> > Spectrograms
+</nav>
+<main id="main-content" tabindex="-1">
     <article>
         <p>Published: 2026-08-30 &nbsp; Updated: 2026-08-30</p>
         <section>

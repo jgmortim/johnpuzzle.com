@@ -98,10 +98,10 @@ $photos = [
 </head>
 <body>
 <?php renderHeader('GALLERY'); ?>
-<main>
-    <nav id="breadcrumbs">
-        <a href="/">Home</a> > Gallery
-    </nav>
+<nav id="breadcrumbs">
+    <a href="/">Home</a> > Gallery
+</nav>
+<main id="main-content" tabindex="-1">
     <section class="main-section">
         <hr>
         <h2>0 // Photo Gallery</h2>

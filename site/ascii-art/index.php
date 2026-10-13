@@ -15,10 +15,10 @@ include('../includes/footer.php');
 </head>
 <body>
 <?php renderHeader('SECRETS'); ?>
-<main>
-    <nav id="breadcrumbs">
-        <a href="/">Home</a> > Secrets > ASCII Art
-    </nav>
+<nav id="breadcrumbs">
+    <a href="/">Home</a> > Secrets > ASCII Art
+</nav>
+<main id="main-content" tabindex="-1">
     <p>Congrats! You found a secret page. This secret page contains a collection of ASCII Art that I've created.</p>
     <p style="overflow: hidden; white-space: nowrap;">"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-.</p>
     <h2>My ASCII ART</h2>

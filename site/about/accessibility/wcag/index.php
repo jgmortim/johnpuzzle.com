@@ -15,30 +15,30 @@ include('../../../includes/footer.php');
 </head>
 <body>
 <?php renderHeader('ABOUT'); ?>
-<main>
-    <nav id="breadcrumbs">
-        <a href="/">Home</a> > About > <a href="/about/accessibility/">Accessibility</a> > WCAG
-    </nav>
+<nav id="breadcrumbs">
+    <a href="/">Home</a> > About > <a href="/about/accessibility/">Accessibility</a> > WCAG
+</nav>
+<main id="main-content" tabindex="-1">
     <section class="main-section">
         <hr>
-        <h2>Web Content Accessibility Guidelines (WCAG) 2.2 Compliance</h2>
+        <h2>Web Content Accessibility Guidelines (WCAG) 2.2 Conformance</h2>
         <hr>
         <p>
             <strong>Web Content Accessibility Guidelines 2.2</strong>: <a href="https://www.w3.org/TR/WCAG22/" target="_blank">www.w3.org/TR/WCAG22/</a><br>
-            <strong>Conformance level satisfied</strong>: None<br>
-            <strong>Date</strong>: N/A<br>
-            <strong>Scope</strong>: All primary content. Secret content excluded, see disclaimer below
+            <strong>Conformance level satisfied</strong>: Level A<br>
+            <strong>Date</strong>: 2026-10-12<br>
+            <strong>Scope</strong>: All pages listed in the <a href="sitemap.xml">sitemap</a>. Secret content excluded, see disclaimer below
         </p>
         <p>
-            This website is still being developed, but I am making an effort to adhere to the WCAG 2.2 standards. Starting with a focus
-            on level A Criterion and then working through AA and AAA as I progress. Tracking of WCAG 2.2 compliance is detailed below.
+            This website is still being developed, but I am making an effort to adhere to the WCAG 2.2 standards.
+            Tracking of WCAG 2.2 conformance is detailed below.
         </p>
         <h3>Disclaimer</h3>
         <p>
             As a puzzle maker, I will occasionally hide things in this website. These things are meant to be hidden and not easily
-            discovered. As a result, they are likely to not meet accessibility standards. These hidden features will never interfere
-            with the accessibility of this site's primary content. However, these hidden features are not considered by the table
-            below.
+            discovered (which is why they are excluded from the sitemap). As a result, they are likely to not meet accessibility
+            standards. These hidden features will never interfere with the accessibility of this site's primary content. However,
+            these hidden features are not considered by the conformance claims made on this page.
         </p>
     </section>
     <section class="main-section">
@@ -250,8 +250,8 @@ include('../../../includes/footer.php');
             <tr>
                 <td> 2.4.1 Bypass Blocks</td>
                 <td>A</td>
-                <td>&#x274C;</td>
-                <td>No current means to skip header and breadcrumbs</td>
+                <td>&#9989;</td>
+                <td></td>
             </tr>
             <tr>
                 <td>2.4.2 Page Titled</td>

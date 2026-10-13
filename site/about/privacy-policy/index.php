@@ -14,10 +14,10 @@ include('../../includes/footer.php');
 </head>
 <body>
 <?php renderHeader('ABOUT'); ?>
-<main>
-    <nav id="breadcrumbs">
-        <a href="/">Home</a> > About > Privacy Policy
-    </nav>
+<nav id="breadcrumbs">
+    <a href="/">Home</a> > About > Privacy Policy
+</nav>
+<main id="main-content" tabindex="-1">
     <hr>
     <h2>Privacy Policy</h2>
     <hr>

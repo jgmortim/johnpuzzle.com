@@ -39,6 +39,7 @@ html {
 	scrollbar-gutter: stable;
 	font-family: "Iosevka Custom Web", monospace;
 	font-stretch: expanded;
+	@include crt-text-orange();
 }
 
 body {
@@ -57,7 +58,6 @@ main {
 	padding-left: 1rem;
 	border-radius: 10px;
 	background-color: var(--main-color);
-	@include crt-text-orange();
 }
 
 header {
@@ -257,13 +257,32 @@ video {
 	margin: 0;
 }
 
+.skip-link {
+	top: 0;
+	right: calc(((100% - min(100%, 1250px)) / 2) + .25 * min(100%, 1250px));
+	position: absolute;
+	z-index: 9999;
+	padding: 0.75rem 1rem;
+	background: var(--background-color);
+	height: fit-content;
+	transform: translateY(-100%);
+}
+
+.skip-link:focus {
+	transform: translateY(0);
+}
+
 .blink {
 	animation: blinker 1.25s step-start infinite;
 }
 
 #breadcrumbs {
+	width: min(100%, 1250px);
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
 	margin-bottom: 1rem;
-	padding-top: 1rem;
+	padding: 1rem 1rem 0;
 }
 
 #breadcrumbs a {
@@ -319,6 +338,11 @@ video {
 
 	footer {
 		margin-top: 1vw;
+	}
+
+	.skip-link {
+		left: 0;
+		right: unset;
 	}
 
 	#header-logo {

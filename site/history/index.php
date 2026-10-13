@@ -16,10 +16,10 @@ include('../includes/images.php');
 </head>
 <body>
 <?php renderHeader('HISTORY'); ?>
-<main>
-    <nav id="breadcrumbs">
-        <a href="/">Home</a> > History
-    </nav>
+<nav id="breadcrumbs">
+    <a href="/">Home</a> > History
+</nav>
+<main id="main-content" tabindex="-1">
     <section class="main-section">
         <hr>
         <h2>0 // Puzzle Solver</h2>

@@ -14,10 +14,10 @@ include('./includes/footer.php');
 </head>
 <body>
     <?php renderHeader('HOME'); ?>
-	<main>
-		<nav id="breadcrumbs">
-			Home
-		</nav>
+    <nav id="breadcrumbs">
+        Home
+    </nav>
+	<main id="main-content" tabindex="-1">
         <section class="main-section">
             <hr>
             <h2>0 // WELCOME</h2>

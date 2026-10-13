@@ -15,10 +15,10 @@ include('../includes/footer.php');
 </head>
 <body>
 <?php renderHeader('WORK'); ?>
-<main>
-    <nav id="breadcrumbs">
-        <a href="/">Home</a> > Work
-    </nav>
+<nav id="breadcrumbs">
+    <a href="/">Home</a> > Work
+</nav>
+<main id="main-content" tabindex="-1">
     <hr>
     <section class="work-item">
         <h2>Weekend at the End of The World ARG</h2>

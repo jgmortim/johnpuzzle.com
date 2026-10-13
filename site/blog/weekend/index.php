@@ -29,10 +29,10 @@ $photos = [
 </head>
 <body>
 <?php renderHeader('BLOG'); ?>
-<main>
-    <nav id="breadcrumbs">
-        <a href="/">Home</a> > <a href="/blog/">Blog</a> > Weekend at the End of the World
-    </nav>
+<nav id="breadcrumbs">
+    <a href="/">Home</a> > <a href="/blog/">Blog</a> > Weekend at the End of the World
+</nav>
+<main id="main-content" tabindex="-1">
     <article>
         <p>Published: 2026-10-03</p>
         <hr>
