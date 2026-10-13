@@ -27,7 +27,7 @@ include('../../../includes/footer.php');
             <strong>Web Content Accessibility Guidelines 2.2</strong>: <a href="https://www.w3.org/TR/WCAG22/" target="_blank">www.w3.org/TR/WCAG22/</a><br>
             <strong>Conformance level satisfied</strong>: Level A<br>
             <strong>Date</strong>: 2026-10-12<br>
-            <strong>Scope</strong>: All pages listed in the <a href="sitemap.xml">sitemap</a>. Secret content excluded, see disclaimer below
+            <strong>Scope</strong>: All pages listed in the <a href="/sitemap.xml">sitemap</a>. Secret content excluded, see disclaimer below
         </p>
         <p>
             This website is still being developed, but I am making an effort to adhere to the WCAG 2.2 standards.
