@@ -20,7 +20,7 @@ $photos = [
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>John Puzzle - Work</title>
+    <title>John Puzzle - Weekend at the End of the World</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../../images/trilobyte.svg">
     <link rel="canonical" href="https://johnpuzzle.com/blog/weekend/">

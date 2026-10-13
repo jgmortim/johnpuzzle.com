@@ -6,7 +6,7 @@ include('../includes/footer.php');
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>John Puzzle - Gallery</title>
+    <title>John Puzzle - ASCII Art</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../images/trilobyte.svg">
     <link rel="canonical" href="https://johnpuzzle.com/ascii-art/">
