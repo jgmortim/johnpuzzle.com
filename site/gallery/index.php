@@ -70,6 +70,11 @@ $photos = [
         'caption' => '2025-08-01: First meetup of "Bug Squad" during Round 1 of <i>Cicada Detroit</i>.'
     ],
     [
+        'src' => '../images/kfc-win.png',
+        'alt' => 'Screenshot from the winning screen of the KFC ARG.',
+        'caption' => '2025-07-20: Winning 11 months of chicken in the KFC ARG.'
+    ],
+    [
         'src' => '../images/art-prize-waldo.webp',
         'alt' => '"Where\'s Waldo" stamp card.',
         'caption' => '2023-09-30: Finding Waldo at Art Prize with my wife.'
@@ -122,7 +127,7 @@ $totalPages = ceil((count($photos)/$imagesPerPage));
         <h2>0 // Photo Gallery</h2>
         <hr>
         <?php renderPhotoGallery(array_slice($photos, $start, $imagesPerPage), 4) ?>
-        <div class="pagination" style="margin-top: 1rem">
+        <div class="pagination" style="margin-top: 2rem">
             <button <?php echo ($page <= 1)? "disabled" : ""?> class="" type="button" onclick="decreasePage(<?php echo $page ?>)">&lt;</button>
             <?php echo "Page ".$page." of ".$totalPages?>
             <button <?php echo ($page >= count($photos)/$imagesPerPage)? "disabled" : ""?> class="" type="button" onclick="increasePage(<?php echo $page ?>)">&gt;</button>

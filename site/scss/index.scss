@@ -153,9 +153,7 @@ th, td {
 
 button {
 	border-radius: 3px;
-	//padding: 1rem;
 	border: 2px solid var(--text-orange);
-	margin: .5rem 0;
 	background: transparent;
 	@include crt-text-green;
 	cursor: pointer;
