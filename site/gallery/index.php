@@ -6,7 +6,7 @@ include('../includes/images.php');
 $queries = array();
 parse_str($_SERVER['QUERY_STRING'], $queries);
 $page= array_key_exists('page', $queries) ? $queries['page'] : 1;
-$imagesPerPage=16;
+$imagesPerPage=12;
 $start = ($page - 1) * $imagesPerPage;
 $photos = [
     [
@@ -68,6 +68,11 @@ $photos = [
         'src' => '../images/cicada-detroit-bug-squad.webp',
         'alt' => 'Me and my friends sitting around a table at a restaurant.',
         'caption' => '2025-08-01: First meetup of "Bug Squad" during Round 1 of <i>Cicada Detroit</i>.'
+    ],
+    [
+        'src' => '../images/art-prize-waldo.webp',
+        'alt' => '"Where\'s Waldo" stamp card.',
+        'caption' => '2023-09-30: Finding Waldo at Art Prize with my wife.'
     ],
     [
         'src' => '../images/btc2-top-20-na.webp',
