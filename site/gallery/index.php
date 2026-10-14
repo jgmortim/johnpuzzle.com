@@ -6,7 +6,7 @@ include('../includes/images.php');
 $queries = array();
 parse_str($_SERVER['QUERY_STRING'], $queries);
 $page= array_key_exists('page', $queries) ? $queries['page'] : 1;
-$imagesPerPage=12;
+$imagesPerPage=16;
 $start = ($page - 1) * $imagesPerPage;
 $photos = [
     [
