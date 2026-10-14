@@ -2,6 +2,12 @@
 include('../includes/header.php');
 include('../includes/footer.php');
 include('../includes/images.php');
+
+$queries = array();
+parse_str($_SERVER['QUERY_STRING'], $queries);
+$page= array_key_exists('page', $queries) ? $queries['page'] : 1;
+$imagesPerPage=16;
+$start = ($page - 1) * $imagesPerPage;
 $photos = [
     [
         'src' => '../images/early-stego.webp',
@@ -84,6 +90,7 @@ $photos = [
         'caption' => '2026-09-19: <i>Cell Ops</i> Team 10 (and BNS) with the katana we would later win for being first to complete Node 15.'
     ]
 ];
+$totalPages = ceil((count($photos)/$imagesPerPage));
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -109,7 +116,12 @@ $photos = [
         <hr>
         <h2>0 // Photo Gallery</h2>
         <hr>
-        <?php renderPhotoGallery($photos, 4) ?>
+        <?php renderPhotoGallery(array_slice($photos, $start, $imagesPerPage), 4) ?>
+        <div class="pagination" style="margin-top: 1rem">
+            <button <?php echo ($page <= 1)? "disabled" : ""?> class="" type="button" onclick="decreasePage(<?php echo $page ?>)">&lt;</button>
+            <?php echo "Page ".$page." of ".$totalPages?>
+            <button <?php echo ($page >= count($photos)/$imagesPerPage)? "disabled" : ""?> class="" type="button" onclick="increasePage(<?php echo $page ?>)">&gt;</button>
+        </div>
     </section>
     <hr>
 </main>

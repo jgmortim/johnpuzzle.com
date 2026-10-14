@@ -151,6 +151,32 @@ th, td {
 
 /*cleaned up to here*/
 
+button {
+	border-radius: 3px;
+	//padding: 1rem;
+	border: 2px solid var(--text-orange);
+	margin: .5rem 0;
+	background: transparent;
+	@include crt-text-green;
+	cursor: pointer;
+	min-width: 24px;
+	min-height: 24px;
+}
+
+button:disabled {
+	@include crt-text-orange;
+	opacity: .4;
+	cursor: unset;
+}
+
+.pagination {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
 footer p:first-child {
 	margin-top: 0;
 }

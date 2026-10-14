@@ -22,3 +22,21 @@ setTimeout(()=> {
     });
 }, 5000)
 
+
+function increasePage(number) {
+    number++;
+    if ('URLSearchParams' in window) {
+        const searchParams = new URLSearchParams(window.location.search);
+        searchParams.set("page", number);
+        window.location.search = searchParams.toString();
+    }
+}
+
+function decreasePage(number) {
+    number--;
+    if ('URLSearchParams' in window) {
+        const searchParams = new URLSearchParams(window.location.search);
+        searchParams.set("page", number);
+        window.location.search = searchParams.toString();
+    }
+}
