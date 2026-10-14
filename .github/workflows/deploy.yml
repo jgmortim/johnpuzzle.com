@@ -26,12 +26,11 @@ jobs:
 
           # Copy static assets, excluding source JS and SCSS
           rsync -av \
-            --exclude='*.js' \
             --exclude='*.scss' \
             site/ dist/
 
           # Bundle + minify JS
-          npx esbuild site/js/*.js --bundle --minify --outdir=dist/js
+          # npx esbuild site/js/*.js --bundle --minify --outdir=dist/js
 
           # Compile SCSS to minified CSS 
           npx sass site/scss:dist/css --style=compressed
