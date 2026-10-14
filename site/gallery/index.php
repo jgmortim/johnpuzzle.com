@@ -30,6 +30,11 @@ $photos = [
         'caption' => '2026-02-20: Claiming recon charm 003r in the <i>Cell Ops</i> Scout mission R3C0N.'
     ],
     [
+        'src' => '../images/xfinity-jurassic.webp',
+        'alt' => 'Screenshot of a Jurassic Park themed solve screen.',
+        'caption' => '2026-01-29: Solving an Xfinity x Jurassic Park promo puzzle.'
+    ],
+    [
         'src' => '../images/cell-ops-extraction-001.webp',
         'alt' => 'Scoreboard showing completion times with myself in first.',
         'caption' => '2026-01-10: Leaderboard for <i>Cell Ops</i> Extraction 001.'
