@@ -1,4 +1,4 @@
-@import "../fonts/IosevkaCustom/IosevkaCustom.css";
+@use "IosevkaCustom.scss";
 
 @mixin crt-text-green() {
 	color: var(--text-green);
