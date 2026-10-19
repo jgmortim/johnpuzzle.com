@@ -2,6 +2,7 @@
 include('../includes/header.php');
 include('../includes/footer.php');
 include('../includes/images.php');
+include('../includes/assets.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -123,6 +124,6 @@ include('../includes/images.php');
     <hr>
 </main>
 <?php renderFooter(); ?>
-<script src="../js/index.js"></script>
+<script src="../js/index.js?v=<?= assetVersion() ?>" defer></script>
 </body>
 </html>

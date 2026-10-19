@@ -2,6 +2,7 @@
 include('../includes/header.php');
 include('../includes/footer.php');
 include('../includes/images.php');
+include('../includes/assets.php');
 
 $queries = array();
 parse_str($_SERVER['QUERY_STRING'], $queries);
@@ -141,6 +142,6 @@ $totalPages = ceil((count($photos)/$imagesPerPage));
     <hr>
 </main>
 <?php renderFooter(); ?>
-<script src="../js/index.js"></script>
+<script src="../js/index.js?v=<?= assetVersion() ?>" defer></script>
 </body>
 </html>

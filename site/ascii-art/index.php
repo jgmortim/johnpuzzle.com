@@ -1,7 +1,7 @@
 <?php
 include('../includes/header.php');
 include('../includes/footer.php');
-include('../includes/assets.php')
+include('../includes/assets.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
