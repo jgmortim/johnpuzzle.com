@@ -40,7 +40,3 @@ function decreasePage(number) {
         window.location.search = searchParams.toString();
     }
 }
-
-function test() {
-    console.log("test");
-}
