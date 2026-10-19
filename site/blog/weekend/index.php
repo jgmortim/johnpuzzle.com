@@ -2,6 +2,7 @@
 include('../../includes/header.php');
 include('../../includes/footer.php');
 include('../../includes/images.php');
+include('../../includes/assets.php');
 
 $photos = [
     [
@@ -124,6 +125,6 @@ $photos = [
     </article>
 </main>
 <?php renderFooter(); ?>
-<script src="../../js/index.js"></script>
+<script src="../../js/index.js?v=<?= assetVersion() ?>" defer></script>
 </body>
 </html>
