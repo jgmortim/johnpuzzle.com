@@ -14,8 +14,8 @@ include('../../../includes/assets.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../../../images/trilobyte.svg">
     <link rel="canonical" href="https://johnpuzzle.com/about/accessibility/wcag/">
-    <link rel="stylesheet" href="../../../css/index.css">
-    <link rel="stylesheet" href="../../../css/accessibility.css">
+    <link rel="stylesheet" href="<?= asset('/css/index.css') ?>">
+    <link rel="stylesheet" href="<?= asset('/css/accessibility.css') ?>">
 </head>
 <body>
 <?php renderHeader('ABOUT'); ?>
