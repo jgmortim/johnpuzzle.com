@@ -140,6 +140,6 @@ include('../../includes/assets.php');
     </article>
 </main>
 <?php renderFooter(); ?>
-<script src="../../js/index.js?v=<?= assetVersion() ?>" defer></script>
+<script src="<?= asset('../../js/index.js') ?>" defer></script>
 </body>
 </html>

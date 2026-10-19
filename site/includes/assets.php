@@ -1,12 +1,13 @@
 <?php
 
-function assetVersion(): string {
-    $versionFile = dirname(__DIR__) . '/version.txt';
+function asset(string $url): string {
+    $file = rtrim($_SERVER['DOCUMENT_ROOT'], '/\\')
+        . DIRECTORY_SEPARATOR
+        . ltrim($url, '/');
 
-    if (file_exists($versionFile)) {
-        return trim(file_get_contents($versionFile));
+    if (!file_exists($file)) {
+        return $url;
     }
 
-    // Local development fallback
-    return (string) filemtime(dirname(__DIR__) . '/index.php');
+    return $url . '?v=' . filemtime($file);
 }

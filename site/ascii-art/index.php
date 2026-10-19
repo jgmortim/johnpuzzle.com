@@ -15,7 +15,6 @@ include('../includes/assets.php');
     <link rel="icon" type="image/x-icon" href="../images/trilobyte.svg">
     <link rel="canonical" href="https://johnpuzzle.com/ascii-art/">
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/gallery.css">
 </head>
 <body>
 <?php renderHeader('SECRETS'); ?>
@@ -93,6 +92,6 @@ include('../includes/assets.php');
     <p style="overflow: hidden; white-space: nowrap;">"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-.</p>
 </main>
 <?php renderFooter(); ?>
-<script src="../js/index.js?v=<?= assetVersion() ?>" defer></script>
+<script src="<?= asset('../js/index.js') ?>" defer></script>
 </body>
 </html>
