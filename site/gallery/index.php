@@ -142,6 +142,6 @@ $totalPages = ceil((count($photos)/$imagesPerPage));
     <hr>
 </main>
 <?php renderFooter(); ?>
-<script src="<?= asset('../js/index.js') ?>" defer></script>
+<script src="<?= asset('/js/index.js') ?>" defer></script>
 </body>
 </html>
