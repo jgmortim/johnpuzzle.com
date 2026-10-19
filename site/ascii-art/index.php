@@ -92,6 +92,6 @@ include('../includes/assets.php');
     <p style="overflow: hidden; white-space: nowrap;">"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-.</p>
 </main>
 <?php renderFooter(); ?>
-<script src="<?= asset('../js/index.js') ?>" defer></script>
+<script src="<?= asset('js/index.js') ?>" defer></script>
 </body>
 </html>
