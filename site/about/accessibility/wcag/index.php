@@ -700,6 +700,6 @@ include('../../../includes/assets.php');
     <hr>
 </main>
 <?php renderFooter(); ?>
-<script src="<?= asset('js/index.js') ?>" defer></script>
+<script src="<?= asset('../../../js/index.js') ?>" defer></script>
 </body>
 </html>
