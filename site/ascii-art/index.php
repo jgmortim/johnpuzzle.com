@@ -22,7 +22,10 @@ include('../includes/assets.php');
     <a href="/">Home</a> > Secrets > ASCII Art
 </nav>
 <main id="main-content" tabindex="-1">
-    <p>Congrats! You found a secret page. This secret page contains a collection of ASCII Art that I've created.</p>
+    <p>
+        Congrats! You found a secret page.<br> This secret page contains a collection of ASCII Art that I've created.
+        Many of these make appearances on other secret pages.
+    </p>
     <p style="overflow: hidden; white-space: nowrap;">"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-.</p>
     <h2>My ASCII ART</h2>
     <p style="overflow: hidden; white-space: nowrap;">"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-.</p>
@@ -56,6 +59,7 @@ include('../includes/assets.php');
  | . . |             | . . |   /_/_|_\
  /_/_|_\             /_|_\_\
     </pre>
+    <p>Secret pages: 2</p>
     <h3>Tiny Peggy</h3>
     <pre>
       /`/\/`,.
@@ -66,6 +70,7 @@ include('../includes/assets.php');
    | | | | '-|_|
   |_|  |_|
     </pre>
+    <p>Secret pages: 1</p>
     <h3>Trilobyte</h3>
     <pre>
     _______
@@ -78,6 +83,7 @@ include('../includes/assets.php');
    ,.~'*'~.,
     ,~'*'~,
     </pre>
+    <p>Secret pages: N/A</p>
     <h3>Floppy Disk</h3>
     <pre>
      ___________________
@@ -89,6 +95,7 @@ include('../includes/assets.php');
 ¦___/___________/__//
 '==-\___________\==´
     </pre>
+    <p>Secret pages: 1</p>
     <h3>Cicada</h3>
     <pre>
                         ,---,
@@ -100,7 +107,8 @@ include('../includes/assets.php');
          /       __-   '(_~_)'   -__       \
          :_____--       (_~_)       --_____:
                          \_/
-                </pre>
+    </pre>
+    <p>Secret pages: 2</p>
     <p style="overflow: hidden; white-space: nowrap;">"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-.</p>
 </main>
 <?php renderFooter(); ?>
