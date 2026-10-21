@@ -45,4 +45,8 @@
         <loc>https://johnpuzzle.com/about/accessibility/wcag/</loc>
         <priority>0.2000</priority>
     </url>
+    <url>
+        <loc>https://johnpuzzle.com/about/ai/</loc>
+        <priority>0.2000</priority>
+    </url>
 </urlset>
