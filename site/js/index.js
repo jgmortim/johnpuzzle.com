@@ -3,25 +3,41 @@ const blinkingElements = document.getElementsByClassName('blink');
 
 Array.from(popupContainers).forEach((el) => {
     el.addEventListener('click', (event) => {
-
         if (event.target === event.currentTarget) {
             el.hidePopover();
         }
     });
 });
 
-
 document.getElementById('header-logo').addEventListener("dblclick", () => {
     window.location.href = "https://johnpuzzle.com/ascii-art/";
 })
 
-// Turn off blinkers after 5 seconds.
-setTimeout(()=> {
-    Array.from(blinkingElements).forEach((el) => {
-        el.classList.remove('blink')
-    });
-}, 5000)
+// Blinkers turn off 5 seconds after they first appear on screen.
+Array.from(blinkingElements).forEach((el) => {
+    respondToVisibility(el, visible => {
+        if (visible) {
+            setTimeout(() => {
+                el.classList.remove('blink');
+            }, 5000)
+        }
+    })
+});
 
+// Based on https://stackoverflow.com/a/44670818
+function respondToVisibility(element, callback) {
+    const options = {
+        threshold: 1.0
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            callback(entry.intersectionRatio > 0);
+        });
+    }, options);
+
+    observer.observe(element);
+}
 
 function increasePage(number) {
     number++;
