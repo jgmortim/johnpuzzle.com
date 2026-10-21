@@ -124,9 +124,16 @@ $totalPages = ceil((count($photos)/$imagesPerPage));
 </head>
 <body>
 <?php renderHeader('GALLERY'); ?>
-<nav id="breadcrumbs">
-    <a href="/">Home</a> > Gallery
-</nav>
+
+<?php if ($page == 404):?>
+    <nav id="breadcrumbs">
+        <a href="/">Home</a> > <a href="/gallery/">Gallery</a> > Secret
+    </nav>
+<?php else:?>
+    <nav id="breadcrumbs">
+        <a href="/">Home</a> > Gallery
+    </nav>
+<?php endif;?>
 <main id="main-content" tabindex="-1">
     <section class="main-section">
         <hr>
