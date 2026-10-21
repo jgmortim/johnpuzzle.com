@@ -59,7 +59,7 @@ include('../includes/assets.php');
  | . . |             | . . |   /_/_|_\
  /_/_|_\             /_|_\_\
     </pre>
-    <p>Secret pages: 2</p>
+    <p>Secret pages: 1</p>
     <h3>Tiny Peggy</h3>
     <pre>
       /`/\/`,.
@@ -70,7 +70,7 @@ include('../includes/assets.php');
    | | | | '-|_|
   |_|  |_|
     </pre>
-    <p>Secret pages: 1</p>
+    <p>Secret pages: 0</p>
     <h3>Trilobyte</h3>
     <pre>
     _______
@@ -95,7 +95,7 @@ include('../includes/assets.php');
 ¦___/___________/__//
 '==-\___________\==´
     </pre>
-    <p>Secret pages: 1</p>
+    <p>Secret pages: 0</p>
     <h3>Cicada</h3>
     <pre>
                         ,---,
@@ -108,7 +108,7 @@ include('../includes/assets.php');
          :_____--       (_~_)       --_____:
                          \_/
     </pre>
-    <p>Secret pages: 2</p>
+    <p>Secret pages: 1</p>
     <p style="overflow: hidden; white-space: nowrap;">"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-.</p>
 </main>
 <?php renderFooter(); ?>
