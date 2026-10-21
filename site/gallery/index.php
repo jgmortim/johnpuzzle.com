@@ -130,13 +130,33 @@ $totalPages = ceil((count($photos)/$imagesPerPage));
 <main id="main-content" tabindex="-1">
     <section class="main-section">
         <hr>
-        <h2>0 // Photo Gallery</h2>
+        <h2>Photo Gallery</h2>
         <hr>
         <?php renderPhotoGallery(array_slice($photos, $start, $imagesPerPage), 4) ?>
+        <?php if ($page == 404):?>
+            <section style="display: flex; flex-direction:column; align-items: center">
+                <p>Congrats! You found a secret page.</p>
+                <pre>
+                        ,---,
+  _______----------___ .0   0. ___----------_______
+--                    \/.~~~.\/                    --
+ ---             ____- (_~~~_)-____              ---
+   ---     ____--     _(_~~~_)_    --____      ---
+     ---_--         _- (_~~~_) -_         --_---
+         /       __-   '(_~_)'   -__       \
+         :_____--       (_~_)       --_____:
+                         \_/
+                </pre>
+                <p><strong>404</strong></p>
+                <p>wrong, try again</p>
+
+            </section>
+
+        <?php endif;?>
         <div class="pagination" style="margin-top: 2rem">
-            <button <?php echo ($page <= 1)? "disabled" : ""?> class="" type="button" onclick="decreasePage(<?php echo $page ?>)">&lt;</button>
+            <button <?php echo ($page <= 1) ? "disabled" : ""?> class="" type="button" onclick="decreasePage(<?php echo $page ?>)">&lt;</button>
             <?php echo "Page ".$page." of ".$totalPages?>
-            <button <?php echo ($page >= count($photos)/$imagesPerPage)? "disabled" : ""?> class="" type="button" onclick="increasePage(<?php echo $page ?>)">&gt;</button>
+            <button <?php echo ($page >= count($photos)/$imagesPerPage) ? "disabled" : ""?> class="" type="button" onclick="increasePage(<?php echo $page ?>)">&gt;</button>
         </div>
     </section>
     <hr>
