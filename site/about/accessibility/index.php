@@ -22,23 +22,24 @@ include('../../includes/assets.php');
     <a href="/">Home</a> > About > Accessibility
 </nav>
 <main id="main-content" tabindex="-1">
-    <hr>
-    <h2>Accessibility</h2>
-    <hr>
-    <section>
+    <section class="main-section">
+        <h2>Accessibility</h2>
+        <hr>
         <p>
             This website is still in development, but I will do my best to ensure johnpuzzle.com adheres to accessibility standards
             to the best of my ability.
         </p>
     </section>
-    <section>
-        <h3>Web Content Accessibility Guidelines (WCAG) 2.2 Conformance</h3>
+    <section class="main-section">
+        <h2>Web Content Accessibility Guidelines (WCAG) 2.2 Conformance</h2>
+        <hr>
         <p>
             See <a href="/about/accessibility/wcag/">WCAG 2.2</a> for conformance claims and tracking.
         </p>
     </section>
-    <section>
-        <h3>Light Weight</h3>
+    <section class="main-section">
+        <h2>Light Weight</h2>
+        <hr>
         <p>
             Over time, many companies seemed to have forgotten that not everyone has a fast internet connection. High resolution
             images and bloated frameworks have become the norm. But here at johnpuzzle.com, I recognize that all data comes with a
@@ -52,7 +53,6 @@ include('../../includes/assets.php');
             of data transfer.
         </p>
     </section>
-    <hr>
 </main>
 <?php renderFooter(); ?>
 <script src="<?= asset('/js/index.js') ?>" defer></script>

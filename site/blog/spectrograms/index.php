@@ -23,9 +23,9 @@ include('../../includes/assets.php');
 </nav>
 <main id="main-content" tabindex="-1">
     <article>
+        <h2>Spectrograms Case Study</h2>
         <p>Published: 2026-08-30 &nbsp; Updated: 2026-08-30</p>
-        <section>
-            <hr>
+        <section class="main-section">
             <h2>0 // Overview</h2>
             <hr>
             <p>
@@ -42,8 +42,7 @@ include('../../includes/assets.php');
                 This page will be expanded with new techniques as time goes on.
             </p>
         </section>
-        <section>
-            <hr>
+        <section class="main-section">
             <h2>1 // Moving Away From Pure Text</h2>
             <hr>
             <h3>1.1 // Images</h3>
@@ -70,8 +69,7 @@ include('../../includes/assets.php');
                 Code 128 is just one example, there are many scannable codes out there. A popular one to use in a puzzle would be a QR code.
             </p>
         </section>
-        <section>
-            <hr>
+        <section class="main-section">
             <h2>2 // Track Mixing</h2>
             <hr>
             <h3>2.1 // First Iteration</h3>
@@ -113,8 +111,7 @@ include('../../includes/assets.php');
             <img src="../../images/fetch-discernment.webp" class="inline-img"
                  alt="Screenshot from Audacity showing the resulting spectrogram after of mixing the seven tracks down to one, revealing the true hidden message"/>
         </section>
-        <section>
-            <hr>
+        <section class="main-section">
             <h2>3 // Physical Media</h2>
             <hr>
             <img src="../../images/buzzy-22-cassettes.webp" class="inline-img" style="float: right; max-height: 200px; margin: .5rem" alt="Image of cassette tapes from the Find Buzzy ARG"/>
@@ -136,7 +133,6 @@ include('../../includes/assets.php');
             </p>
             <img src="../../images/buzzy-22-trailhead.webp" class="inline-img" alt="Screenshot from Audacity showing the spectrogram of the contents on the Find Buzzy cassettes"/>
         </section>
-        <hr>
     </article>
 </main>
 <?php renderFooter(); ?>

@@ -22,20 +22,20 @@ include('../../includes/assets.php');
     <a href="/">Home</a> > About > Privacy Policy
 </nav>
 <main id="main-content" tabindex="-1">
-    <hr>
-    <h2>Privacy Policy</h2>
-    <hr>
-    <p>
-        johnpuzzle.com does not collect any personal data. I am not the government, I am not a corporation, and I'm not your
-        cazy ex. I don't care who you are, what your shopping preferences are, or what demographics you belong to. In case you
-        missed it, there aren't any ads on this website. Nor will there ever be. I make puzzles, I don't have time for any of that
-        nonsense.
-    </p>
-    <p>
-        That said, the company hosting this website does keep track of which IP addresses visit which pages. I know, scandalous.
-        But that's not really avoidable and if that bothers you, use a VPN.
-    </p>
-    <hr>
+    <article>
+        <h2>Privacy Policy</h2>
+        <hr>
+        <p>
+            johnpuzzle.com does not collect any personal data. I am not the government, I am not a corporation, and I'm not your
+            cazy ex. I don't care who you are, what your shopping preferences are, or what demographics you belong to. In case you
+            missed it, there aren't any ads on this website. Nor will there ever be. I make puzzles, I don't have time for any of
+            that nonsense.
+        </p>
+        <p>
+            That said, the company hosting this website does keep track of which IP addresses visit which pages. I know, scandalous.
+            But that's not really avoidable and if that bothers you, use a VPN.
+        </p>
+    </article>
 </main>
 <?php renderFooter(); ?>
 <script src="<?= asset('/js/index.js') ?>" defer></script>

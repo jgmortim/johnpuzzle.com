@@ -38,9 +38,8 @@ $photos = [
 </nav>
 <main id="main-content" tabindex="-1">
     <article>
+        <h2>Project Highlight: Weekend at the End of The World</h2>
         <p>Published: 2026-10-03</p>
-        <hr>
-        <h2>0 // Project Highlight: Weekend at the End of The World</h2>
         <hr>
         <p>
             <i>Weekend at the End of the World</i> is a horror-comedy film directed by Gille Klabin. In which, the primary setting
@@ -121,7 +120,6 @@ $photos = [
             the same as the number of bits for each bigram. We still needed something to indicate the importances of the bell in
             the grandfather clock. Which is why the clock motif was chosen.
         </p>
-        <hr>
     </article>
 </main>
 <?php renderFooter(); ?>

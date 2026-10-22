@@ -25,7 +25,6 @@ include('../includes/assets.php');
 </nav>
 <main id="main-content" tabindex="-1">
     <section class="main-section">
-        <hr>
         <h2>0 // Puzzle Solver</h2>
         <hr>
         <div style="float: right; min-width: 225px; max-width: 30%; margin: .5rem">
@@ -63,7 +62,6 @@ include('../includes/assets.php');
         </p>
     </section>
     <section class="main-section">
-        <hr>
         <h2>1 // Puzzle Maker</h2>
         <hr>
         <p>
@@ -121,7 +119,6 @@ include('../includes/assets.php');
             </tr>
         </table>
     </section>
-    <hr>
 </main>
 <?php renderFooter(); ?>
 <script src="<?= asset('/js/index.js') ?>" defer></script>
