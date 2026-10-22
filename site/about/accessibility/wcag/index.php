@@ -24,7 +24,6 @@ include('../../../includes/assets.php');
 </nav>
 <main id="main-content" tabindex="-1">
     <section class="main-section">
-        <hr>
         <h2>Web Content Accessibility Guidelines (WCAG) 2.2 Conformance</h2>
         <hr>
         <p>
@@ -46,7 +45,6 @@ include('../../../includes/assets.php');
         </p>
     </section>
     <section class="main-section">
-        <hr>
         <h2>1 Perceivable</h2>
         <hr>
         <p>Information and user interface components must be presentable to users in ways they can perceive.</p>
@@ -246,7 +244,6 @@ include('../../../includes/assets.php');
         </table>
     </section>
     <section class="main-section">
-        <hr>
         <h2>2 Operable</h2>
         <hr>
         <p>User interface components and navigation must be operable.</p>
@@ -479,7 +476,6 @@ include('../../../includes/assets.php');
         </table>
     </section>
     <section class="main-section">
-        <hr>
         <h2>3 Understandable</h2>
         <hr>
         <p>Information and the operation of the user interface must be understandable.</p>
@@ -628,7 +624,6 @@ include('../../../includes/assets.php');
         </table>
     </section>
     <section class="main-section">
-        <hr>
         <h2>4 Robust</h2>
         <hr>
         <p>Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies.</p>
@@ -661,7 +656,6 @@ include('../../../includes/assets.php');
         </table>
     </section>
     <section class="main-section">
-        <hr>
         <h2>Notes</h2>
         <hr>
         <h3>Color Contrast Ratios</h3>
@@ -697,7 +691,6 @@ include('../../../includes/assets.php');
             </tr>
         </table>
     </section>
-    <hr>
 </main>
 <?php renderFooter(); ?>
 <script src="<?= asset('/js/index.js') ?>" defer></script>

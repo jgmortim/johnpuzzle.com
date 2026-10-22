@@ -23,7 +23,6 @@ include('./includes/assets.php');
     </nav>
 	<main id="main-content" tabindex="-1">
         <section class="main-section">
-            <hr>
             <h2>0 // WELCOME</h2>
             <hr>
             <p>My name is John, I'm a puzzle maker and software engineer, and this is my personal website.</p>
@@ -38,25 +37,27 @@ include('./includes/assets.php');
             </p>
         </section>
         <section class="main-section">
-            <hr>
             <h2>1 // LATEST BLOG POST</h2>
             <hr>
             <h3>Project Highlight: Weekend at the End of the World</h3>
-            <p class="indent-1">Published: 2026-10-03</p>
-            <p class="indent-1">
+            <p>Published: 2026-10-03</p>
+            <p>
                 Weekend at the End of the World is a horror-comedy film directed by Gille Klabin. In which, the primary setting
                 is a hunted cabin. Through my job at ARGHouse, I helped players experience that cabin for themselves via an interactive
                 point-and-click puzzle game. Players who completed the game were eligible to win props from the movie and limited-run
                 VHS copies. In addition to doing the programming for the point-and-click environment, I also designed a number of the
                 game's puzzles. Most significantly, the final puzzle of the game.
             </p>
-            <p class="indent-1">
+            <p>
                 <span class="blink">></span>
                 <a href="/blog/weekend/">Continue Reading</a>
             </p>
+            <p>
+                <span class="blink">></span>
+                <a href="/blog/">See All Blog Posts</a>
+            </p>
         </section>
         <section class="main-section">
-            <hr>
             <h2>2 // SOFTWARE PROJECTS</h2>
             <hr>
             <h3>2.0 // Mornary</h3>
@@ -90,7 +91,6 @@ include('./includes/assets.php');
             </div>
         </section>
         <section class="main-section">
-            <hr>
             <h2>3 // ARG Walkthroughs</h2>
             <hr>
             <section>
@@ -127,7 +127,6 @@ include('./includes/assets.php');
                 </p>
             </section>
         </section>
-        <hr>
 	</main>
     <?php renderFooter(); ?>
     <script src="<?= asset('/js/index.js') ?>" defer></script>

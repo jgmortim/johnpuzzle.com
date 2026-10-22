@@ -136,7 +136,6 @@ $totalPages = ceil((count($photos)/$imagesPerPage));
 <?php endif;?>
 <main id="main-content" tabindex="-1">
     <section class="main-section">
-        <hr>
         <h2>Photo Gallery</h2>
         <hr>
         <?php renderPhotoGallery(array_slice($photos, $start, $imagesPerPage), 4) ?>
@@ -166,7 +165,6 @@ $totalPages = ceil((count($photos)/$imagesPerPage));
             <button <?php echo ($page >= count($photos)/$imagesPerPage) ? "disabled" : ""?> class="" type="button" onclick="increasePage(<?php echo $page ?>)">&gt;</button>
         </div>
     </section>
-    <hr>
 </main>
 <?php renderFooter(); ?>
 <script src="<?= asset('/js/index.js') ?>" defer></script>

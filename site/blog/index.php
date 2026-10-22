@@ -23,8 +23,7 @@ include('../includes/assets.php');
     <a href="/">Home</a> > Blog
 </nav>
 <main id="main-content" tabindex="-1">
-    <section>
-        <hr>
+    <section class="main-section">
         <h2><span class="article-date">2026-10-03</span> // <span class="article-title">Project Highlight: Weekend at the End of the World</span></h2>
         <hr>
         <p class="article-summary indent-2">
@@ -39,8 +38,7 @@ include('../includes/assets.php');
             <a href="/blog/weekend/" class="article-link">Continue Reading</a>
         </p>
     </section>
-    <section>
-        <hr>
+    <section class="main-section">
         <h2><span class="article-date">2026-08-30</span> // <span class="article-title">Spectrograms Case Study</span></h2>
         <hr>
         <p class="article-summary indent-2">
@@ -54,7 +52,6 @@ include('../includes/assets.php');
             <a href="/blog/spectrograms/" class="article-link">Continue Reading</a>
         </p>
     </section>
-    <hr>
 </main>
 <?php renderFooter(); ?>
 <script src="<?= asset('/js/index.js') ?>" defer></script>

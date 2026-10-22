@@ -23,7 +23,6 @@ include('../../includes/assets.php');
 </nav>
 <main id="main-content" tabindex="-1">
     <section class="main-section">
-        <hr>
         <h2>Made Without AI</h2>
         <hr>
         <p>
@@ -37,7 +36,6 @@ include('../../includes/assets.php');
         </p>
     </section>
     <section class="main-section">
-        <hr>
         <h2>Disclaimers</h2>
         <hr>
         <h3>Team Projects</h3>
@@ -62,7 +60,6 @@ include('../../includes/assets.php');
             Photographs, however, are all real and were captured by humans. None of them have been modified by AI.
         </p>
     </section>
-    <hr>
 </main>
 <?php renderFooter(); ?>
 <script src="<?= asset('/js/index.js') ?>" defer></script>
