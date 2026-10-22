@@ -70,20 +70,6 @@ header {
 	margin-left: auto;
 }
 
-footer {
-	bottom: 0;
-	left: 0;
-	width: fit-content;
-	margin-top: 8px;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 0.5rem;
-	text-align: center;
-	border-radius: 10px;
-	background-color: var(--main-color);
-	@include crt-text-orange();
-}
-
 h1 {
 	width: min(100%, 1250px);
 	margin: auto;
@@ -175,14 +161,6 @@ button:disabled {
 	gap: 1rem;
 }
 
-footer p:first-child {
-	margin-top: 0;
-}
-
-footer p:last-child {
-	margin-bottom: 0;
-}
-
 video {
 	text-shadow: initial;
 }
@@ -270,9 +248,9 @@ video {
 	align-items: center;
 	flex-direction: row;
 	justify-content: center;
-	margin-top: 0;
-	margin-bottom: .5rem;
+	margin: 0;
 	gap: .5rem;
+	flex-basis: 100%
 }
 
 .rss img {
@@ -336,6 +314,29 @@ video {
 	gap: 1rem;
 }
 
+#site-footer {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin-top: 8px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0.5rem;
+	text-align: center;
+	border-radius: 10px;
+	background-color: var(--main-color);
+	@include crt-text-orange();
+}
+
+#footer-nav {
+	display: flex;
+	flex-direction: row;
+	gap: .5rem 2rem;
+	column-rule: 2px solid var(--text-orange);
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 @keyframes blinker {
 	50% {
 		opacity: 15%
@@ -391,5 +392,15 @@ video {
 
 	.project-img img {
 		float: right;
+	}
+
+	.rss {
+		flex-direction: row-reverse;
+	}
+
+	#footer-nav {
+		flex-direction: column;
+		gap: 0.5rem;
+		align-items: flex-start;
 	}
 }
