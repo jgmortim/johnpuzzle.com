@@ -12,14 +12,9 @@
                          0 0 15px color-mix(in srgb, #ff5a00 50%,transparent),
                          0 0 25px color-mix(in srgb, #ff5a00 30%,transparent)
         }
-        rect {
-            fill: #050505;
-            stroke: #ff5a00;
-            stroke-width: 4;
-        }
 	</style>
 	<g>
-        <rect x="2" y="2" width="356" height="356" rx="38" ry="38"/>
+        <rect x="2" y="2" width="356" height="356" rx="25" ry="25"/>
 		<text transform="translate(34,36.25)">
             <tspan x="0" y="0">    _______</tspan>
 			<tspan x="0" y="33.05">  ,'-./ \.-',</tspan>
