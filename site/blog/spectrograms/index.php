@@ -24,7 +24,7 @@ include('../../includes/assets.php');
 <main id="main-content" tabindex="-1">
     <article>
         <h2>Spectrograms Case Study</h2>
-        <p>Published: 2026-08-30 &nbsp; Updated: 2026-08-30</p>
+        <p><span class="no-wrap">Published: 2026-08-30</span> &nbsp; <span class="no-wrap">Updated: 2026-08-30</span></p>
         <section class="main-section">
             <h2>0 // Overview</h2>
             <hr>

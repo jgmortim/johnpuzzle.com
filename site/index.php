@@ -67,8 +67,7 @@ include('./includes/assets.php');
                 </div>
                 <div class="project-description">
                     <p>Page: <a href="https://mornary.com/" target="_blank">mornary.com</a></p>
-                    <p>Summary:</p>
-                    <p class="indent-1">
+                    <p>
                         Mornary is an application I am building to explore generative steganography. It converts binary data into Morse code that decodes to
                         plausible English text, hiding the true payload in plain sight. The app is carrier-agnostic and robust enough to survive human relay,
                         making it a unique generative steganography tool.
@@ -82,8 +81,7 @@ include('./includes/assets.php');
                 </div>
                 <div class="project-description">
                     <p>Page: <a href="https://codon64.com/" target="_blank">codon64.com</a></p>
-                    <p>Summary:</p>
-                    <p class="indent-1">
+                    <p>
                         Codon64 is a novelty encryption algorithm I created which uses DNA nucleotides (A, G, C, and T) as the only characters of the ciphertext.
                         It is implemented with JavaScript on its own website.
                     </p>
@@ -96,7 +94,7 @@ include('./includes/assets.php');
             <section>
                 <h3>3.0 // Cicada Detroit</h3>
                 <p>
-                    Videos: 18 &nbsp;Runtime: 5h 01m 20s<br>
+                    <span class="no-wrap">Videos: 18</span> &nbsp; <span class="no-wrap">Runtime: 5h 01m 20s</span>
                 </p>
                 <p>
                     An in-depth walkthrough of all 42 puzzles in the Cicada Detroit ARG. In addition to explaining every puzzle solution step-by-step,
@@ -112,7 +110,7 @@ include('./includes/assets.php');
             <section>
                 <h3>3.1 // QLEDecode</h3>
                 <p>
-                    Videos: 4 &nbsp;Runtime: 1h 16m 48s<br>
+                    <span class="no-wrap">Videos: 4</span> &nbsp; <span class="no-wrap">Runtime: 1h 16m 48s</span>
                 </p>
                 <p>
                     An in-depth walkthrough of the first ARG I ever participated in — a joint collaboration between Samsung, XBox, and CD Projekt Red
