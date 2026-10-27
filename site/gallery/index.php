@@ -137,7 +137,6 @@ $totalPages = ceil((count($photos)/$imagesPerPage));
 <main id="main-content" tabindex="-1">
     <section class="main-section">
         <h2>Photo Gallery</h2>
-        <hr>
         <?php renderPhotoGallery(array_slice($photos, $start, $imagesPerPage), 4) ?>
         <?php if ($page == 404):?>
             <section style="display: flex; flex-direction:column; align-items: center">

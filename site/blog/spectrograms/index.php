@@ -25,9 +25,9 @@ include('../../includes/assets.php');
     <article>
         <h2>Spectrograms Case Study</h2>
         <p><span class="no-wrap">Published: 2026-08-30</span> &nbsp; <span class="no-wrap">Updated: 2026-08-30</span></p>
+        <hr>
         <section class="main-section">
             <h2>0 // Overview</h2>
-            <hr>
             <p>
                 A spectrogram is a visual representation of the spectrum of frequencies of a signal over time. Spectrograms, especially in audio signals,
                 are an extremely common technique used in ARGs and puzzle hunts. They are so common that, on their own, they present virtually no challenge
@@ -42,9 +42,9 @@ include('../../includes/assets.php');
                 This page will be expanded with new techniques as time goes on.
             </p>
         </section>
+        <hr>
         <section class="main-section">
             <h2>1 // Moving Away From Pure Text</h2>
-            <hr>
             <h3>1.1 // Images</h3>
             <p>
                 For a bit more visual flair, in <a href="https://findbuzzy.com/listenwithyourheartyouwillunderstand-h9syb532/" target="_blank">Puzzle 22</a>
@@ -69,9 +69,9 @@ include('../../includes/assets.php');
                 Code 128 is just one example, there are many scannable codes out there. A popular one to use in a puzzle would be a QR code.
             </p>
         </section>
+        <hr>
         <section class="main-section">
             <h2>2 // Track Mixing</h2>
-            <hr>
             <h3>2.1 // First Iteration</h3>
             <p>
                 In Puzzle 12 of the 2025 <a href="https://www.cicadadetroit.com/xixmas" target="_blank">XIXMAS ARG</a>, I wanted to create an audio file that had to
@@ -111,9 +111,9 @@ include('../../includes/assets.php');
             <img src="../../images/fetch-discernment.webp" class="inline-img"
                  alt="Screenshot from Audacity showing the resulting spectrogram after of mixing the seven tracks down to one, revealing the true hidden message"/>
         </section>
+        <hr>
         <section class="main-section">
             <h2>3 // Physical Media</h2>
-            <hr>
             <img src="../../images/buzzy-22-cassettes.webp" class="inline-img" style="float: right; max-height: 200px; margin: .5rem" alt="Image of cassette tapes from the Find Buzzy ARG"/>
             <p>
                 For the trailhead of <a href="https://findbuzzy.com/listenwithyourheartyouwillunderstand-h9syb532/" target="_blank">Puzzle 22</a> of the

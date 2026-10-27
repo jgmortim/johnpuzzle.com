@@ -24,7 +24,6 @@ include('../../includes/assets.php');
 <main id="main-content" tabindex="-1">
     <section class="main-section">
         <h2>Made Without AI</h2>
-        <hr>
         <p>
             johnpuzzle.com has been created entirely by me, a human, without the use of AI. I didn't commission this website,
             I made it. That includes the code and the text content. No LLMs were used in the creation of this website.
@@ -35,9 +34,9 @@ include('../../includes/assets.php');
             You can read it here: <a href="https://noailist.org/why-no-ai/" target="_blank">https://noailist.org/why-no-ai/</a>.
         </p>
     </section>
+    <hr>
     <section class="main-section">
         <h2>Disclaimers</h2>
-        <hr>
         <h3>Team Projects</h3>
         <p>
             My blog features puzzles and projects that I worked on as part of a team. Any time I use some variation of "I made" or

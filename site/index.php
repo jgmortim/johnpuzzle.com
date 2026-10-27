@@ -24,7 +24,6 @@ include('./includes/assets.php');
 	<main id="main-content" tabindex="-1">
         <section class="main-section">
             <h2>0 // WELCOME</h2>
-            <hr>
             <p>My name is John, I'm a puzzle maker and software engineer, and this is my personal website.</p>
             <p>
                 I design and build interactive web infrastructure and puzzle systems at <a href="https://arghouse.com/" target="_blank">ARGHouse</a>,
@@ -36,9 +35,9 @@ include('./includes/assets.php');
                 full-stack web development. Some of my independent software projects are listed below.
             </p>
         </section>
+        <hr>
         <section class="main-section">
             <h2>1 // LATEST BLOG POST</h2>
-            <hr>
             <h3>Project Highlight: Weekend at the End of the World</h3>
             <p>Published: 2026-10-03</p>
             <p>
@@ -57,9 +56,9 @@ include('./includes/assets.php');
                 <a href="/blog/">See All Blog Posts</a>
             </p>
         </section>
+        <hr>
         <section class="main-section">
             <h2>2 // SOFTWARE PROJECTS</h2>
-            <hr>
             <h3>2.0 // Mornary</h3>
             <div class="project-container">
                 <div class="project-img">
@@ -88,9 +87,9 @@ include('./includes/assets.php');
                 </div>
             </div>
         </section>
+        <hr>
         <section class="main-section">
             <h2>3 // ARG Walkthroughs</h2>
-            <hr>
             <section>
                 <h3>3.0 // Cicada Detroit</h3>
                 <p>

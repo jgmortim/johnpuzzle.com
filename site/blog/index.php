@@ -25,7 +25,6 @@ include('../includes/assets.php');
 <main id="main-content" tabindex="-1">
     <section class="main-section">
         <h2><span class="article-date">2026-10-03</span> // <span class="article-title">Project Highlight: Weekend at the End of the World</span></h2>
-        <hr>
         <p class="article-summary indent-2">
             Weekend at the End of the World is a horror-comedy film directed by Gille Klabin. In which, the primary setting
             is a hunted cabin. Through my job at ARGHouse, I helped players experience that cabin for themselves via an interactive
@@ -38,9 +37,9 @@ include('../includes/assets.php');
             <a href="/blog/weekend/" class="article-link">Continue Reading</a>
         </p>
     </section>
+    <hr>
     <section class="main-section">
         <h2><span class="article-date">2026-08-30</span> // <span class="article-title">Spectrograms Case Study</span></h2>
-        <hr>
         <p class="article-summary indent-2">
             A spectrogram is a visual representation of the spectrum of frequencies of a signal over time. Spectrograms, especially in audio signals,
             are an extremely common technique used in ARGs and puzzle hunts. They are so common that, on their own, they present virtually no challenge

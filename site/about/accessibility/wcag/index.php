@@ -25,7 +25,6 @@ include('../../../includes/assets.php');
 <main id="main-content" tabindex="-1">
     <section class="main-section">
         <h2>Web Content Accessibility Guidelines (WCAG) 2.2 Conformance</h2>
-        <hr>
         <p>
             <strong>Web Content Accessibility Guidelines 2.2</strong>: <a href="https://www.w3.org/TR/WCAG22/" target="_blank">www.w3.org/TR/WCAG22/</a><br>
             <strong>Conformance level satisfied</strong>: Level A<br>
@@ -44,9 +43,9 @@ include('../../../includes/assets.php');
             these hidden features are not considered by the conformance claims made on this page.
         </p>
     </section>
+    <hr>
     <section class="main-section">
         <h2>1 Perceivable</h2>
-        <hr>
         <p>Information and user interface components must be presentable to users in ways they can perceive.</p>
         <table style="min-width: 50%">
             <tr>
@@ -243,9 +242,9 @@ include('../../../includes/assets.php');
             </tr>
         </table>
     </section>
+    <hr>
     <section class="main-section">
         <h2>2 Operable</h2>
-        <hr>
         <p>User interface components and navigation must be operable.</p>
         <table style="min-width: 50%">
             <tr>
@@ -475,9 +474,9 @@ include('../../../includes/assets.php');
             </tr>
         </table>
     </section>
+    <hr>
     <section class="main-section">
         <h2>3 Understandable</h2>
-        <hr>
         <p>Information and the operation of the user interface must be understandable.</p>
         <table style="min-width: 50%">
             <tr>
@@ -623,9 +622,9 @@ include('../../../includes/assets.php');
             </tr>
         </table>
     </section>
+    <hr>
     <section class="main-section">
         <h2>4 Robust</h2>
-        <hr>
         <p>Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies.</p>
         <table style="min-width: 50%">
             <tr>
@@ -655,9 +654,9 @@ include('../../../includes/assets.php');
             </tr>
         </table>
     </section>
+    <hr>
     <section class="main-section">
         <h2>Notes</h2>
-        <hr>
         <h3>Color Contrast Ratios</h3>
         <p>
             All visual presentation of text and images of text on johnpuzzle.com meet the WCAG 2.2

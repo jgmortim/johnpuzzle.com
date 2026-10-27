@@ -26,7 +26,6 @@ include('../includes/assets.php');
 <main id="main-content" tabindex="-1">
     <section class="main-section">
         <h2>0 // Puzzle Solver</h2>
-        <hr>
         <div style="float: right; min-width: 225px; max-width: 30%; margin: .5rem">
             <?php renderExpandableImage(
                     '../images/cicada-detroit-win.webp',
@@ -61,9 +60,9 @@ include('../includes/assets.php');
             700 teams. We will be competing again next year and hope to qualify for the finals.
         </p>
     </section>
+    <hr>
     <section class="main-section">
         <h2>1 // Puzzle Maker</h2>
-        <hr>
         <p>
             After winning <i>Cicada Detroit</i>, I was recruited to the team at <a href="https://arghouse.com/" target="_blank">ARGHouse</a> — the company behind
             it. Thus beginning my professional career in ARGs as both a puzzle designer and software engineer. The first project I worked on was the 2025

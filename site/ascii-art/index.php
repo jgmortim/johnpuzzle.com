@@ -22,12 +22,12 @@ include('../includes/assets.php');
     <a href="/">Home</a> > Secrets > ASCII Art
 </nav>
 <main id="main-content" tabindex="-1">
+    <h2>My ASCII ART</h2>
     <p>
         Congrats! You found a secret page.<br> This secret page contains a collection of ASCII Art that I've created.
         Many of these make appearances on other secret pages.
     </p>
-    <h2>My ASCII ART</h2>
-    <p style="overflow: hidden; white-space: nowrap;">"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-.</p>
+    <p style="overflow: hidden; white-space: nowrap;">"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-.</p>
     <h3>Peggy</h3>
     <pre>
                              ___

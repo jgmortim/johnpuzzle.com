@@ -24,7 +24,6 @@ include('../../includes/assets.php');
 <main id="main-content" tabindex="-1">
     <article>
         <h2>Privacy Policy</h2>
-        <hr>
         <p>
             johnpuzzle.com does not collect any personal data. I am not the government, I am not a corporation, and I'm not your
             crazy ex. I don't care who you are, what your shopping preferences are, or what demographics you belong to. In case you
