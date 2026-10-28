@@ -108,12 +108,16 @@ $photos = [
             As a few players discovered by digging through the website's files, I originally wrote a poem to be included in the middle
             of the cipher wheel:
         </p>
-        <blockquote>
-            Seven fires; left to right<br>
-            special order you must light<br>
-            ring the bell to seal the code<br>
-            a full sequence; knowledge bestowed
-        </blockquote>
+        <div>
+            <blockquote cite="https://www.imdb.com/title/tt2664374/quotes/?item=qt7160739">
+                <p>
+                    Seven fires; left to right<br>
+                    special order you must light<br>
+                    ring the bell to seal the code<br>
+                    a full sequence; knowledge bestowed
+                </p>
+            </blockquote>
+        </div>
         <p>
             This was later replaced with a clock motif. Removing the poem increased the puzzle's difficultly and forced players to
             experient more in order to find the solution. While the lamp connection was still possible due to their being seven of them;
