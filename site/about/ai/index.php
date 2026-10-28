@@ -28,6 +28,15 @@ include('../../includes/assets.php');
             johnpuzzle.com has been created entirely by me, a human, without the use of AI. I didn't commission this website,
             I made it. That includes the code and the text content. No LLMs were used in the creation of this website.
         </p>
+        <div>
+            <blockquote cite="https://www.imdb.com/title/tt2664374/quotes/?item=qt7160739">
+                <p>
+                    “You know, your own imagination is far more wonderful than any computer could ever be. You know why? You’re a
+                    living human being and a computer is just a machine. Human beings are far more wonderful than machines.”
+                </p>
+            </blockquote>
+            <p>—Mister Rogers, <cite>Episode 1746 (1999)</cite></p>
+        </div>
         <h3>Why No AI?</h3>
         <p>
             If you are curious why I, or anyone else, wouldn't want to use AI, NoAiList.org has put together an excellent catalog.

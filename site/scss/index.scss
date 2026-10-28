@@ -173,6 +173,16 @@ video {
 	text-shadow: initial;
 }
 
+div:has(> blockquote) {
+	background-color: var(--background-color);
+	padding: 15px;
+	border-radius: 5px;
+}
+
+blockquote + p {
+	text-align: right;
+}
+
 .main-section {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
