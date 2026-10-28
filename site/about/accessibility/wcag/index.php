@@ -682,10 +682,24 @@ include('../../../includes/assets.php');
                 <td>AAA</td>
             </tr>
             <tr>
+                <td><img class="color-swatch" src="https://placehold.co/10x10/80ffd5/80ffd5" alt="A 10x10 square in the hex color #ff5a00"/> #80ffd5</td>
+                <td><img class="color-swatch" src="https://placehold.co/10x10/181818/181818" alt="A 10x10 square in the hex color #181818"/> #181818</td>
+                <td>14.52</td>
+                <td>Site header navigation, footer link text</td>
+                <td>AAA</td>
+            </tr>
+            <tr>
                 <td><img class="color-swatch" src="https://placehold.co/10x10/ff5a00/ff5a00" alt="A 10x10 square in the hex color #ff5a00"/> #ff5a00</td>
                 <td><img class="color-swatch" src="https://placehold.co/10x10/050505/050505" alt="A 10x10 square in the hex color #050505"/> #050505</td>
                 <td>6.52</td>
                 <td>Normal text</td>
+                <td>AA</td>
+            </tr>
+            <tr>
+                <td><img class="color-swatch" src="https://placehold.co/10x10/ff5a00/ff5a00" alt="A 10x10 square in the hex color #ff5a00"/> #ff5a00</td>
+                <td><img class="color-swatch" src="https://placehold.co/10x10/181818/181818" alt="A 10x10 square in the hex color #181818"/> #181818</td>
+                <td>5.67</td>
+                <td>footer text, block quote text</td>
                 <td>AA</td>
             </tr>
         </table>
