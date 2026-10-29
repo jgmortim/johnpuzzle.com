@@ -72,51 +72,53 @@ include('../includes/assets.php');
             Since then, I have worked on numerous ARGHouse project as detailed in the table below. For a more detailed look at my work,
             see the <a href="/work/">work</a> section of this website.
         </p>
-        <table style="min-width: 50%">
-            <tr>
-                <th>Year</th>
-                <th>ARG</th>
-                <th>Role(s)</th>
-            </tr>
-            <tr>
-                <td rowspan="2">2025</td>
-                <td><a href="https://www.cicadadetroit.com/xixmas" target="_blank">Cicada Detroit: XIXMAS</a></td>
-                <td>Puzzle design</td>
-            </tr>
-            <tr>
-                <td>Cicada Detroit: Puzzle 43</td>
-                <td>Puzzle design</td>
-            </tr>
-            <tr>
-                <td rowspan="7">2026</td>
-                <td><a href="https://celloperations.com/" target="_blank">Cell Operations</a></td>
-                <td>Web infrastructure, puzzle consultation</td>
-            </tr>
-            <tr>
-                <td><a href="https://www.weekendattheendoftheworld.com/" target="_blank">Weekend At the End Of the World</a></td>
-                <td>Puzzle design, web design</td>
-            </tr>
-            <tr>
-                <td><a href="https://www.cicadadetroit.com/cicadahilaria" target="_blank">Cicada Detroit: Cicada Hilaria</a></td>
-                <td>Puzzle design</td>
-            </tr>
-            <tr>
-                <td><a href="https://findbuzzy.com/" target="_blank">Find Buzzy</a></td>
-                <td>Puzzle design</td>
-            </tr>
-            <tr>
-                <td><a href="https://www.cicadachallenge.com/vault/" target="_blank">Cicada Challenge: RUNE</a></td>
-                <td>Puzzle design, web design, story editing</td>
-            </tr>
-            <tr>
-                <td><a href="https://plushyplayground.org/" target="_blank">Plushy's Playground</a></td>
-                <td>Puzzle design, web design</td>
-            </tr>
-            <tr>
-                <td><a href="https://www.cicadachallenge.com/vault/" target="_blank">Cicada Challenge: Cicada Foods</a></td>
-                <td>Puzzle design, web design</td>
-            </tr>
-        </table>
+        <div class="table-wrapper">
+            <table style="min-width: 50%">
+                <tr>
+                    <th>Year</th>
+                    <th>ARG</th>
+                    <th>Role(s)</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">2025</td>
+                    <td><a href="https://www.cicadadetroit.com/xixmas" target="_blank">Cicada Detroit: XIXMAS</a></td>
+                    <td>Puzzle design</td>
+                </tr>
+                <tr>
+                    <td>Cicada Detroit: Puzzle 43</td>
+                    <td>Puzzle design</td>
+                </tr>
+                <tr>
+                    <td rowspan="7">2026</td>
+                    <td><a href="https://celloperations.com/" target="_blank">Cell Operations</a></td>
+                    <td>Web infrastructure, puzzle consultation</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.weekendattheendoftheworld.com/" target="_blank">Weekend At the End Of the World</a></td>
+                    <td>Puzzle design, web design</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.cicadadetroit.com/cicadahilaria" target="_blank">Cicada Detroit: Cicada Hilaria</a></td>
+                    <td>Puzzle design</td>
+                </tr>
+                <tr>
+                    <td><a href="https://findbuzzy.com/" target="_blank">Find Buzzy</a></td>
+                    <td>Puzzle design</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.cicadachallenge.com/vault/" target="_blank">Cicada Challenge: RUNE</a></td>
+                    <td>Puzzle design, web design, story editing</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plushyplayground.org/" target="_blank">Plushy's Playground</a></td>
+                    <td>Puzzle design, web design</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.cicadachallenge.com/vault/" target="_blank">Cicada Challenge: Cicada Foods</a></td>
+                    <td>Puzzle design, web design</td>
+                </tr>
+            </table>
+        </div>
     </section>
 </main>
 <?php renderFooter(); ?>

@@ -161,14 +161,6 @@ button:disabled {
 	cursor: unset;
 }
 
-.pagination {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	gap: 1rem;
-}
-
 video {
 	text-shadow: initial;
 }
@@ -186,6 +178,19 @@ blockquote + p {
 .main-section {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+}
+
+.table-wrapper {
+	display: block;
+	overflow-x: auto;
+}
+
+.pagination {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
 }
 
 .indent-1 {
