@@ -193,6 +193,11 @@ blockquote + p {
 	gap: 1rem;
 }
 
+.tooltip-dotted {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
 .indent-1 {
 	margin-left: 1rem;
 }

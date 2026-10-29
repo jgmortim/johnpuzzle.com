@@ -81,11 +81,11 @@ include('../includes/assets.php');
                 </tr>
                 <tr>
                     <td rowspan="2">2025</td>
-                    <td><a href="https://www.cicadadetroit.com/xixmas" target="_blank">Cicada Detroit: XIXMAS</a></td>
+                    <td><span class="tooltip-dotted" title="Cicada Detroit">CD</span>: <a href="https://www.cicadadetroit.com/xixmas" target="_blank">XIXMAS</a></td>
                     <td>Puzzle design</td>
                 </tr>
                 <tr>
-                    <td>Cicada Detroit: Puzzle 43</td>
+                    <td><span class="tooltip-dotted" title="Cicada Detroit">CD</span>: Puzzle 43</td>
                     <td>Puzzle design</td>
                 </tr>
                 <tr>
@@ -98,7 +98,7 @@ include('../includes/assets.php');
                     <td>Puzzle design, web design</td>
                 </tr>
                 <tr>
-                    <td><a href="https://www.cicadadetroit.com/cicadahilaria" target="_blank">Cicada Detroit: Cicada Hilaria</a></td>
+                    <td><span class="tooltip-dotted" title="Cicada Detroit">CD</span>: <a href="https://www.cicadadetroit.com/cicadahilaria" target="_blank">Cicada Hilaria</a></td>
                     <td>Puzzle design</td>
                 </tr>
                 <tr>
@@ -106,7 +106,7 @@ include('../includes/assets.php');
                     <td>Puzzle design</td>
                 </tr>
                 <tr>
-                    <td><a href="https://www.cicadachallenge.com/vault/" target="_blank">Cicada Challenge: RUNE</a></td>
+                    <td><span class="tooltip-dotted" title="Cicada Challenge">CC</span>: <a href="https://www.cicadachallenge.com/vault/" target="_blank">RUNE</a></td>
                     <td>Puzzle design, web design, story editing</td>
                 </tr>
                 <tr>
@@ -114,7 +114,7 @@ include('../includes/assets.php');
                     <td>Puzzle design, web design</td>
                 </tr>
                 <tr>
-                    <td><a href="https://www.cicadachallenge.com/vault/" target="_blank">Cicada Challenge: Cicada Foods</a></td>
+                    <td><span class="tooltip-dotted" title="Cicada Challenge">CC</span>: <a href="https://www.cicadachallenge.com/vault/" target="_blank">Cicada Foods</a></td>
                     <td>Puzzle design, web design</td>
                 </tr>
             </table>
