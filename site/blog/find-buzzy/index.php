@@ -16,6 +16,23 @@ $puzzle24photos = [
         'caption' => 'The second Instagram photo with hidden imgconceal data.'
     ]
 ];
+$puzzle9photos = [
+    [
+        'src' => '../../images/buzzy-9.png',
+        'alt' => '',
+        'caption' => 'Web page for Puzzle 9.'
+    ],
+    [
+        'src' => '../../images/buzzy-9-calendar.png',
+        'alt' => '',
+        'caption' => 'Imported calendar event in Google Calendar.'
+    ],
+    [
+        'src' => '../../images/buzzy-9-coordinates.png',
+        'alt' => '',
+        'caption' => 'Coordinates on Google Maps showing Dicovery Island.'
+    ],
+];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -48,7 +65,7 @@ $puzzle24photos = [
             producers, as well as distribution of physical "trailheads" for the 25 puzzles of the ARG. These trailheads took many
             forms including postcards, pins, and cassette tapes. My role in bringing this ARG to life was primarily in puzzle design.
             In this role, I had the opportunity to create numerous puzzles spanning a wide range of disciplines and difficulties.
-            Including the final, and most difficult, puzzle of the game.
+            Including the final, and most difficult, puzzle of the game. A selection of my work is detailed below.
         </p>
         <hr>
         <section class="main-section">
@@ -139,13 +156,13 @@ $puzzle24photos = [
                 The <i>Library of Babel</i> from Puzzle 13 combined with the solution from Puzzle 4, led players to the one-time pad
                 needed to decode the cipher in Puzzle 25. Now, if you think this solution requires a leap of logic, you're not wrong.
                 We actually had more clues planned, including social media postings and even hiding something on the Blu-ray release
-                of <i>Stolen Kingdom</i>, but none of those were needed. The players were able to use the clues laid out above to
-                successfully decode the cipher exactly four months after it was first released.
+                of <i>Stolen Kingdom</i>, but in the end, none of those were needed. The players were able to use the clues laid out
+                above to successfully decode the cipher exactly four months after it was first released.
             </p>
         </section>
         <hr>
         <section class="main-section">
-            <h2>Puzzle 24 Trailhead</h2>
+            <h2>Digital Scavengers Hunt</h2>
             <p>
                 Puzzle 24 was one of the few puzzles to feature a fully digital trailhead. While I didn't create Puzzle 24, I did
                 create the trailhead used to reach it, which started on Instagram with a pair of posts shared by @arg.house,
@@ -189,7 +206,7 @@ $puzzle24photos = [
         </section>
         <hr>
         <section class="main-section">
-            <h2>Puzzle 22 Trailhead</h2>
+            <h2>Cassette Trailhead</h2>
             <div class="inline-image">
                 <?php renderExpandableImage(
                     '../../images/buzzy-22-cassettes.webp',
@@ -197,7 +214,6 @@ $puzzle24photos = [
                     '')
                 ?>
             </div>
-<!--            <img src="../../images/buzzy-22-cassettes.webp" class="inline-img" style="float: right; max-height: 200px; margin: .5rem" alt="Image of cassette tapes from the Find Buzzy ARG"/>-->
             <p>
                 <a href="https://findbuzzy.com/listenwithyourheartyouwillunderstand-h9syb532/" target="_blank">Puzzle 22</a> was one
                 of many to feature a physical trailhead which could be found at one of the theatrical showing of
@@ -214,22 +230,45 @@ $puzzle24photos = [
                 spectrogram of the audio.
             </p>
             <p>
-                As a side note, I also create 2 other spectrogram based puzzles for <i>Find Buzzy</i> which you can read about in my
+                As a side note, I also created 2 other spectrogram based puzzles for <i>Find Buzzy</i> which you can read about in my
                 <a href="/blog/spectrograms">spectrogram</a> blog post.
             </p>
             <div>
                 <?php renderExpandableImage(
                     '../../images/buzzy-22-trailhead.webp',
-                    'Screenshot from Audacity showing the spectrogram of the contents on the Find Buzzy cassettes',
+                    'Screenshot from Audacity showing the spectrogram of the contents on the Puzzle 22 trailhead cassettes',
                     '')
                 ?>
             </div>
-<!--            <img src="../../images/buzzy-22-trailhead.webp" class="inline-img" alt="Screenshot from Audacity showing the spectrogram of the contents on the Find Buzzy cassettes"/>-->
+<!--            TODO image of  hidden tape -->
         </section>
-
-<!--   TODO puzzle 9 - calendar puzzle
-     puzzle 16 - stegosaurus
-      21 wail metabolities openpuff-->
+        <hr>
+        <section class="main-section">
+            <h2>Calendar Event</h2>
+            <p>
+                As someone who makes a lot of puzzles, I'm always on the lookout for new mediums. As much as possible, I want
+                players to experience new methods, techniques, and mediums in my puzzles. And in Puzzle 9, I did just that.
+            </p>
+            <p>
+                In this puzzle, the players were greeted with an image (made by someone else at ARGHouse) captioned "you've got a date with Buzzy".
+                Followed by an "Add to Calendar" button. Clicking the button triggered a download of a calendar event (which I created).
+                The file was in the standard iCalendar (.ics) format, and it could be imported into just about any digital calendar
+                (such as Google Calendar). After importing it, players would find a new event in their calendar on April 30, 2020.
+                The event was titled "What was my original name?" and it contained a location listed as coordinates.
+            </p>
+            <p>
+                The coordinates led to Disney's Discovery Island, which as wikipedia will tell you, has had many names over the years.
+                However, the original name, and the answer, to the puzzle is "Raz Island".
+            </p>
+            <div>
+                <?php renderPhotoGallery($puzzle9photos, 3) ?>
+            </div>
+            <p>
+                While the date of the event wasn't important for solving the puzzle, but it wasn't random either. April 30, 2020
+                was the date YouTube Richard McGuire was arrested on Discovery Island for trespassing. An event which is covered in
+                the documentary.
+            </p>
+        </section>
     </article>
 </main>
 <?php renderFooter(); ?>
