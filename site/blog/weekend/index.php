@@ -38,7 +38,7 @@ $photos = [
 </nav>
 <main id="main-content" tabindex="-1">
     <article>
-        <h2>Project Highlight: Weekend at the End of The World</h2>
+        <h2>Project Highlights: Weekend at the End of The World</h2>
         <p>Published: 2026-10-03</p>
         <hr>
         <p>
