@@ -12,20 +12,22 @@ figure {
 
 .grid-gallery-2, .grid-gallery-3, .grid-gallery-4 {
 	display: grid;
-	gap: 1rem;
 	place-items: start center;
 }
 
 .grid-gallery-4 {
 	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 1rem;
 }
 
 .grid-gallery-3 {
 	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 1rem;
 }
 
 .grid-gallery-2 {
 	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: min(10%, 1rem);
 }
 
 .image-thumbnail {
@@ -43,6 +45,8 @@ figure {
 
 .image-thumbnail img {
 	display: block;
+	max-height: 250px;
+	max-width: 100%;
 }
 
 .image-thumbnail::after {
@@ -103,14 +107,34 @@ figure {
 	height: 2rem;
 }
 
+.inline-image {
+	float: right;
+	max-width: 360px;
+	margin-left: .5rem;
+	margin-bottom: .5rem;
+}
+
 @media screen and (max-width: 750px) {
 	.grid-gallery-4 {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+
+	.inline-image {
+		width: 50%;
+		max-width: fit-content;
 	}
 }
 
 @media screen and (max-width: 500px) {
 	.grid-gallery-3, .grid-gallery-4 {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.inline-image {
+		display: block;
+		width: 90%;
+		float: unset;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }

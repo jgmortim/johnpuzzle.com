@@ -54,7 +54,7 @@ $puzzle24photos = [
         <section class="main-section">
             <h2>Puzzle 25</h2>
             <h3>Premise</h3>
-            <div style="float: right; max-width: 30%; margin: .5rem">
+            <div class="inline-image">
                 <?php renderExpandableImage(
                     '../../images/buzzy-25.png',
                     'The image from Find Buzzy Puzzle 25',
@@ -91,7 +91,7 @@ $puzzle24photos = [
                 difficult and likely the final puzzle to be solved.
             </p>
             <h4>Puzzle 14</h4>
-            <div style="float: right; max-width: 15%; margin: .5rem">
+            <div class="inline-image">
                 <?php renderExpandableImage(
                     '../../images/buzzy-secrets.png',
                     'secrets.png',
@@ -165,7 +165,7 @@ $puzzle24photos = [
                 "crimson-clupea-harengus" to extract a text file called "run.txt". This file's only contents was the text
                 "fndbzzy24".
             </p>
-            <div style="max-width: 600px; margin-left: auto; margin-right: auto;">
+            <div>
                 <?php renderPhotoGallery($puzzle24photos, 2) ?>
             </div>
             <p>
@@ -190,7 +190,14 @@ $puzzle24photos = [
         <hr>
         <section class="main-section">
             <h2>Puzzle 22 Trailhead</h2>
-            <img src="../../images/buzzy-22-cassettes.webp" class="inline-img" style="float: right; max-height: 200px; margin: .5rem" alt="Image of cassette tapes from the Find Buzzy ARG"/>
+            <div class="inline-image">
+                <?php renderExpandableImage(
+                    '../../images/buzzy-22-cassettes.webp',
+                    'Image of cassette tapes from the Find Buzzy ARG',
+                    '')
+                ?>
+            </div>
+<!--            <img src="../../images/buzzy-22-cassettes.webp" class="inline-img" style="float: right; max-height: 200px; margin: .5rem" alt="Image of cassette tapes from the Find Buzzy ARG"/>-->
             <p>
                 <a href="https://findbuzzy.com/listenwithyourheartyouwillunderstand-h9syb532/" target="_blank">Puzzle 22</a> was one
                 of many to feature a physical trailhead which could be found at one of the theatrical showing of
@@ -210,8 +217,14 @@ $puzzle24photos = [
                 As a side note, I also create 2 other spectrogram based puzzles for <i>Find Buzzy</i> which you can read about in my
                 <a href="/blog/spectrograms">spectrogram</a> blog post.
             </p>
-
-            <img src="../../images/buzzy-22-trailhead.webp" class="inline-img" alt="Screenshot from Audacity showing the spectrogram of the contents on the Find Buzzy cassettes"/>
+            <div>
+                <?php renderExpandableImage(
+                    '../../images/buzzy-22-trailhead.webp',
+                    'Screenshot from Audacity showing the spectrogram of the contents on the Find Buzzy cassettes',
+                    '')
+                ?>
+            </div>
+<!--            <img src="../../images/buzzy-22-trailhead.webp" class="inline-img" alt="Screenshot from Audacity showing the spectrogram of the contents on the Find Buzzy cassettes"/>-->
         </section>
 
 <!--   TODO puzzle 9 - calendar puzzle

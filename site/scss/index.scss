@@ -124,10 +124,10 @@ pre {
 	overflow: auto;
 }
 
-figure img {
-	max-width: 100%;
-	margin: 0 0 .5rem;
-}
+//figure img {
+//	max-width: 100%;
+//	margin: 0 0 .5rem;
+//}
 
 table {
 	margin: auto;
@@ -211,6 +211,7 @@ blockquote + p {
 	flex-direction: column;
 }
 
+// todo replace all uses of this
 .inline-img {
 	display: block;
 	max-width: 90%;
