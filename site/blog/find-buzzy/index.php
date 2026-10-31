@@ -96,7 +96,7 @@ $puzzle9photos = [
                 For Puzzle 25, I was tasked with a creating a cipher that could be released at the start of the game, but which would
                 be uncrackable without additional clues that could be discovered throughout the run of the game. Something that,
                 in practice, no computer could brute force. Something that would keep the players talking and theorizing about for
-                a long time. On May 9, the Find Buzzy ARG launched with four puzzles immediately available. Three of them would be
+                a long time. On May 9, the <i>Find Buzzy</i> ARG launched with four puzzles immediately available. Three of them would be
                 solved that day, but Puzzle 25 wouldn't be solved for another four months.
             </p>
             <p>
@@ -118,7 +118,7 @@ $puzzle9photos = [
                 played in theaters before showings of <i>Stolen Kingdom</i> and shared on social media. In the trailer, the grid of all
                 25 <i>Find Buzzy</i> puzzles is shown in its initial state: four yellow (available, but unsolved) puzzles, and 21 red (locked)
                 puzzles. One-by-one, all the red and yellow puzzle change to green (solved), until finally
-                only 25 remained yellow. Then after a pause, it too switched to green. Thus establishing that Puzzle 25 would be both
+                only 25 remained yellow. Then after a pause, it too switched to green. Thus establishing that Puzzle 25 would be
                 difficult and likely the final puzzle to be solved.
             </p>
             <h4>Puzzle 14</h4>
@@ -167,11 +167,12 @@ $puzzle9photos = [
             </p>
             <h3>Putting it all together</h3>
             <p>
-                The <i>Library of Babel</i> from Puzzle 13 combined with the solution from Puzzle 4, led players to the one-time pad
-                needed to decode the cipher in Puzzle 25. Now, if you think this solution requires a leap of logic, you're not wrong.
-                We actually had more clues planned, including social media postings and even hiding something on the Blu-ray release
-                of <i>Stolen Kingdom</i>, but in the end, none of those were needed. The players were able to use the clues laid out
-                above to successfully decode the cipher exactly four months after it was first released.
+                The <i>Library of Babel</i> from Puzzle 13 combined with the solution from Puzzle 4, led players to the exact page
+                with the one-time pad needed to decode the cipher in Puzzle 25. Now, if you think this solution requires a leap of
+                logic, you're not wrong. We actually had more clues planned, including social media postings and even hiding
+                something on the Blu-ray release of <i>Stolen Kingdom</i>, but in the end, none of those were needed. The players
+                were able to use the clues laid out above to successfully decode the cipher exactly four months after it was first
+                released.
             </p>
         </section>
         <hr>
@@ -236,12 +237,12 @@ $puzzle9photos = [
                 night. But it wasn't until the following day that one of those players solved the trailhead.
             </p>
             <p>
-                The cassettes were all identical and each contained the URL for Puzzle 22 which could only be found by viewing the
-                spectrogram of the audio.
+                The cassettes were all identical and each contained the URL for Puzzle 22, but the URL could only be found by
+                viewing the spectrogram of the audio.
             </p>
             <p>
                 As a side note, I also created 2 other spectrogram based puzzles for <i>Find Buzzy</i> which you can read about in my
-                <a href="/blog/spectrograms">spectrogram</a> blog post.
+                <a href="/blog/spectrograms">spectrograms</a> blog post.
             </p>
             <div>
                 <?php renderExpandableImage(
@@ -256,7 +257,8 @@ $puzzle9photos = [
             <h2>Calendar Event</h2>
             <p>
                 As someone who makes a lot of puzzles, I'm always on the lookout for new mediums. As much as possible, I want
-                players to experience new methods, techniques, and mediums in my puzzles. And in Puzzle 9, I did just that.
+                players to experience new methods, techniques, and mediums in my puzzles. And in
+                <a href="https://findbuzzy.com/adreamisawishyourheartmakes-b6h8s92ks/" target="_blank">Puzzle 9</a>, I did just that.
             </p>
             <p>
                 In this puzzle, the players were greeted with an image (made by someone else at ARGHouse) captioned "you've got a date with Buzzy".
@@ -266,15 +268,15 @@ $puzzle9photos = [
                 The event was titled "What was my original name?" and it contained a location listed as coordinates.
             </p>
             <p>
-                The coordinates led to Disney's Discovery Island, which as wikipedia will tell you, has had many names over the years.
-                However, the original name, and the answer, to the puzzle is "Raz Island".
+                The coordinates led to Disney's Discovery Island, which as Wikipedia will tell you, has had many names over the years.
+                However, the original name, and the answer to the puzzle, is "Raz Island".
             </p>
             <div>
                 <?php renderPhotoGallery($puzzle9photos, 3) ?>
             </div>
             <p>
                 While the date of the event wasn't important for solving the puzzle, it wasn't random either. April 30, 2020,
-                was the date YouTube Richard McGuire was arrested on Discovery Island for trespassing. An event which is covered in
+                was the date YouTuber Richard McGuire was arrested on Discovery Island for trespassing. An event which is covered in
                 the documentary.
             </p>
         </section>
