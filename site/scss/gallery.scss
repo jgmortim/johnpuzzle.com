@@ -22,7 +22,8 @@ figure {
 
 .grid-gallery-4 {
 	grid-template-columns: repeat(4, minmax(0, 1fr));
-	gap: 1rem;
+	row-gap: 1rem;
+	column-gap: 0;
 }
 
 .grid-gallery-3 {
