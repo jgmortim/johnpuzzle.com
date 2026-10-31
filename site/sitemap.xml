@@ -24,6 +24,11 @@
         <priority>0.8000</priority>
     </url>
     <url>
+        <loc>https://johnpuzzle.com/blog/find-buzzy/</loc>
+        <lastmod>2026-10-31</lastmod>
+        <priority>0.5000</priority>
+    </url>
+    <url>
         <loc>https://johnpuzzle.com/blog/weekend/</loc>
         <lastmod>2026-10-03</lastmod>
         <priority>0.5000</priority>

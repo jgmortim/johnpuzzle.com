@@ -68,12 +68,13 @@ include('../includes/assets.php');
                     "Find Buzzy" was an ARG that promoted, and released alongside of, the <i>Stolen Kingdom</i> documentary. The film's
                     theatrical release included many official tour stops which would featured a post-show Q&A panel with the filmmakers
                     and producers, as well as distribution of physical "trailheads" for the 25 puzzles of the ARG. These trailheads took
-                    many forms including postcards, pins, and cassette tapes. My role in bringing this ARG to life was primarily in
+                    many forms including postcards, pins, and even cassette tapes. My role in bringing this ARG to life was primarily in
                     puzzle design. In this role, I had the opportunity to create numerous puzzles spanning a wide range of disciplines
                     and difficulties. Including the final, and most difficult, puzzle of the game.
                 </p>
                 <p>
-                    > [Project Highlights Coming Soon]
+                    <span class="blink">></span>
+                    <a href="/blog/find-buzzy/" class="article-link">View Project Highlights</a>
                 </p>
             </div>
         </div>

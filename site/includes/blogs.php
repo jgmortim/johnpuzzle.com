@@ -1,6 +1,18 @@
 <?php
 $blogs = [
     [
+        'title' => 'Project Highlights: Find Buzzy',
+        'published' => '2026-10-31',
+        'modified' => '',
+        'link' => '/blog/find-buzzy/',
+        'summary' => '"Find Buzzy" was an ARG that promoted, and released alongside of, the Stolen Kingdom documentary. The film\'s
+            theatrical release included many official tour stops which featured a post-show Q&A panel with the filmmakers and
+            producers, as well as distribution of physical "trailheads" for the 25 puzzles of the ARG. These trailheads took many
+            forms including postcards, pins, and even cassette tapes. My role in bringing this ARG to life was primarily in puzzle design.
+            In this role, I had the opportunity to create numerous puzzles spanning a wide range of disciplines and difficulties.
+            Including the final, and most difficult, puzzle of the game.'
+    ],
+    [
         'title' => 'Project Highlight: Weekend at the End of the World',
         'published' => '2026-10-03',
         'modified' => '',
