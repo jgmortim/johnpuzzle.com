@@ -25,24 +25,24 @@ $puzzle22photos = [
         'caption' => 'The custom cassette tapes.'
     ],
     [
-        'src' => '../../images/buzzy-22-hidden.jpg',
+        'src' => '../../images/buzzy-22-hidden.webp',
         'alt' => '',
         'caption' => 'A tape hidden on top of a framed poster at the theater.'
     ]
 ];
 $puzzle9photos = [
     [
-        'src' => '../../images/buzzy-9.png',
+        'src' => '../../images/buzzy-9.webp',
         'alt' => '',
         'caption' => 'Web page for Puzzle 9.'
     ],
     [
-        'src' => '../../images/buzzy-9-calendar.png',
+        'src' => '../../images/buzzy-9-calendar.webp',
         'alt' => '',
         'caption' => 'Imported calendar event in Google Calendar.'
     ],
     [
-        'src' => '../../images/buzzy-9-coordinates.png',
+        'src' => '../../images/buzzy-9-coordinates.webp',
         'alt' => '',
         'caption' => 'Coordinates on Google Maps showing Dicovery Island.'
     ],
@@ -87,7 +87,7 @@ $puzzle9photos = [
             <h3>Premise</h3>
             <div class="inline-image">
                 <?php renderExpandableImage(
-                    '../../images/buzzy-25.png',
+                    '../../images/buzzy-25.webp',
                     'The image from Find Buzzy Puzzle 25',
                     'The image from Find Buzzy Puzzle 25.')
                 ?>
@@ -124,7 +124,7 @@ $puzzle9photos = [
             <h4>Puzzle 14</h4>
             <div class="inline-image">
                 <?php renderExpandableImage(
-                    '../../images/buzzy-secrets.png',
+                    '../../images/buzzy-secrets.webp',
                     'secrets.png',
                     'secrets.png')
                 ?>
