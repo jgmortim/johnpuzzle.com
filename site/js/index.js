@@ -10,7 +10,7 @@ Array.from(popupContainers).forEach((el) => {
 });
 
 document.getElementById('header-logo').addEventListener("dblclick", () => {
-    window.location.href = "https://johnpuzzle.com/ascii-art/";
+    window.location.href = "https://johnpuzzle.com/secrets/ascii-art/";
 })
 
 // Blinkers turn off 5 seconds after they first appear on screen.

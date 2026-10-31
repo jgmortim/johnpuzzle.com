@@ -1,7 +1,7 @@
 <?php
-include('../includes/header.php');
-include('../includes/footer.php');
-include('../includes/assets.php');
+include('../../includes/header.php');
+include('../../includes/footer.php');
+include('../../includes/assets.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,8 +12,8 @@ include('../includes/assets.php');
     <meta name="description" content="John Puzzle's ASCII art">
     <meta name="author" content="John Mortimore">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="../images/trilobyte.svg">
-    <link rel="canonical" href="https://johnpuzzle.com/ascii-art/">
+    <link rel="icon" type="image/x-icon" href="../../images/trilobyte.svg">
+    <link rel="canonical" href="https://johnpuzzle.com/secrets/ascii-art/">
     <link rel="stylesheet" href="<?= asset('/css/index.css') ?>">
 </head>
 <body>
