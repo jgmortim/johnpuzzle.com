@@ -2,6 +2,7 @@
 include('./includes/header.php');
 include('./includes/footer.php');
 include('./includes/assets.php');
+include('./includes/blogs.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,19 +38,16 @@ include('./includes/assets.php');
         </section>
         <hr>
         <section class="main-section">
+            <?php $blog = latestBlog(); ?>
             <h2>1 // LATEST BLOG POST</h2>
-            <h3>Project Highlight: Weekend at the End of the World</h3>
-            <p>Published: 2026-10-03</p>
+            <h3><?= $blog["title"] ?></h3>
+            <p>Published: <?= $blog["published"] ?></p>
             <p>
-                Weekend at the End of the World is a horror-comedy film directed by Gille Klabin. In which, the primary setting
-                is a hunted cabin. Through my job at ARGHouse, I helped players experience that cabin for themselves via an interactive
-                point-and-click puzzle game. Players who completed the game were eligible to win props from the movie and limited-run
-                VHS copies. In addition to doing the programming for the point-and-click environment, I also designed a number of the
-                game's puzzles. Most significantly, the final puzzle of the game.
+                <?= $blog["summary"] ?>
             </p>
             <p>
                 <span class="blink">></span>
-                <a href="/blog/weekend/">Continue Reading</a>
+                <a href="<?= $blog["link"] ?>">Continue Reading</a>
             </p>
             <p>
                 <span class="blink">></span>
