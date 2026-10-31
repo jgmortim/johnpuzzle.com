@@ -159,9 +159,9 @@ $totalPages = ceil((count($photos)/$imagesPerPage));
 
         <?php endif;?>
         <div class="pagination" style="margin-top: 2rem">
-            <button <?php echo ($page <= 1) ? "disabled" : ""?> class="" type="button" onclick="decreasePage(<?php echo $page ?>)">&lt;</button>
-            <?php echo "Page ".$page." of ".$totalPages?>
-            <button <?php echo ($page >= count($photos)/$imagesPerPage) ? "disabled" : ""?> class="" type="button" onclick="increasePage(<?php echo $page ?>)">&gt;</button>
+            <button <?= ($page <= 1) ? "disabled" : ""?> class="" type="button" onclick="decreasePage(<?= $page ?>)">&lt;</button>
+            <?= "Page ".$page." of ".$totalPages?>
+            <button <?= ($page >= count($photos)/$imagesPerPage) ? "disabled" : ""?> class="" type="button" onclick="increasePage(<?= $page ?>)">&gt;</button>
         </div>
     </section>
 </main>
