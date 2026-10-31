@@ -211,11 +211,11 @@ $puzzle9photos = [
             </p>
             <video width="90%" autoplay loop controls muted style="display: block; margin: 0 auto;">
                 <source src="../../videos/buzzy-24-arghouse.webm" type="video/webm">
-<!--                <track-->
-<!--                        kind="captions"-->
-<!--                        src="../../videos/vtt/weekend-final-puzzle.vtt"-->
-<!--                        srclang="en"-->
-<!--                />-->
+                <track
+                        kind="captions"
+                        src="../../videos/vtt/buzzy-24-arghouse.vtt"
+                        srclang="en"
+                />
             </video>
         </section>
         <hr>
