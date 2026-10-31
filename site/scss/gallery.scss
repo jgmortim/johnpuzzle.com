@@ -3,12 +3,16 @@
 }
 
 figure {
-	margin: 0;
+	margin: .5rem;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	gap: .5rem;
 	justify-content: space-evenly;
+	box-sizing: border-box;
+	padding: .5rem;
+	background: var(--background-color);
+	border-radius: 5px;
 }
 
 .grid-gallery-2, .grid-gallery-3, .grid-gallery-4 {
