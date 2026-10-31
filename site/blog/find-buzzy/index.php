@@ -8,12 +8,26 @@ $puzzle24photos = [
     [
         'src' => '../../images/buzzy-24-ig-1.webp',
         'alt' => '',
-        'caption' => 'The first Instagram photo with the QR code.'
+        'caption' => 'The first Instagram photo.'
     ],
     [
         'src' => '../../images/buzzy-24-ig-2.jpg',
         'alt' => '',
-        'caption' => 'The second Instagram photo with hidden imgconceal data.'
+        'caption' => 'The second Instagram photo.'
+    ]
+];
+$puzzle22photos = [
+    [
+
+
+        'src' => '../../images/buzzy-22-cassettes.webp',
+        'alt' => 'Image of cassette tapes from the Puzzle 22 trailhead',
+        'caption' => 'The custom cassette tapes.'
+    ],
+    [
+        'src' => '../../images/buzzy-22-hidden.jpg',
+        'alt' => '',
+        'caption' => 'A tape hidden on top of a framed poster at the theater.'
     ]
 ];
 $puzzle9photos = [
@@ -56,14 +70,14 @@ $puzzle9photos = [
 <main id="main-content" tabindex="-1">
     <article>
         <h2>Project Highlights: Find Buzzy</h2>
-        <p>Published: 2026-10-29</p>
+        <p>Published: 2026-10-31</p>
         <hr>
         <p>
             "Find Buzzy" was an ARG that promoted, and released alongside of, the
             <a href="https://www.stolenkingdomfilm.com/" target="_blank">Stolen Kingdom</a> documentary. The film's
             theatrical release included many official tour stops which featured a post-show Q&A panel with the filmmakers and
             producers, as well as distribution of physical "trailheads" for the 25 puzzles of the ARG. These trailheads took many
-            forms including postcards, pins, and cassette tapes. My role in bringing this ARG to life was primarily in puzzle design.
+            forms including postcards, pins, and even cassette tapes. My role in bringing this ARG to life was primarily in puzzle design.
             In this role, I had the opportunity to create numerous puzzles spanning a wide range of disciplines and difficulties.
             Including the final, and most difficult, puzzle of the game. A selection of my work is detailed below.
         </p>
@@ -75,7 +89,7 @@ $puzzle9photos = [
                 <?php renderExpandableImage(
                     '../../images/buzzy-25.png',
                     'The image from Find Buzzy Puzzle 25',
-                    'The image from Find Buzzy Puzzle 25')
+                    'The image from Find Buzzy Puzzle 25.')
                 ?>
             </div>
             <p>
@@ -90,7 +104,7 @@ $puzzle9photos = [
                 <a href="https://libraryofbabel.info/" target="_blank">Library of Babel</a>. For the uninitiated, the
                 <i>Library of Babel</i> is a website that contains all possible pages of 3200 characters (using a-z, space, comma, and period).
                 In other words, this library contains every book that has ever been written, will be written, or could be written
-                (in English). Within this infinite library, the key can be found in Hexagon: "<code>c0de</code>", Wall: <code>2</code>,
+                (in English). Within this infinite library, the key can be found within Hexagon: "<code>c0de</code>", Wall: <code>2</code>,
                 Shelf: <code>3</code>, Volume: <code>19</code>, on Page 1.
             </p>
             <p>
@@ -118,7 +132,7 @@ $puzzle9photos = [
             <p>
                 The image in <a href="https://findbuzzy.com/andpixiedust-6n3a9llcy/" target="_blank">Puzzle 14</a> contained a few
                 ciphers to solve, but there was more hidden beneath the surface. The image contained an unrelated secret. Using
-                <a href="https://www.openstego.com/" target="_blank">OpenStego</a>, a second image can be extracted from the first.
+                <a href="https://www.openstego.com/" target="_blank">OpenStego</a>, a second image could be extracted from the first.
                 "secrets.png" contained a 5x5 grid of squares. Most of them were red. Squares 4 and 13 were green, and 25 was yellow.
                 This grid represented the puzzle grid on the ARG's home page, and it revealed a connection between Puzzles 4, 13,
                 and 25. Specifically, that 4 and 13 needed to be solved before 25.
@@ -177,7 +191,7 @@ $puzzle9photos = [
                 steganographic data is destroyed by social media sites upon upload. Metadata gets stripped away and images get
                 automatically compressed and converted to other formats to reduce files sizes. Finding a steganographic technique,
                 and creating a suitable cover image, that could survive this compression took a bit of experimentation. But it was
-                worth the effort to achieve a result often considered impossible. With the image downloaded, players could use
+                worth the effort to achieve a result often considered impossible. With the image downloaded, players used
                 <a href="https://tbpaolini.github.io/imgconceal/" target="_blank">imgconceal</a> with the password
                 "crimson-clupea-harengus" to extract a text file called "run.txt". This file's only contents was the text
                 "fndbzzy24".
@@ -189,7 +203,7 @@ $puzzle9photos = [
                 Going to arghouse.com, which is themed to look like a Windows 95 desktop, players opened the run dialog (as hinted by the filename)
                 from the start menu
                 and entered the command "fndbzzy24". The wallpaper on the site then changed to one with a <i>Stolen Kingdom</i> theme,
-                the clock changed to midnight (a clue to used once past the trailhead) and Clippy popped up and said
+                the clock changed to midnight (a clue to be used once past the trailhead) and Clippy popped up and said
                 "SilentEye" —  another steganography program. Players then took the wallpaper and ran it through
                 <a href="https://achorein.github.io/silenteye/" target="_blank">SilentEye</a> with a blank password. Which
                 extracted a message revealing the URL for
@@ -207,19 +221,15 @@ $puzzle9photos = [
         <hr>
         <section class="main-section">
             <h2>Cassette Trailhead</h2>
-            <div class="inline-image">
-                <?php renderExpandableImage(
-                    '../../images/buzzy-22-cassettes.webp',
-                    'Image of cassette tapes from the Find Buzzy ARG',
-                    '')
-                ?>
-            </div>
             <p>
                 <a href="https://findbuzzy.com/listenwithyourheartyouwillunderstand-h9syb532/" target="_blank">Puzzle 22</a> was one
                 of many to feature a physical trailhead which could be found at one of the theatrical showing of
-                <i>Stolen Kingdom</i> included in the film's official Q&A Tour. However, unlike the other physical trails, I made
+                <i>Stolen Kingdom</i> included in the film's official Q&A Tour. However, unlike the other physical trailheads, I made
                 something more involved for the tour stop in Birmingham, MI.
             </p>
+            <div>
+                <?php renderPhotoGallery($puzzle22photos, 2) ?>
+            </div>
             <p>
                 I made audio cassettes and hid them around the Birmingham 8 theater in the hour leading up to the showing. The
                 cassettes were packaged with custom labels and cases. A total of five tapes made it into the hands of players that
@@ -240,7 +250,6 @@ $puzzle9photos = [
                     '')
                 ?>
             </div>
-<!--            TODO image of  hidden tape -->
         </section>
         <hr>
         <section class="main-section">
@@ -264,7 +273,7 @@ $puzzle9photos = [
                 <?php renderPhotoGallery($puzzle9photos, 3) ?>
             </div>
             <p>
-                While the date of the event wasn't important for solving the puzzle, but it wasn't random either. April 30, 2020
+                While the date of the event wasn't important for solving the puzzle, it wasn't random either. April 30, 2020,
                 was the date YouTube Richard McGuire was arrested on Discovery Island for trespassing. An event which is covered in
                 the documentary.
             </p>
