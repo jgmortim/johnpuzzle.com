@@ -7,43 +7,41 @@ include('../../includes/assets.php');
 $puzzle24photos = [
     [
         'src' => '../../images/buzzy-24-ig-1.webp',
-        'alt' => '',
+        'alt' => 'Wonders of Life activity sheet with a blurry QR code in the corner',
         'caption' => 'The first Instagram photo.'
     ],
     [
         'src' => '../../images/buzzy-24-ig-2.jpg',
-        'alt' => '',
+        'alt' => 'Glitchy image of Buzzy with "imgconceal written in the margins"',
         'caption' => 'The second Instagram photo.'
     ]
 ];
 $puzzle22photos = [
     [
-
-
         'src' => '../../images/buzzy-22-cassettes.webp',
         'alt' => 'Image of cassette tapes from the Puzzle 22 trailhead',
         'caption' => 'The custom cassette tapes.'
     ],
     [
         'src' => '../../images/buzzy-22-hidden.webp',
-        'alt' => '',
+        'alt' => 'A tape hidden on top of a framed poster at the theater',
         'caption' => 'A tape hidden on top of a framed poster at the theater.'
     ]
 ];
 $puzzle9photos = [
     [
         'src' => '../../images/buzzy-9.webp',
-        'alt' => '',
-        'caption' => 'Web page for Puzzle 9.'
+        'alt' => 'Screenshot of the Puzzle 9 webpage',
+        'caption' => 'Webpage for Puzzle 9.'
     ],
     [
         'src' => '../../images/buzzy-9-calendar.webp',
-        'alt' => '',
+        'alt' => 'Screenshot of the calendar event in Google Calendar',
         'caption' => 'Imported calendar event in Google Calendar.'
     ],
     [
         'src' => '../../images/buzzy-9-coordinates.webp',
-        'alt' => '',
+        'alt' => 'Screenshot from Google Maps showing the coordinates from the calendar event',
         'caption' => 'Coordinates on Google Maps showing Dicovery Island.'
     ],
 ];
