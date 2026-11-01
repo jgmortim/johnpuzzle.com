@@ -320,21 +320,30 @@ blockquote + p {
 	border-radius: 2px;
 }
 
-.nav-bar-off {
-	border: 2px solid transparent;
-}
-
-.nav-bar-on, .site-nav-button:hover + .nav-bar-off, .site-nav-button:focus + .nav-bar-off {
+.nav-bar-off, .nav-bar-on {
 	color: var(--text-green);
 	background: var(--text-green);
 	@include crt-boarder(var(--text-green));
 }
 
-.nav-bar-secrets {
-	color: gold;
-	background: gold;
-	@include crt-boarder(gold);
+.nav-bar-off {
+	opacity: 5%;
 }
+
+.nav-bar-on,
+.site-nav-button:hover + .nav-bar-off, .site-nav-button:focus + .nav-bar-off {
+	opacity: 100%;
+}
+
+.nav-bar-secrets {
+	animation: wave-5 2.5s step-end infinite;
+}
+
+.site-nav-option:nth-child(1) .nav-bar-secrets { animation-delay: -2.0s; }
+.site-nav-option:nth-child(2) .nav-bar-secrets { animation-delay: -1.5s; }
+.site-nav-option:nth-child(3) .nav-bar-secrets { animation-delay: -1.0s; }
+.site-nav-option:nth-child(4) .nav-bar-secrets { animation-delay: -0.5s; }
+.site-nav-option:nth-child(5) .nav-bar-secrets { animation-delay: -0.0s; }
 
 /* Site footer styles */
 
@@ -380,6 +389,21 @@ blockquote + p {
 @keyframes blinker {
 	50% {
 		opacity: 15%
+	}
+}
+
+@keyframes wave-5 {
+	0% {
+		color: var(--text-green);
+		background: var(--text-green);
+		@include crt-boarder(var(--text-green));
+		opacity: 5%;
+	}
+	80% {
+		color: gold;
+		background: gold;
+		@include crt-boarder(gold);
+		opacity: 100%
 	}
 }
 
