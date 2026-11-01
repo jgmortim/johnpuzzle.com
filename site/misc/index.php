@@ -15,6 +15,8 @@ include('../includes/assets.php');
     <link rel="icon" type="image/x-icon" href="../images/trilobyte.svg">
     <link rel="canonical" href="https://johnpuzzle.com/misc/">
     <link rel="stylesheet" href="<?= asset('/css/index.css') ?>">
+    <link rel="stylesheet" href="<?= asset('/css/gallery.css') ?>">
+    <link rel="stylesheet" href="<?= asset('/css/cursor.css') ?>">
 </head>
 <body>
 <?php renderHeader('MISC'); ?>
@@ -41,6 +43,14 @@ include('../includes/assets.php');
     <hr>
     <section class="main-section">
         <h2>Kheel Mouse Cursors</h2>
+        <div class="cursor-showcase-block">
+            <figure class="cursor-showcase">
+                <img src="/images/cursors/arrow48.png" alt="arrow 48px">
+                <img src="/images/cursors/working48.png" alt="working 48px">
+                <img src="/images/cursors/busy48.png" alt="busy 48px">
+                <figcaption>Left-to-right:<br>Normal Select<br>Working in Background<br>Busy</figcaption>
+            </figure>
+        </div>
         <p>
             "Kheel" is the name of custom set of mouse cursors I've slowly been designing. This project is far from finished, but the
             core of it is more or less done and available for review.

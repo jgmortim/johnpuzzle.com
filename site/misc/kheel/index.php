@@ -6,7 +6,7 @@ include('../../includes/assets.php');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>John Puzzle - AI Policy</title>
+    <title>John Puzzle - Kheel Cursors</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="John Puzzle, Cursor, Mouse, Pointer, Kheel">
     <meta name="description" content="Custom mouse cursors">
@@ -15,6 +15,7 @@ include('../../includes/assets.php');
     <link rel="icon" type="image/x-icon" href="../../images/trilobyte.svg">
     <link rel="canonical" href="https://johnpuzzle.com/misc/kheel/">
     <link rel="stylesheet" href="<?= asset('/css/index.css') ?>">
+    <link rel="stylesheet" href="<?= asset('/css/cursor.css') ?>">
     <link rel="stylesheet" href="<?= asset('/css/gallery.css') ?>">
 </head>
 <body>
@@ -41,7 +42,8 @@ include('../../includes/assets.php');
                 This project is hosted in GitHub: <a href="https://github.com/jgmortim/kheel" target="_blank">repo</a>
             </p>
             <p>
-                Download v0.0.1: <a href="https://github.com/jgmortim/kheel/releases/download/v0.0.1/kheel-0.0.1.zip" target="_blank">GitHub</a>,
+                Download v0.0.1: <a href="https://github.com/jgmortim/kheel/releases/download/v0.0.1/kheel-0.0.1.zip"
+                                    target="_blank">GitHub</a>,
                 <a href="https://www.rw-designer.com/cursor-downloadset/kheel-v0-0-1.zip" target="_blank">RW Designer</a> (mirror)
             </p>
             <p>
@@ -83,11 +85,14 @@ include('../../includes/assets.php');
                 with an inverted colors scheme.
             </p>
             <h3>Default</h3>
-            <p>
-                <img src="/images/cursors/arrow32.png" alt="arrow 32px">
-                <img src="/images/cursors/arrow48.png" alt="arrow 48px">
-                <img src="/images/cursors/arrow64.png" alt="arrow 64px">
-            </p>
+            <div class="cursor-showcase-block">
+                <figure class="cursor-showcase">
+                    <img src="/images/cursors/arrow32.png" alt="arrow 32px">
+                    <img src="/images/cursors/arrow48.png" alt="arrow 48px">
+                    <img src="/images/cursors/arrow64.png" alt="arrow 64px">
+                    <figcaption>Normal Select<br>32px, 48px, 64px</figcaption>
+                </figure>
+            </div>
             <p>
                 I kept the default cursor as an arrow tilted at 22.5°; the angle established by Xerox's Palo Alto Research Center
                 when they released the Xerox Alto in 1973 and the same angle used today by both Windows and Apple. After 50 years of
@@ -106,14 +111,20 @@ include('../../includes/assets.php');
                 with the cursor instead of remaining at 1 px.
             </p>
             <h3>Loading</h3>
-            <p>
-                <img src="/images/cursors/working32.png" alt="working 32px">
-                <img src="/images/cursors/working48.png" alt="working 48px">
-                <img src="/images/cursors/working64.png" alt="working 64px">
-                <img src="/images/cursors/busy32.png" alt="busy 32px">
-                <img src="/images/cursors/busy48.png" alt="busy 48px">
-                <img src="/images/cursors/busy64.png" alt="busy 64px">
-            </p>
+            <div class="cursor-showcase-block">
+                <figure class="cursor-showcase">
+                    <img src="/images/cursors/working32.png" alt="working 32px">
+                    <img src="/images/cursors/working48.png" alt="working 48px">
+                    <img src="/images/cursors/working64.png" alt="working 64px">
+                    <figcaption>Working in Background<br>32px, 48px, 64px</figcaption>
+                </figure>
+                <figure class="cursor-showcase">
+                    <img src="/images/cursors/busy32.png" alt="busy 32px">
+                    <img src="/images/cursors/busy48.png" alt="busy 48px">
+                    <img src="/images/cursors/busy64.png" alt="busy 64px">
+                    <figcaption>Busy<br>32px, 48px, 64px</figcaption>
+                </figure>
+            </div>
             <p>
                 The loading cursors ("busy" and "working in background" in Windows) is the one area with less rigidly established
                 norms. While almost always animated, these have been represented with a variety of symbols over the years including
@@ -156,9 +167,9 @@ include('../../includes/assets.php');
                 <li>The following software was used in the creation of this project:
                     <ol>
                         <li>
-                            <a href="http://www.rw-designer.com/cursor-maker">RealWorld Cursor Editor</a> versions 2013.1 and 2023.1
+                            <a href="https://www.rw-designer.com/cursor-maker">RealWorld Cursor Editor</a> versions 2013.1 and 2023.1
                             which are licensed under the
-                            <a href="http://www.rw-designer.com/cursor-license">RealWorld Cursor Editor license</a> and are free for
+                            <a href="https://www.rw-designer.com/cursor-license">RealWorld Cursor Editor license</a> and are free for
                             both personal and commercial use.
                         </li>
                         <li>
@@ -172,7 +183,7 @@ include('../../includes/assets.php');
                     The Kheel logo uses the <a href="https://www.1001fonts.com/signika-negative-font.html">Signika Negative</a>
                     typeface by
                     <a href="https://www.1001fonts.com/users/ancymonic/">Anna Giedryś</a>. Signika Negative is licensed under the
-                    <a href="http://scripts.sil.org/OFL">SIL Open Font License (OFL)</a> and is free for both personal and commercial
+                    <a href="https://scripts.sil.org/OFL">SIL Open Font License (OFL)</a> and is free for both personal and commercial
                     use.
                 </li>
             </ol>
