@@ -8,10 +8,17 @@
     </url>
     <url>
         <loc>https://johnpuzzle.com/work/</loc>
+        <lastmod>2026-10-31</lastmod>
         <priority>0.8000</priority>
     </url>
     <url>
         <loc>https://johnpuzzle.com/history/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <priority>0.8000</priority>
+    </url>
+    <url>
+        <loc>https://johnpuzzle.com/blog/</loc>
+        <lastmod>2026-10-31</lastmod>
         <priority>0.8000</priority>
     </url>
     <url>
@@ -20,7 +27,7 @@
         <priority>0.8000</priority>
     </url>
     <url>
-        <loc>https://johnpuzzle.com/blog/</loc>
+        <loc>https://johnpuzzle.com/misc/</loc>
         <priority>0.8000</priority>
     </url>
     <url>
@@ -36,6 +43,10 @@
     <url>
         <loc>https://johnpuzzle.com/blog/spectrograms/</loc>
         <lastmod>2026-09-12</lastmod>
+        <priority>0.5000</priority>
+    </url>
+    <url>
+        <loc>https://johnpuzzle.com/misc/kheel</loc>
         <priority>0.5000</priority>
     </url>
     <url>
