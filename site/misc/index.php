@@ -43,6 +43,7 @@ include('../includes/assets.php');
             <li>Double click</li>
             <li>Not Found, how'd you get it this high?</li>
             <li>Not Found</li>
+            <li>Method Not Allowed</li>
         </ol>
     </section>
     <hr>

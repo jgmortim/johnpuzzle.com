@@ -8,8 +8,9 @@ My personal website.
 ## Easter Eggs
 
 * Double-clicking on the Trilobyte logo will take you to the hidden ASCII art page
-* 404 page
-* Visit page 404 of the gallery
+* Cicada Detroit Easter egg on page 404 of the gallery
+* http 404 page with Peggy
+* http 405 page with Tiny Peggy
 
 ## License
 
