@@ -13,7 +13,12 @@ $photos = [
     [
         'src' => '../../images/glitch-art/grey-parrot-stego-artifact.png',
         'alt' => '',
-        'caption' => 'Failed encoding attempt from the steganography application was developing in 2016'
+        'caption' => 'Failed encoding attempt from a steganography application was developing in 2016'
+    ],
+    [
+        'src' => '../../images/glitch-art/4-bit-parrot-stego-artifact.bmp',
+        'alt' => '',
+        'caption' => 'Another failed encoding attempt from a steganography application was developing in 2016'
     ],
     [
         'src' => '../../images/glitch-art/resized-png-artifact.bmp',
