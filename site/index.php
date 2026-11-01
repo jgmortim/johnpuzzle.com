@@ -46,11 +46,11 @@ include('./includes/blogs.php');
                 <?= $blog["summary"] ?>
             </p>
             <p>
-                <span class="blink">></span>
+                <span class="blink">&gt;</span>
                 <a href="<?= $blog["link"] ?>">Continue Reading</a>
             </p>
             <p>
-                <span class="blink">></span>
+                <span class="blink">&gt;</span>
                 <a href="/blog/">See All Blog Posts</a>
             </p>
         </section>
@@ -99,7 +99,7 @@ include('./includes/blogs.php');
                     supplemented with photos and audio captured during the event.
                 </p>
                 <p>
-                    <span class="blink">></span>
+                    <span class="blink">&gt;</span>
                     <a href="https://www.youtube.com/playlist?list=PLkW0VtWWrk_R6FoL9G_b0aI1VeE3L_Lxw" target="_blank">View Full Playlist</a>
                     (YouTube)
                 </p>
@@ -116,7 +116,7 @@ include('./includes/blogs.php');
                     to cover it. Unfortunately, Samsung eventually took down the recording of the livestream so it is now lost.
                 </p>
                 <p>
-                    <span class="blink">></span>
+                    <span class="blink">&gt;</span>
                     <a href="https://www.youtube.com/playlist?list=PLkW0VtWWrk_TmW0_YtMjgxerBoXyMlyxA" target="_blank">View Full Playlist</a>
                     (YouTube)
                 </p>

@@ -44,7 +44,7 @@ include('../includes/assets.php');
                     number of the game's puzzles. Most significantly, the final puzzle of the game.
                 </p>
                 <p>
-                    <span class="blink">></span>
+                    <span class="blink">&gt;</span>
                     <a href="/blog/weekend/" class="article-link">View Project Highlights</a>
                 </p>
             </div>
@@ -73,7 +73,7 @@ include('../includes/assets.php');
                     and difficulties. Including the final, and most difficult, puzzle of the game.
                 </p>
                 <p>
-                    <span class="blink">></span>
+                    <span class="blink">&gt;</span>
                     <a href="/blog/find-buzzy/" class="article-link">View Project Highlights</a>
                 </p>
             </div>

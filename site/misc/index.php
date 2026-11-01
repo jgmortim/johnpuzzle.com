@@ -61,7 +61,7 @@ include('../includes/assets.php');
             but the core of it is more or less done and available for review.
         </p>
         <p>
-            <span class="blink">></span>
+            <span class="blink">&gt;</span>
             <a href="/misc/kheel">View Project</a>
         </p>
     </section>

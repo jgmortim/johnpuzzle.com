@@ -48,7 +48,7 @@ function renderBlogs(): void {
                 <?= $blog["summary"] ?>
             </p>
             <p class="indent-2">
-                <span class="blink">></span>
+                <span class="blink">&gt;</span>
                 <a href="<?= $blog["link"] ?>" class="article-link">Continue Reading</a>
             </p>
         </section>
