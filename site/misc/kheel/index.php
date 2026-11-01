@@ -21,7 +21,7 @@ include('../../includes/assets.php');
 <body>
 <?php renderHeader('MISC'); ?>
 <nav id="breadcrumbs">
-    <a href="/">Home</a> > Misc > Kheel Cursors
+    <a href="/">Home</a> > <a href="/misc/">Misc</a> > Kheel Cursors
 </nav>
 <main id="main-content" tabindex="-1">
     <article>
