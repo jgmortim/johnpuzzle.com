@@ -123,7 +123,11 @@ $totalPages = ceil((count($photos)/$imagesPerPage));
     <link rel="stylesheet" href="<?= asset('/css/gallery.css') ?>">
 </head>
 <body>
-<?php renderHeader('GALLERY'); ?>
+<?php if ($page == 404):
+    renderHeader('SECRETS');
+else:
+    renderHeader('GALLERY');
+endif; ?>
 
 <?php if ($page == 404):?>
     <nav id="breadcrumbs">
