@@ -1,1 +1,8 @@
+RewriteEngine On
+
+# Reject all state-changing HTTP methods
+RewriteCond %{REQUEST_METHOD} ^(POST|PUT|PATCH|DELETE)$ [NC]
+RewriteRule ^ - [R=405,L]
+
 ErrorDocument 404 /404.html
+ErrorDocument 405 /405.html
