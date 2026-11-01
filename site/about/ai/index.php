@@ -17,7 +17,7 @@ include('../../includes/assets.php');
     <link rel="stylesheet" href="<?= asset('/css/index.css') ?>">
 </head>
 <body>
-<?php renderHeader('ABOUT'); ?>
+<?php renderHeader('MISC'); ?>
 <nav id="breadcrumbs">
     <a href="/">Home</a> > About > AI Policy
 </nav>

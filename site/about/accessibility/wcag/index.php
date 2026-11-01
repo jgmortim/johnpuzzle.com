@@ -18,7 +18,7 @@ include('../../../includes/assets.php');
     <link rel="stylesheet" href="<?= asset('/css/accessibility.css') ?>">
 </head>
 <body>
-<?php renderHeader('ABOUT'); ?>
+<?php renderHeader('MISC'); ?>
 <nav id="breadcrumbs">
     <a href="/">Home</a> > About > <a href="/about/accessibility/">Accessibility</a> > WCAG
 </nav>
