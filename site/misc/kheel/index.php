@@ -31,7 +31,7 @@ include('../../includes/assets.php');
                 <img src="logo.png" alt="Kheel logo">
             </div>
             <p>
-                "Kheel" is the name of custom set of mouse cursors I've slowly been designing. This project is far from finished,
+                "Kheel" is the name of a custom set of mouse cursors I've slowly been designing. This project is far from finished,
                 but the core of it is more or less done and available for review.
             </p>
             <p>

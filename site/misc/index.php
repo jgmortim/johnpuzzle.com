@@ -52,8 +52,8 @@ include('../includes/assets.php');
             </figure>
         </div>
         <p>
-            "Kheel" is the name of custom set of mouse cursors I've slowly been designing. This project is far from finished, but the
-            core of it is more or less done and available for review.
+            "Kheel" is the name of a custom set of mouse cursors I've slowly been designing. This project is far from finished,
+            but the core of it is more or less done and available for review.
         </p>
         <p>
             <span class="blink">></span>
