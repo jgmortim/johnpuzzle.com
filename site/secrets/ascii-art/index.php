@@ -58,7 +58,6 @@ include('../../includes/assets.php');
  | . . |             | . . |   /_/_|_\
  /_/_|_\             /_|_\_\
     </pre>
-    <p>Secret pages: 1</p>
     <h3>Tiny Peggy</h3>
     <pre>
       /`/\/`,.
@@ -69,7 +68,6 @@ include('../../includes/assets.php');
    | | | | '-|_|
   |_|  |_|
     </pre>
-    <p>Secret pages: 0</p>
     <h3>Trilobyte</h3>
     <pre>
     _______
@@ -82,7 +80,6 @@ include('../../includes/assets.php');
    ,.~'*'~.,
     ,~'*'~,
     </pre>
-    <p>Secret pages: N/A</p>
     <h3>Floppy Disk</h3>
     <pre>
      ___________________
@@ -94,7 +91,6 @@ include('../../includes/assets.php');
 ¦___/___________/__//
 '==-\___________\==´
     </pre>
-    <p>Secret pages: 0</p>
     <h3>Cicada</h3>
     <pre>
                         ,---,
@@ -107,7 +103,6 @@ include('../../includes/assets.php');
          :_____--       (_~_)       --_____:
                          \_/
     </pre>
-    <p>Secret pages: 1</p>
 </main>
 <?php renderFooter(); ?>
 <script src="<?= asset('/js/index.js') ?>" defer></script>
