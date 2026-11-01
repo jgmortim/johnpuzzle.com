@@ -35,10 +35,15 @@ include('../includes/assets.php');
         <h2>Secret Pages</h2>
         <p>
             Being a puzzle maker, it should come as no surprise that I have hidden secret pages on this site. And I'll be adding more
-            as time goes on. Feel free to look for them, but avoid looking this site up on GitHub unless you want spoilers. All the
-            Easter Eggs in this website are listed in the README.
+            as time goes on. You'll know when you found one because the page will generally say "You found a secret page" and
+            the site header will update in a special way. Feel free to look for them.
         </p>
-        <p><strong>Secret Pages: <span class="blink">3</span></strong></p>
+        <p>Secret Page Hints:</p>
+        <ol>
+            <li>Double click</li>
+            <li>Not Found, how'd you get it this high?</li>
+            <li>Not Found</li>
+        </ol>
     </section>
     <hr>
     <section class="main-section">

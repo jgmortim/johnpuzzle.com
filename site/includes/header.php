@@ -1,9 +1,14 @@
 <?php
 
-function getNavBarClass($currentTab, $navTab): string {
-    return $currentTab === $navTab || $currentTab === 'SECRETS'
-        ? 'nav-bar-on'
-        : 'nav-bar-off';
+function getNavBarClass($currentTab, $navTab): string
+{
+    if ($currentTab === 'SECRETS') {
+        return 'nav-bar-secrets';
+    } elseif ($currentTab === $navTab) {
+        return 'nav-bar-on';
+    } else {
+        return 'nav-bar-off';
+    }
 }
 
 function renderHeader(string $currentTab = ''): void
