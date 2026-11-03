@@ -1,6 +1,7 @@
 <?php
 include('../../includes/header.php');
 include('../../includes/footer.php');
+include('../../includes/images.php');
 include('../../includes/assets.php');
 ?>
 <!DOCTYPE html>
@@ -15,6 +16,7 @@ include('../../includes/assets.php');
     <link rel="icon" type="image/x-icon" href="../../images/trilobyte.svg">
     <link rel="canonical" href="https://johnpuzzle.com/blog/spectrograms/">
     <link rel="stylesheet" href="<?= asset('/css/index.css') ?>">
+    <link rel="stylesheet" href="<?= asset('/css/gallery.css') ?>">
 </head>
 <body>
 <?php renderHeader('BLOG'); ?>
@@ -52,7 +54,11 @@ include('../../includes/assets.php');
                 contained text which amounted to a type of book cipher. As shown in the screenshot below: on the left is an identifier that can be used to find the
                 "book", in this case a policy report. And on the right, you see the indexing key used to extract words from the policy report.
             </p>
-            <img src="../../images/buzzy-22-spectrogram.webp" class="inline-img" alt="Screenshot from Audacity showing a spectrogram featuring the image of Buzzy and a book cipher"/>
+            <?php renderExpandableImage(
+                '../../images/buzzy-22-spectrogram.webp',
+                'Screenshot from Audacity showing a spectrogram featuring the image of Buzzy and a book cipher',
+                '')
+            ?>
             <p>
                 But we are not limited to just images containing ciphers; the sky really is the limit here. A spectrogram could contain an image of a rebus, or some
                 other type of visual riddle. And you can mix and match puzzle delivery techniques to add additional variety.
@@ -64,7 +70,11 @@ include('../../includes/assets.php');
                 barcode. And scanning the barcode revealed the answer to the puzzle. This is another simple technique, but it gets you out of the cliché of simple
                 text. Like in the example above, viewing the spectrogram is now just one step in decoding the file.
             </p>
-            <img src="../../images/barcode-spectrogram.webp" class="inline-img" alt="Screenshot from Audacity showing a spectrogram with the appearance of a barcode"/>
+            <?php renderExpandableImage(
+                '../../images/barcode-spectrogram.webp',
+                'Screenshot from Audacity showing a spectrogram with the appearance of a barcode',
+                '')
+            ?>
             <p>
                 Code 128 is just one example, there are many scannable codes out there. A popular one to use in a puzzle would be a QR code.
             </p>
@@ -85,14 +95,23 @@ include('../../includes/assets.php');
                 The screenshots below show the original mp3 (top) with separate left and right audio that appear to be just white noise, and the resulting mixed
                 mono track (bottom).
             </p>
-            <img src="../../images/two-voices-one-truth.webp" class="inline-img" alt="Screenshot from Audacity showing a spectrogram before and after mixing stereo down to mono"/>
+            <?php renderExpandableImage(
+                '../../images/two-voices-one-truth.webp',
+                'Screenshot from Audacity showing a spectrogram before and after mixing stereo down to mono',
+                '')
+            ?>
             <p>
                 There is a downside to this technique, however. Some online spectrogram viewing websites automatically mix the audio down to mono before rendering
                 the spectrogram. Giving players the answer without them even knowing that mixing was required.
             </p>
             <h3>2.2 // Second Iteration</h3>
-            <img src="../../images/perception.webp" class="inline-img" style="float: right; max-height: 300px; max-width: 50%; margin: .5rem"
-                 alt="Screenshot from Audacity showing spectrograms of seven tracks with white noise and red herring messages"/>
+            <div class="inline-image">
+                <?php renderExpandableImage(
+                    '../../images/perception.webp',
+                    'Screenshot from Audacity showing spectrograms of seven tracks with white noise and red herring messages',
+                    'Spectrograms of the seven tracks.')
+                ?>
+            </div>
             <p>
                 To combat that issue, I took this technique to the extreme in Chapter 4 of the <a href="https://www.cicadachallenge.com/vault/" target="_blank">RUNE ARG</a>.
                 Players were given seven .wav files and told to find a message hidden in the noise. Each of the .wav files contained multiple sections of dense noise,
@@ -108,13 +127,24 @@ include('../../includes/assets.php');
                 viewers. To my knowledge, there are no online spectrogram tools that allow you to mix multiple files together. But even if there were, it would be a
                 conscious choice of the player and not something they could skip without knowing.
             </p>
-            <img src="../../images/fetch-discernment.webp" class="inline-img"
-                 alt="Screenshot from Audacity showing the resulting spectrogram after of mixing the seven tracks down to one, revealing the true hidden message"/>
+            <div style="clear: both">
+                <?php renderExpandableImage(
+                    '../../images/fetch-discernment.webp',
+                    'Screenshot from Audacity showing the resulting spectrogram after of mixing the seven tracks down to one, revealing the true hidden message',
+                    '')
+                ?>
+            </div>
         </section>
         <hr>
         <section class="main-section">
             <h2>3 // Physical Media</h2>
-            <img src="../../images/buzzy-22-cassettes.webp" class="inline-img" style="float: right; max-height: 200px; margin: .5rem" alt="Image of cassette tapes from the Find Buzzy ARG"/>
+            <div class="inline-image">
+                <?php renderExpandableImage(
+                    '../../images/buzzy-22-cassettes.webp',
+                    'Image of cassette tapes from the Find Buzzy ARG',
+                    'Trailhead cassettes.')
+                ?>
+            </div>
             <p>
                 For the trailhead of <a href="https://findbuzzy.com/listenwithyourheartyouwillunderstand-h9syb532/" target="_blank">Puzzle 22</a> of the
                 <a href="https://findbuzzy.com/" target="_blank">Find Buzzy ARG</a>, I created audio cassettes which were hidden in the Birmingham 8 theater in
@@ -131,7 +161,13 @@ include('../../includes/assets.php');
                 As an additional note, the cassettes were packaged with custom labels and cases. While this aspect doesn't impact the puzzle itself, it does a lot
                 to distinguish it from other spectrogram-based puzzles and certainly improves memorability.
             </p>
-            <img src="../../images/buzzy-22-trailhead.webp" class="inline-img" alt="Screenshot from Audacity showing the spectrogram of the contents on the Find Buzzy cassettes"/>
+            <div style="clear: both">
+                <?php renderExpandableImage(
+                    '../../images/buzzy-22-trailhead.webp',
+                    'Screenshot from Audacity showing the spectrogram of the contents on the Find Buzzy cassettes',
+                    '')
+                ?>
+            </div>
         </section>
     </article>
 </main>
