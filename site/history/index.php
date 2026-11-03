@@ -89,7 +89,7 @@ include('../includes/assets.php');
                     <td>Puzzle design</td>
                 </tr>
                 <tr>
-                    <td rowspan="7">2026</td>
+                    <td rowspan="9">2026</td>
                     <td><a href="https://celloperations.com/" target="_blank">Cell Operations</a></td>
                     <td>Web infrastructure, puzzle consultation</td>
                 </tr>
@@ -116,6 +116,14 @@ include('../includes/assets.php');
                 <tr>
                     <td><span class="tooltip-dotted" title="Cicada Challenge">CC</span>: <a href="https://www.cicadachallenge.com/vault/" target="_blank">Cicada Foods</a></td>
                     <td>Puzzle design, web design</td>
+                </tr>
+                <tr>
+                    <td><span class="tooltip-dotted" title="Cicada Challenge">CC</span>: <a href="https://www.cicadachallenge.com/vault/" target="_blank">Mothcada</a></td>
+                    <td>Puzzle consultation</td>
+                </tr>
+                <tr>
+                    <td><span class="tooltip-dotted" title="Cicada Challenge">CC</span>: <a href="https://www.cicadachallenge.com/vault/" target="_blank">Community Days</a></td>
+                    <td>Project Coordinator</td>
                 </tr>
             </table>
         </div>
