@@ -240,7 +240,7 @@ $puzzle9photos = [
             </p>
             <p>
                 As a side note, I also created 2 other spectrogram based puzzles for <i>Find Buzzy</i> which you can read about in my
-                <a href="/blog/spectrograms">spectrograms</a> blog post.
+                <a href="/blog/spectrograms/">spectrograms</a> blog post.
             </p>
             <div>
                 <?php renderExpandableImage(

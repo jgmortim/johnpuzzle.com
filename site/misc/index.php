@@ -63,16 +63,16 @@ include('../includes/assets.php');
         </p>
         <p>
             <span class="blink">&gt;</span>
-            <a href="/misc/kheel">View Project</a>
+            <a href="/misc/kheel/">View Project</a>
         </p>
     </section>
     <hr>
     <section class="main-section">
         <h2>About</h2>
         <ul>
-            <li><a href="/about/ai">Made Without AI</a></li>
-            <li><a href="/about/privacy-policy">Privacy Policy</a></li>
-            <li><a href="/about/accessibility">Accessibility</a></li>
+            <li><a href="/about/ai/">Made Without AI</a></li>
+            <li><a href="/about/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="/about/accessibility/">Accessibility</a></li>
         </ul>
     </section>
 </main>
