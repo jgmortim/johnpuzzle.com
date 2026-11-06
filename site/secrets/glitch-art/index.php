@@ -12,17 +12,17 @@ $start = ($page - 1) * $imagesPerPage;
 $photos = [
     [
         'src' => '../../images/glitch-art/grey-parrot-stego-artifact.png',
-        'alt' => '',
-        'caption' => 'Failed encoding attempt from a steganography application was developing in 2016'
+        'alt' => 'glitch art',
+        'caption' => 'Failed encoding attempt from a steganography application I was developing in 2016.'
     ],
     [
         'src' => '../../images/glitch-art/4-bit-parrot-stego-artifact.bmp',
-        'alt' => '',
-        'caption' => 'Another failed encoding attempt from a steganography application was developing in 2016'
+        'alt' => 'glitch art',
+        'caption' => 'Another failed encoding attempt from a steganography application I was developing in 2016.'
     ],
     [
         'src' => '../../images/glitch-art/resized-png-artifact.bmp',
-        'alt' => '',
+        'alt' => 'glitch art',
         'caption' => 'Started as an index color PNG where all indexes had the same hex value (#00d084). I modified the image header
          to change its dimension and ended up with this. Not sure where the pattern is coming from.'
     ]
@@ -32,14 +32,14 @@ $totalPages = ceil((count($photos)/$imagesPerPage));
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>John Puzzle - Gallery</title>
+    <title>John Puzzle - Glitch Art</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="John Puzzle, Gallery, Gitch, Gitch Art">
-    <meta name="description" content="John Puzzle's photo gallery">
+    <meta name="description" content="John Puzzle's glitch art">
     <meta name="author" content="John Mortimore">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../../images/trilobyte.svg">
-    <link rel="canonical" href="https://johnpuzzle.com/gallery/">
+    <link rel="canonical" href="https://johnpuzzle.com/secrets/glitch-art/">
     <link rel="stylesheet" href="<?= asset('/css/index.css') ?>">
     <link rel="stylesheet" href="<?= asset('/css/gallery.css') ?>">
 </head>
@@ -47,7 +47,7 @@ $totalPages = ceil((count($photos)/$imagesPerPage));
 <?php renderHeader('SECRETS'); ?>
 
 <nav id="breadcrumbs">
-    <a href="/">Home</a> > Secrets > ASCII Art
+    <a href="/">Home</a> > Secrets > Glitch Art
 </nav>
 <main id="main-content" tabindex="-1">
     <section class="main-section">
