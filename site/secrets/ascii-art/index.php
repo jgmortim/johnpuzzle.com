@@ -103,6 +103,13 @@ include('../../includes/assets.php');
          :_____--       (_~_)       --_____:
                          \_/
     </pre>
+    <h3>Teapot</h3>
+    <pre>
+_   ,-''-,
+\`./``````\`.
+ ',       |,'
+   \_____,/
+    </pre>
 </main>
 <?php renderFooter(); ?>
 <script src="<?= asset('/js/index.js') ?>" defer></script>

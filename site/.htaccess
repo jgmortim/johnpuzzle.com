@@ -4,5 +4,8 @@ RewriteEngine On
 RewriteCond %{REQUEST_METHOD} ^(POST|PUT|PATCH|DELETE)$ [NC]
 RewriteRule ^ - [R=405,L]
 
+# Teapot page. Apache doesn't support 418 dirrectly so have to do it with php
+RewriteRule ^teapot/?$ /418.php [L]
+
 ErrorDocument 404 /404.html
 ErrorDocument 405 /405.html

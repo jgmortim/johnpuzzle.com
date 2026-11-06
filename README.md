@@ -11,6 +11,7 @@ My personal website.
 * Cicada Detroit Easter egg on page 404 of the gallery
 * http 404 page with Peggy
 * http 405 page with Tiny Peggy
+* http 418 page at /teapot
 
 ## License
 
