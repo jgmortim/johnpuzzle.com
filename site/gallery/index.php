@@ -101,7 +101,7 @@ $photos = [
         'caption' => '2020-11-15: Recording a walkthrough video for the Cyberpunk 2077 ARG <i>QLEDecode</i>.'
     ],
     [
-        'src' => '../images/early-stego.webp',
+        'src' => '../images/hide-and-seek.jpg',
         'alt' => 'A desk with a 2 monitor setup showing a steganography program and the some of the code for it.',
         'caption' => '2016-11-07: Developing my own custom generative steganography application.'
     ]

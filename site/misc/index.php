@@ -41,10 +41,11 @@ include('../includes/assets.php');
         <p>Secret Page Hints:</p>
         <ol>
             <li>Double click</li>
-            <li>Not Found, how'd you get it this high?</li>
+            <li>Not Found, it shouldn't go this high</li>
             <li>Not Found</li>
             <li>Method Not Allowed</li>
             <li>RFC 2324 section-2.3.2</li>
+            <li>Image with steganography, no password</li>
         </ol>
     </section>
     <hr>

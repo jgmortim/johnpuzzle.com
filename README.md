@@ -12,6 +12,7 @@ My personal website.
 * http 404 page with Peggy
 * http 405 page with Tiny Peggy
 * http 418 page at /teapot
+* JP Hide and Seek stego in the oldest image in gallery will take you to hidden glitch art page
 
 ## License
 
