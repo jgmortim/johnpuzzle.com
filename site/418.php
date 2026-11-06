@@ -6,6 +6,7 @@ http_response_code(418);
 <head>
     <meta charset="UTF-8">
     <title>418 I'm a teapot</title>
+    <link rel="icon" type="image/x-icon" href="/images/trilobyte.svg">
 </head>
 <body>
 <pre>
