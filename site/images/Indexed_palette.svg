@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="150">
+    <rect width="450" height="150" fill="white"/>
+    <path fill="none" stroke="#000" d="M12.5 12.5h125v125h-125z"/>
+    <path d="M12.5 37.5h125m-125 25h125m-125 25h125m-125 25h125m-100-100v125m25-125v125m25-125v125m25-125v125" stroke="#000"/>
+    <text x="25" y="31.25" text-anchor="middle" font-family="sans-serif" font-size="20">0</text>
+    <text x="50" y="31.25" text-anchor="middle" font-family="sans-serif" font-size="20">0</text>
+    <text x="75" y="31.25" text-anchor="middle" font-family="sans-serif" font-size="20">1</text>
+    <text x="100" y="31.25" text-anchor="middle" font-family="sans-serif" font-size="20">2</text>
+    <text x="125" y="31.25" text-anchor="middle" font-family="sans-serif" font-size="20">3</text>
+    <text x="25" y="56.25" text-anchor="middle" font-family="sans-serif" font-size="20">0</text>
+    <text x="50" y="56.25" text-anchor="middle" font-family="sans-serif" font-size="20">1</text>
+    <text x="75" y="56.25" text-anchor="middle" font-family="sans-serif" font-size="20">2</text>
+    <text x="100" y="56.25" text-anchor="middle" font-family="sans-serif" font-size="20">3</text>
+    <text x="125" y="56.25" text-anchor="middle" font-family="sans-serif" font-size="20">2</text>
+    <text x="25" y="81.25" text-anchor="middle" font-family="sans-serif" font-size="20">1</text>
+    <text x="50" y="81.25" text-anchor="middle" font-family="sans-serif" font-size="20">2</text>
+    <text x="75" y="81.25" text-anchor="middle" font-family="sans-serif" font-size="20">3</text>
+    <text x="100" y="81.25" text-anchor="middle" font-family="sans-serif" font-size="20">2</text>
+    <text x="125" y="81.25" text-anchor="middle" font-family="sans-serif" font-size="20">1</text>
+    <text x="25" y="106.25" text-anchor="middle" font-family="sans-serif" font-size="20">2</text>
+    <text x="50" y="106.25" text-anchor="middle" font-family="sans-serif" font-size="20">3</text>
+    <text x="75" y="106.25" text-anchor="middle" font-family="sans-serif" font-size="20">2</text>
+    <text x="100" y="106.25" text-anchor="middle" font-family="sans-serif" font-size="20">1</text>
+    <text x="125" y="106.25" text-anchor="middle" font-family="sans-serif" font-size="20">0</text>
+    <text x="25" y="131.25" text-anchor="middle" font-family="sans-serif" font-size="20">3</text>
+    <text x="50" y="131.25" text-anchor="middle" font-family="sans-serif" font-size="20">2</text>
+    <text x="75" y="131.25" text-anchor="middle" font-family="sans-serif" font-size="20">1</text>
+    <text x="100" y="131.25" text-anchor="middle" font-family="sans-serif" font-size="20">0</text>
+    <text x="125" y="131.25" text-anchor="middle" font-family="sans-serif" font-size="20">0</text>
+
+    <text x="170" y="42.5" text-anchor="middle" font-family="sans-serif" font-size="20">0 =</text>
+    <path fill="red" stroke="#000" d="M190 25h25v25h-25z"/>
+    <text x="170" y="67.5" text-anchor="middle" font-family="sans-serif" font-size="20">1 =</text>
+    <path fill="#f0f" stroke="#000" d="M190 50h25v25h-25z"/>
+    <text x="170" y="92.5" text-anchor="middle" font-family="sans-serif" font-size="20">2 =</text>
+    <path fill="#00f" stroke="#000" d="M190 75h25v25h-25z"/>
+    <text x="170" y="117.5" text-anchor="middle" font-family="sans-serif" font-size="20">3 =</text>
+    <path fill="#0ff" stroke="#000" d="M190 100h25v25h-25z"/>
+
+    <path d="M227.5 75h60M287.5 72l5 3l-5 3z" stroke="#000"/>
+
+    <path fill="red" stroke="#000" d="M300 12.5h25v25h-25zM325 12.5h25v25h-25z"/>
+    <path fill="#f0f" stroke="#000" d="M350 12.5h25v25h-25z"/>
+    <path fill="#00f" stroke="#000" d="M375 12.5h25v25h-25z"/>
+    <path fill="#0ff" stroke="#000" d="M400 12.5h25v25h-25z"/>
+    <path fill="red" stroke="#000" d="M300 37.5h25v25h-25z"/>
+    <path fill="#f0f" stroke="#000" d="M325 37.5h25v25h-25z"/>
+    <path fill="#00f" stroke="#000" d="M350 37.5h25v25h-25z"/>
+    <path fill="#0ff" stroke="#000" d="M375 37.5h25v25h-25z"/>
+    <path fill="#00f" stroke="#000" d="M400 37.5h25v25h-25z"/>
+    <path fill="#f0f" stroke="#000" d="M300 62.5h25v25h-25z"/>
+    <path fill="#00f" stroke="#000" d="M325 62.5h25v25h-25z"/>
+    <path fill="#0ff" stroke="#000" d="M350 62.5h25v25h-25z"/>
+    <path fill="#00f" stroke="#000" d="M375 62.5h25v25h-25z"/>
+    <path fill="#f0f" stroke="#000" d="M400 62.5h25v25h-25z"/>
+    <path fill="#00f" stroke="#000" d="M300 87.5h25v25h-25z"/>
+    <path fill="#0ff" stroke="#000" d="M325 87.5h25v25h-25z"/>
+    <path fill="#00f" stroke="#000" d="M350 87.5h25v25h-25z"/>
+    <path fill="#f0f" stroke="#000" d="M375 87.5h25v25h-25z"/>
+    <path fill="red" stroke="#000" d="M400 87.5h25v25h-25z"/>
+    <path fill="#0ff" stroke="#000" d="M300 112.5h25v25h-25z"/>
+    <path fill="#00f" stroke="#000" d="M325 112.5h25v25h-25z"/>
+    <path fill="#f0f" stroke="#000" d="M350 112.5h25v25h-25z"/>
+    <path fill="red" stroke="#000" d="M375 112.5h25v25h-25zM400 112.5h25v25h-25z"/>
+</svg>

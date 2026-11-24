@@ -123,6 +123,13 @@ figure {
 	margin-bottom: .5rem;
 }
 
+.block-image-small-medium {
+	float: right;
+	max-width: 360px;
+	margin-left: .5rem;
+	margin-bottom: .5rem;
+}
+
 @media screen and (max-width: 750px) {
 	.grid-gallery-4 {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -132,6 +139,15 @@ figure {
 		width: 50%;
 		max-width: fit-content;
 	}
+
+	.block-image-small-medium {
+		display: block;
+		max-width: unset;
+		width: 90%;
+		float: unset;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -140,9 +156,10 @@ figure {
 		gap: .5rem;
 	}
 
-	.inline-image {
+	.inline-image, .block-image-small-medium {
 		display: block;
 		width: 90%;
+		max-width: unset;
 		float: unset;
 		margin-left: auto;
 		margin-right: auto;

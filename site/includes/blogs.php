@@ -1,6 +1,15 @@
 <?php
 $blogs = [
     [
+        'title' => 'Index Color Case Study',
+        'published' => '2026-11-23',
+        'modified' => '',
+        'link' => '/blog/index-color/',
+        'summary' => 'Index color is the digital equivalent of a paint-by-number canvas. It has interesting real-world applications, 
+            but it can also be used to create seemingly invisible images. This article is a case study of my exploration of index 
+            color images as a puzzle medium.'
+    ],
+    [
         'title' => 'Project Highlights: Find Buzzy',
         'published' => '2026-10-31',
         'modified' => '',
