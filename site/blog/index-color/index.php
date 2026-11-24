@@ -51,7 +51,7 @@ include('../../includes/assets.php');
             </p>
             <div class="inline-image">
                 <?php renderExpandableImage(
-                    '../../images/indexed_palette.svg',
+                    '../../images/indexed-palette.svg',
                     'a visual explanation of index color',
                     'A 2-bit indexed color image. The color of each pixel is represented by a number; each number (the index) corresponds to a color in the color table (the palette).')
                 ?>
