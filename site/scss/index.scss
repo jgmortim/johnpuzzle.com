@@ -236,8 +236,7 @@ blockquote + p {
 }
 
 .blink {
-	//animation: blinker 1.25s step-start infinite;
-	animation: none !important;;
+	animation: blinker 1.25s step-start infinite;
 }
 
 .no-wrap {
@@ -337,8 +336,7 @@ blockquote + p {
 }
 
 .nav-bar-secrets {
-	//animation: wave-5 2.5s step-end infinite;
-	animation: none !important;
+	animation: wave-5 2.5s step-end infinite;
 }
 
 .site-nav-option:nth-child(1) .nav-bar-secrets { animation-delay: -2.0s; }
