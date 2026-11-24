@@ -7,7 +7,7 @@
 	             0 0 7px color-mix(in srgb, var(--text-green) 30%, transparent),
 	             0 0 15px color-mix(in srgb, var(--text-green) 20%, transparent),
 	             0 0 25px color-mix(in srgb, var(--text-green) 10%, transparent);
-	filter: blur(0.15px);
+	//filter: blur(0.15px);
 }
 
 @mixin crt-text-orange() {
@@ -17,7 +17,7 @@
 	             0 0 7px color-mix(in srgb, var(--text-orange) 40%, transparent),
 	             0 0 15px color-mix(in srgb, var(--text-orange) 20%, transparent),
 	             0 0 25px color-mix(in srgb, var(--text-orange) 10%, transparent);
-	filter: blur(0.15px);
+	//filter: blur(0.15px);
 }
 
 @mixin crt-boarder($color) {
@@ -99,7 +99,7 @@ hr {
 	width: 100%;
 	border: none;
 	border-top: 2px dashed var(--text-orange);
-	filter: blur(0.15px);
+	//filter: blur(0.15px);
 }
 
 a:link, a:visited {
