@@ -11,6 +11,11 @@ $imagesPerPage=16;
 $start = ($page - 1) * $imagesPerPage;
 $photos = [
     [
+        'src' => '../images/werwulf-win.webp',
+        'alt' => 'Screenshot of the confirmation email from the Werwulf ARG',
+        'caption' => '2026-11-24: Winning a limited edition art print in the Werwulf ARG.'
+    ],
+    [
         'src' => '../images/cell-ops-katana.webp',
         'alt' => 'Me and the other 3 members of Team 10 standing behind BNS who is holding a painted katana.',
         'caption' => '2026-09-19: <i>Cell Ops</i> Team 10 (and BNS) with the katana we would later win for being first to complete Node 15.'
