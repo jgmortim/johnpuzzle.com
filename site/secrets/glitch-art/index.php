@@ -70,7 +70,7 @@ $totalPages = ceil((count($photos)/$imagesPerPage));
         </p>
         <br style="clear: both">
         <?php renderPhotoGallery(array_slice($photos, $start, $imagesPerPage), 2) ?>
-        <div class="pagination" style="margin-top: 2rem">
+        <div class="pagination">
             <button <?= ($page <= 1) ? "disabled" : ""?> class="" type="button" onclick="decreasePage(<?= $page ?>)">&lt;</button>
             <?= "Page ".$page." of ".$totalPages?>
             <button <?= ($page >= count($photos)/$imagesPerPage) ? "disabled" : ""?> class="" type="button" onclick="increasePage(<?= $page ?>)">&gt;</button>

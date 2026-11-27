@@ -131,6 +131,7 @@ pre {
 }
 
 table {
+	min-width: 50%;
 	margin: auto;
 }
 
@@ -144,7 +145,13 @@ th, td {
 	padding-left: 1rem;
 }
 
+.th-left {
+	text-align: left;
+}
+
 video {
+	display: block;
+	margin: 0 auto;
 	text-shadow: initial;
 }
 
@@ -190,6 +197,7 @@ blockquote + p {
 	align-items: center;
 	flex-direction: row;
 	justify-content: center;
+	margin-top: 2rem;
 	gap: 1rem;
 }
 

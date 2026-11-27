@@ -167,7 +167,7 @@ endif; ?>
             </section>
 
         <?php endif;?>
-        <div class="pagination" style="margin-top: 2rem">
+        <div class="pagination">
             <button <?= ($page <= 1) ? "disabled" : ""?> class="" type="button" onclick="decreasePage(<?= $page ?>)">&lt;</button>
             <?= "Page ".$page." of ".$totalPages?>
             <button <?= ($page >= count($photos)/$imagesPerPage) ? "disabled" : ""?> class="" type="button" onclick="increasePage(<?= $page ?>)">&gt;</button>

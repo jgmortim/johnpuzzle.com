@@ -50,7 +50,7 @@ $photos = [
             Most significantly, the final puzzle of the game.
         </p>
         <br>
-        <video width="90%" autoplay loop controls muted style="display: block; margin: 0 auto;">
+        <video width="90%" autoplay loop controls muted>
             <source src="../../videos/weekend-highlight.webm" type="video/webm">
             <track
                 kind="captions"
@@ -71,7 +71,7 @@ $photos = [
             discovering a second secret function of the lamps. One that could only be utilized with the aid of an additional artifact
             found within the cabin.
         </p>
-        <video width="90%" autoplay loop controls muted style="display: block; margin: 0 auto;">
+        <video width="90%" autoplay loop controls muted>
             <source src="../../videos/weekend-final-puzzle.webm" type="video/webm">
             <track
                     kind="captions"

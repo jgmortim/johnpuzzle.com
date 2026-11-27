@@ -55,8 +55,8 @@ include('../../../includes/assets.php');
                     <th>Met</th>
                     <th>Notes</th>
                 </tr>
-                <tr style="text-align: left">
-                    <th colspan="4">1.1 Text Alternatives</th>
+                <tr>
+                    <th colspan="4" class="th-left">1.1 Text Alternatives</th>
                 </tr>
                 <tr>
                     <td>1.1.1 Non-text Content</td>
@@ -64,8 +64,8 @@ include('../../../includes/assets.php');
                     <td>&#9989;</td>
                     <td></td>
                 </tr>
-                <tr style="text-align: left">
-                    <th colspan="4">1.2 Time-based Media</th>
+                <tr>
+                    <th colspan="4" class="th-left">1.2 Time-based Media</th>
                 </tr>
                 <tr>
                     <td>1.2.1 Audio-only and Video-only (Prerecorded)</td>
@@ -121,8 +121,8 @@ include('../../../includes/assets.php');
                     <td>&#9989;</td>
                     <td>This site does not utilize live media of any kind.</td>
                 </tr>
-                <tr style="text-align: left">
-                    <th colspan="4">1.3 Adaptable</th>
+                <tr>
+                    <th colspan="4" class="th-left">1.3 Adaptable</th>
                 </tr>
                 <tr>
                     <td>1.3.1 Info and Relationships</td>
@@ -160,8 +160,8 @@ include('../../../includes/assets.php');
                     <td></td>
                     <td></td>
                 </tr>
-                <tr style="text-align: left">
-                    <th colspan="4">1.4 Distinguishable</th>
+                <tr>
+                    <th colspan="4" class="th-left">1.4 Distinguishable</th>
                 </tr>
                 <tr>
                     <td>1.4.1 Use of Color</td>
@@ -256,8 +256,8 @@ include('../../../includes/assets.php');
                     <th>Met</th>
                     <th>Notes</th>
                 </tr>
-                <tr style="text-align: left">
-                    <th colspan="4">2.1 Keyboard Accessible</th>
+                <tr>
+                    <th colspan="4" class="th-left">2.1 Keyboard Accessible</th>
                 </tr>
                 <tr>
                     <td>2.1.1 Keyboard</td>
@@ -283,8 +283,8 @@ include('../../../includes/assets.php');
                     <td>&#9989;</td>
                     <td></td>
                 </tr>
-                <tr style="text-align: left">
-                    <th colspan="4">2.2 Enough Time</th>
+                <tr>
+                    <th colspan="4" class="th-left">2.2 Enough Time</th>
                 </tr>
                 <tr>
                     <td>2.2.1 Timing Adjustable</td>
@@ -322,8 +322,8 @@ include('../../../includes/assets.php');
                     <td></td>
                     <td></td>
                 </tr>
-                <tr style="text-align: left">
-                    <th colspan="4">2.3 Seizures and Physical Reactions</th>
+                <tr>
+                    <th colspan="4" class="th-left">2.3 Seizures and Physical Reactions</th>
                 </tr>
                 <tr>
                     <td>2.3.1 Three Flashes or Below Threshold</td>
@@ -343,8 +343,8 @@ include('../../../includes/assets.php');
                     <td></td>
                     <td></td>
                 </tr>
-                <tr style="text-align: left">
-                    <th colspan="4">2.4 Navigable</th>
+                <tr>
+                    <th colspan="4" class="th-left">2.4 Navigable</th>
                 </tr>
                 <tr>
                     <td>2.4.1 Bypass Blocks</td>
@@ -424,8 +424,8 @@ include('../../../includes/assets.php');
                     <td></td>
                     <td></td>
                 </tr>
-                <tr style="text-align: left">
-                    <th colspan="4">2.5 Input Modalities</th>
+                <tr>
+                    <th colspan="4" class="th-left">2.5 Input Modalities</th>
                 </tr>
                 <tr>
                     <td>2.5.1 Pointer Gestures</td>
@@ -490,8 +490,8 @@ include('../../../includes/assets.php');
                     <th>Met</th>
                     <th>Notes</th>
                 </tr>
-                <tr style="text-align: left">
-                    <th colspan="4">3.1 Readable</th>
+                <tr>
+                    <th colspan="4" class="th-left">3.1 Readable</th>
                 </tr>
                 <tr>
                     <td>3.1.1 Language of Page</td>
@@ -529,8 +529,8 @@ include('../../../includes/assets.php');
                     <td></td>
                     <td></td>
                 </tr>
-                <tr style="text-align: left">
-                    <th colspan="4">3.2 Predictable</th>
+                <tr>
+                    <th colspan="4" class="th-left">3.2 Predictable</th>
                 </tr>
                 <tr>
                     <td>3.2.1 On Focus</td>
@@ -568,8 +568,8 @@ include('../../../includes/assets.php');
                     <td>&#9989;</td>
                     <td></td>
                 </tr>
-                <tr style="text-align: left">
-                    <th colspan="4">3.3 Input Assistance</th>
+                <tr>
+                    <th colspan="4" class="th-left">3.3 Input Assistance</th>
                 </tr>
                 <tr>
                     <td>3.3.1 Error Identification</td>
@@ -640,8 +640,8 @@ include('../../../includes/assets.php');
                     <th>Met</th>
                     <th>Notes</th>
                 </tr>
-                <tr style="text-align: left">
-                    <th colspan="4">4.1 Compatible</th>
+                <tr>
+                    <th colspan="4" class="th-left">4.1 Compatible</th>
                 </tr>
                 <tr>
                     <td>4.1.1 Parsing</td>

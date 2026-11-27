@@ -73,7 +73,7 @@ include('../includes/assets.php');
             see the <a href="/work/">work</a> section of this website.
         </p>
         <div class="table-wrapper">
-            <table style="min-width: 50%">
+            <table>
                 <tr>
                     <th>Year</th>
                     <th>ARG</th>

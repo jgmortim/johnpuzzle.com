@@ -208,7 +208,7 @@ $puzzle9photos = [
                 extracted a message revealing the URL for
                 <a href="https://findbuzzy.com/communicationisthebeginningofunderstanding-px89sk91wd/" target="_blank">Puzzle 24</a>.
             </p>
-            <video width="90%" autoplay loop controls muted style="display: block; margin: 0 auto;">
+            <video width="90%" autoplay loop controls muted>
                 <source src="../../videos/buzzy-24-arghouse.webm" type="video/webm">
                 <track
                         kind="captions"
