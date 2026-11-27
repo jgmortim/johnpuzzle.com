@@ -20,9 +20,6 @@ jobs:
       - name: Install esbuild
         run: npm install --no-save esbuild sass
 
-      - name: Set cache-busting version
-        run: echo "${GITHUB_SHA::12}" > site/version.txt
-
       - name: Build site
         run: |
           mkdir -p dist
