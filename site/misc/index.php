@@ -74,7 +74,11 @@ include('../includes/assets.php');
         <ul>
             <li><a href="/about/ai/">Made Without AI</a></li>
             <li><a href="/about/privacy-policy/">Privacy Policy</a></li>
-            <li><a href="/about/accessibility/">Accessibility</a></li>
+            <li><a href="/about/accessibility/">Accessibility</a>
+                <ul>
+                    <li><a href="/about/accessibility/wcag">WCAG 2.2 Conformance</a></li>
+                </ul>
+            </li>
         </ul>
     </section>
 </main>
