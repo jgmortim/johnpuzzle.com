@@ -17,8 +17,8 @@ jobs:
         with:
           node-version: 24
 
-      - name: Install esbuild
-        run: npm install --no-save esbuild sass
+      - name: Install build tools
+        run: npm install --no-save esbuild sass svgo
 
       - name: Build site
         run: |
@@ -30,11 +30,14 @@ jobs:
             --exclude='*.scss' \
             site/ dist/
 
-          # Bundle + minify JS
-          npx esbuild site/js/*.js --bundle --minify --outdir=dist/js
+          # Minify JS
+          npx esbuild site/js/*.js --minify --outdir=dist/js
 
           # Compile SCSS to minified CSS 
           npx sass site/scss:dist/css --style=compressed
+          
+          # Minify SVGs
+          npx svgo -f dist/ -r
 
       - name: Setup SSH
         run: |
