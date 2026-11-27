@@ -6,12 +6,12 @@ include('../../includes/assets.php');
 
 $photos = [
     [
-        'src' => '../../images/weekend-ca.webp',
+        'src' => '../../images/blogs/weekend/weekend-ca.webp',
         'alt' => 'Composite image showing the a paper proof of concept along side the final in-game design for the cipher wheel.',
         'caption' => 'My original paper concept vs the final design for the cipher wheel.'
     ],
     [
-        'src' => '../../images/weekend-original-wheel.webp',
+        'src' => '../../images/blogs/weekend/weekend-original-wheel.webp',
         'alt' => 'Early model of the cipher wheel featuring the poem in the middle.',
         'caption' => 'Early version of the cipher wheel with the poem still included.'
     ]

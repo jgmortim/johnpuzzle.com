@@ -55,7 +55,7 @@ include('../../includes/assets.php');
                 "book", in this case a policy report. And on the right, you see the indexing key used to extract words from the policy report.
             </p>
             <?php renderExpandableImage(
-                '../../images/buzzy-22-spectrogram.webp',
+                '../../images/blogs/buzzy/buzzy-22-spectrogram.webp',
                 'Screenshot from Audacity showing a spectrogram featuring the image of Buzzy and a book cipher',
                 '')
             ?>
@@ -71,7 +71,7 @@ include('../../includes/assets.php');
                 text. Like in the example above, viewing the spectrogram is now just one step in decoding the file.
             </p>
             <?php renderExpandableImage(
-                '../../images/barcode-spectrogram.webp',
+                '../../images/blogs/buzzy/barcode-spectrogram.webp',
                 'Screenshot from Audacity showing a spectrogram with the appearance of a barcode',
                 '')
             ?>
@@ -96,7 +96,7 @@ include('../../includes/assets.php');
                 mono track (bottom).
             </p>
             <?php renderExpandableImage(
-                '../../images/two-voices-one-truth.webp',
+                '../../images/blogs/spectrograms/two-voices-one-truth.webp',
                 'Screenshot from Audacity showing a spectrogram before and after mixing stereo down to mono',
                 '')
             ?>
@@ -107,7 +107,7 @@ include('../../includes/assets.php');
             <h3>2.2 // Second Iteration</h3>
             <div class="inline-image">
                 <?php renderExpandableImage(
-                    '../../images/perception.webp',
+                    '../../images/blogs/spectrograms/perception.webp',
                     'Screenshot from Audacity showing spectrograms of seven tracks with white noise and red herring messages',
                     'Spectrograms of the seven tracks.')
                 ?>
@@ -129,7 +129,7 @@ include('../../includes/assets.php');
             </p>
             <div style="clear: both">
                 <?php renderExpandableImage(
-                    '../../images/fetch-discernment.webp',
+                    '../../images/blogs/spectrograms/fetch-discernment.webp',
                     'Screenshot from Audacity showing the resulting spectrogram after of mixing the seven tracks down to one, revealing the true hidden message',
                     '')
                 ?>
@@ -140,7 +140,7 @@ include('../../includes/assets.php');
             <h2>3 // Physical Media</h2>
             <div class="inline-image">
                 <?php renderExpandableImage(
-                    '../../images/buzzy-22-cassettes.webp',
+                    '../../images/blogs/buzzy/buzzy-22-cassettes.webp',
                     'Image of cassette tapes from the Find Buzzy ARG',
                     'Trailhead cassettes.')
                 ?>
@@ -163,7 +163,7 @@ include('../../includes/assets.php');
             </p>
             <div style="clear: both">
                 <?php renderExpandableImage(
-                    '../../images/buzzy-22-trailhead.webp',
+                    '../../images/blogs/buzzy/buzzy-22-trailhead.webp',
                     'Screenshot from Audacity showing the spectrogram of the contents on the Find Buzzy cassettes',
                     '')
                 ?>

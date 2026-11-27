@@ -27,7 +27,7 @@ include('../includes/assets.php');
         <h2>Weekend at the End of The World ARG</h2>
         <div class="work-item-content">
             <div class="work-image-wrapper">
-                <img class="work-image" src="../images/weekend-poster.webp" alt="Movie poster for Weekend at the End of the World."/>
+                <img class="work-image" src="../images/work/weekend-poster.webp" alt="Movie poster for Weekend at the End of the World."/>
             </div>
             <div class="work-description-wrapper">
                 <p>
@@ -55,7 +55,7 @@ include('../includes/assets.php');
         <h2>Stolen Kingdom // Find Buzzy ARG</h2>
         <div class="work-item-content">
             <div class="work-image-wrapper">
-                <img class="work-image" src="../images/stolen-kingdom-poster.webp" alt="Movie poster for Stolen Kingdom."/>
+                <img class="work-image" src="../images/work/stolen-kingdom-poster.webp" alt="Movie poster for Stolen Kingdom."/>
             </div>
             <div class="work-description-wrapper">
                 <p>

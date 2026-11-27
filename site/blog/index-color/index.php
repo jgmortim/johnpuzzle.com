@@ -51,7 +51,7 @@ include('../../includes/assets.php');
             </p>
             <div class="inline-image">
                 <?php renderExpandableImage(
-                    '../../images/indexed-palette.svg',
+                    '../../images/blogs/index-color/indexed-palette.svg',
                     'a visual explanation of index color',
                     'A 2-bit indexed color image. The color of each pixel is represented by a number; each number (the index) corresponds to a color in the color table (the palette).')
                 ?>
@@ -84,7 +84,7 @@ include('../../includes/assets.php');
             <h2>Proof of Concept</h2>
             <div class="inline-image">
                 <?php renderExpandableImage(
-                    '../../images/index-color-poc.webp',
+                    '../../images/blogs/index-color/index-color-poc.webp',
                     'Original proof of concept image and the solved image shown side by side',
                     'Original proof of concept image and its solution revealed by changing the color of index 0 to black.')
                 ?>
@@ -117,7 +117,7 @@ include('../../includes/assets.php');
             </p>
             <div class="block-image-small-medium">
                 <?php renderExpandableImage(
-                    '../../images/index-color-blue.webp',
+                    '../../images/blogs/index-color/index-color-blue.webp',
                     'Puzzle image and the solved image shown side by side',
                     'Original image and image with randomized palette.')
                 ?>
@@ -144,7 +144,7 @@ include('../../includes/assets.php');
             </p>
             <div class="block-image-small-medium">
                 <?php renderExpandableImage(
-                    '../../images/index-color-community-days.webp',
+                    '../../images/blogs/index-color/index-color-community-days.webp',
                     'Puzzle image compared to resized images and images with different palette applications',
                     'Original image compared to resized images and images different palette applications.')
                 ?>
@@ -198,7 +198,7 @@ include('../../includes/assets.php');
             </p>
             <div class="block-image-small-medium">
                 <?php renderExpandableImage(
-                    '../../images/index-color-community-days-hex.webp',
+                    '../../images/blogs/index-color/index-color-community-days-hex.webp',
                     'Screenshot from HexEd.it showing the width and height bytes highlighted',
                     'Screenshot from HexEd.it showing the width and height bytes highlighted.')
                 ?>
@@ -246,7 +246,7 @@ include('../../includes/assets.php');
             </p>
             <div class="block-image-small-medium">
                 <?php renderExpandableImage(
-                    '../../images/index-color-community-days.webp',
+                    '../../images/blogs/index-color/index-color-community-days.webp',
                     'Puzzle image compared to resized images and images with different palette applications',
                     'Original image compared to resized images and images different palette applications.')
                 ?>

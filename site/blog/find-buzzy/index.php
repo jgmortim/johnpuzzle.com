@@ -6,41 +6,41 @@ include('../../includes/assets.php');
 
 $puzzle24photos = [
     [
-        'src' => '../../images/buzzy-24-ig-1.webp',
+        'src' => '../../images/blogs/buzzy/buzzy-24-ig-1.webp',
         'alt' => 'Wonders of Life activity sheet with a blurry QR code in the corner',
         'caption' => 'The first Instagram photo.'
     ],
     [
-        'src' => '../../images/buzzy-24-ig-2.jpg',
+        'src' => '../../images/blogs/buzzy/buzzy-24-ig-2.jpg',
         'alt' => 'Glitchy image of Buzzy with "imgconceal written in the margins"',
         'caption' => 'The second Instagram photo.'
     ]
 ];
 $puzzle22photos = [
     [
-        'src' => '../../images/buzzy-22-cassettes.webp',
+        'src' => '../../images/blogs/buzzy/buzzy-22-cassettes.webp',
         'alt' => 'Image of cassette tapes from the Puzzle 22 trailhead',
         'caption' => 'The custom cassette tapes.'
     ],
     [
-        'src' => '../../images/buzzy-22-hidden.webp',
+        'src' => '../../images/blogs/buzzy/buzzy-22-hidden.webp',
         'alt' => 'A tape hidden on top of a framed poster at the theater',
         'caption' => 'A tape hidden on top of a framed poster at the theater.'
     ]
 ];
 $puzzle9photos = [
     [
-        'src' => '../../images/buzzy-9.webp',
+        'src' => '../../images/blogs/buzzy/buzzy-9.webp',
         'alt' => 'Screenshot of the Puzzle 9 webpage',
         'caption' => 'Webpage for Puzzle 9.'
     ],
     [
-        'src' => '../../images/buzzy-9-calendar.webp',
+        'src' => '../../images/blogs/buzzy/buzzy-9-calendar.webp',
         'alt' => 'Screenshot of the calendar event in Google Calendar',
         'caption' => 'Imported calendar event in Google Calendar.'
     ],
     [
-        'src' => '../../images/buzzy-9-coordinates.webp',
+        'src' => '../../images/blogs/buzzy/buzzy-9-coordinates.webp',
         'alt' => 'Screenshot from Google Maps showing the coordinates from the calendar event',
         'caption' => 'Coordinates on Google Maps showing Dicovery Island.'
     ],
@@ -85,7 +85,7 @@ $puzzle9photos = [
             <h3>Premise</h3>
             <div class="inline-image">
                 <?php renderExpandableImage(
-                    '../../images/buzzy-25.webp',
+                    '../../images/blogs/buzzy/buzzy-25.webp',
                     'The image from Find Buzzy Puzzle 25',
                     'The image from Find Buzzy Puzzle 25.')
                 ?>
@@ -122,7 +122,7 @@ $puzzle9photos = [
             <h4>Puzzle 14</h4>
             <div class="inline-image">
                 <?php renderExpandableImage(
-                    '../../images/buzzy-secrets.webp',
+                    '../../images/blogs/buzzy/buzzy-secrets.webp',
                     'secrets.png',
                     'secrets.png')
                 ?>
@@ -244,7 +244,7 @@ $puzzle9photos = [
             </p>
             <div>
                 <?php renderExpandableImage(
-                    '../../images/buzzy-22-trailhead.webp',
+                    '../../images/blogs/buzzy/buzzy-22-trailhead.webp',
                     'Screenshot from Audacity showing the spectrogram of the contents on the Puzzle 22 trailhead cassettes',
                     '')
                 ?>
