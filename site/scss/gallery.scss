@@ -3,16 +3,16 @@
 }
 
 figure {
-	margin: .5rem;
-	height: 100%;
 	display: flex;
 	flex-direction: column;
-	gap: .5rem;
 	justify-content: space-evenly;
 	box-sizing: border-box;
+	height: 100%;
+	margin: .5rem;
 	padding: .5rem;
-	background: var(--background-color);
 	border-radius: 5px;
+	background: var(--background-color);
+	gap: .5rem;
 }
 
 .grid-gallery-2, .grid-gallery-3, .grid-gallery-4 {
@@ -42,49 +42,46 @@ figure {
 .image-thumbnail {
 	position: relative;
 	display: inline-block;
+	width: fit-content;
+	margin-right: auto;
+	margin-left: auto;
 	padding: 0;
+	cursor: pointer;
 	border: 0;
 	background: none;
-	cursor: pointer;
 	object-fit: contain;
-	width: fit-content;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .image-thumbnail img {
 	display: block;
-	max-height: 250px;
 	max-width: 100%;
+	max-height: 250px;
 }
 
 .image-thumbnail::after {
-	content: "";
 	position: absolute;
 	right: 0.75rem;
 	bottom: 0.75rem;
-
 	width: 1.25rem;
 	height: 1.25rem;
-
+	content: "";
+	pointer-events: none;
+	border-radius: 50%;
 	background-color: rgb(0 0 0 / 60%);
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cline x1='16.65' y1='16.65' x2='21' y2='21'/%3E%3C/svg%3E");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 65%;
-
-	border-radius: 50%;
-	pointer-events: none;
 }
 
 /* The image popup */
 .image-popup-container {
-	width: 100%;
-	height: 100%;
-	box-sizing: border-box;
-	border: 0;
 	align-items: center;
 	justify-content: center;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	border: 0;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -94,40 +91,40 @@ figure {
 
 .image-popup {
 	position: relative;
+	max-width: calc(100% - 5vw);
 	margin: 0;
 	padding: 0;
-	max-width: calc(100% - 5vw);
 }
 
 /* Full-size image */
 .image-popup img {
-	object-fit: contain;
 	max-width: 100%;
 	max-height: 95vh;
 	margin: 0;
+	object-fit: contain;
 }
 
 .image-popup-close {
 	position: absolute;
 	top: 0;
 	right: 0;
-	background: var(--background-color);
 	width: 2rem;
 	height: 2rem;
+	background: var(--background-color);
 }
 
 .inline-image {
 	float: right;
 	max-width: 360px;
-	margin-left: .5rem;
 	margin-bottom: .5rem;
+	margin-left: .5rem;
 }
 
 .block-image-small-medium {
 	float: right;
 	max-width: 360px;
-	margin-left: .5rem;
 	margin-bottom: .5rem;
+	margin-left: .5rem;
 }
 
 @media screen and (max-width: 750px) {
@@ -142,11 +139,11 @@ figure {
 
 	.block-image-small-medium {
 		display: block;
-		max-width: unset;
-		width: 90%;
 		float: unset;
-		margin-left: auto;
+		width: 90%;
+		max-width: unset;
 		margin-right: auto;
+		margin-left: auto;
 	}
 }
 
@@ -158,10 +155,10 @@ figure {
 
 	.inline-image, .block-image-small-medium {
 		display: block;
+		float: unset;
 		width: 90%;
 		max-width: unset;
-		float: unset;
-		margin-left: auto;
 		margin-right: auto;
+		margin-left: auto;
 	}
 }

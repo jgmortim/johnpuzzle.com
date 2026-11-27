@@ -34,10 +34,10 @@
 }
 
 html {
-	scrollbar-gutter: stable;
+	@include crt-text-orange();
 	font-family: "Iosevka Custom Web", monospace;
 	font-stretch: expanded;
-	@include crt-text-orange();
+	scrollbar-gutter: stable;
 }
 
 body {
@@ -52,10 +52,10 @@ main {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 1rem;
-	background-color: var(--main-color);
 	border: 2px solid var(--text-orange);
 	border-top: 0;
 	border-radius: 0 0 10px 10px;
+	background-color: var(--main-color);
 }
 
 main > :first-child {
@@ -67,11 +67,11 @@ main > :last-child {
 }
 
 h1 {
+	@include crt-text-green();
+	font-weight: 700;
 	width: min(100%, 1250px);
 	margin: auto;
-	font-weight: 700;
 	text-align: center;
-	@include crt-text-green();
 }
 
 h1 a:link, h1 a:visited {
@@ -80,8 +80,8 @@ h1 a:link, h1 a:visited {
 }
 
 h2, h3 {
-	font-weight: 700;
 	@include crt-text-green();
+	font-weight: 700;
 }
 
 h2 {
@@ -108,19 +108,19 @@ a:focus {
 }
 
 button {
-	border-radius: 3px;
-	border: 2px solid var(--text-orange);
-	background: transparent;
 	@include crt-text-green;
-	cursor: pointer;
 	min-width: 24px;
 	min-height: 24px;
+	cursor: pointer;
+	border: 2px solid var(--text-orange);
+	border-radius: 3px;
+	background: transparent;
 }
 
 button:disabled {
 	@include crt-text-orange;
-	opacity: .4;
 	cursor: unset;
+	opacity: .4;
 }
 
 pre {
@@ -165,8 +165,8 @@ video {
 }
 
 .tooltip-dotted {
-	border-bottom: 1px dotted;
 	cursor: help;
+	border-bottom: 1px dotted;
 }
 
 .blink {
@@ -174,9 +174,9 @@ video {
 }
 
 div:has(> blockquote) {
-	background-color: var(--background-color);
 	padding: 15px;
 	border-radius: 5px;
+	background-color: var(--background-color);
 }
 
 blockquote + p {
@@ -185,9 +185,9 @@ blockquote + p {
 
 .pagination {
 	display: flex;
+	align-items: center;
 	flex-direction: row;
 	justify-content: center;
-	align-items: center;
 	gap: 1rem;
 }
 
@@ -251,9 +251,9 @@ blockquote + p {
 .site-nav-option {
 	display: flex;
 	flex-direction: column;
-	margin-left: auto;
-	margin-right: auto;
 	width: min-content;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .site-nav-button {
@@ -272,9 +272,9 @@ blockquote + p {
 }
 
 .nav-bar-off, .nav-bar-on {
+	@include crt-boarder(var(--text-green));
 	color: var(--text-green);
 	background: var(--text-green);
-	@include crt-boarder(var(--text-green));
 }
 
 .nav-bar-off {
@@ -298,14 +298,14 @@ blockquote + p {
 .site-nav-option:nth-child(5) .nav-bar-secrets { animation-delay: -0.0s; }
 
 .skip-link {
-	top: 0;
-	right: calc(((100% - min(100%, 1250px)) / 2) + .25 * min(100%, 1250px));
 	position: absolute;
 	z-index: 9999;
-	padding: 0.75rem 1rem;
-	background: var(--background-color);
+	top: 0;
+	right: calc(((100% - min(100%, 1250px)) / 2) + .25 * min(100%, 1250px));
 	height: fit-content;
+	padding: 0.75rem 1rem;
 	transform: translateY(-100%);
+	background: var(--background-color);
 }
 
 .skip-link:focus {
@@ -315,11 +315,11 @@ blockquote + p {
 /* Breadcrumb styles */
 
 #breadcrumbs {
-	width: min(100%, 1250px);
 	box-sizing: border-box;
+	width: min(100%, 1250px);
+	margin-top: .5rem;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: .5rem;
 	padding: .5rem 20px;
 	border: 2px solid var(--text-orange);
 	border-top-left-radius: 10px;
@@ -334,36 +334,36 @@ blockquote + p {
 /* Site footer styles */
 
 #site-footer {
+	@include crt-text-orange();
 	bottom: 0;
 	left: 0;
-	width: min(100%, 1250px);
 	box-sizing: border-box;
+	width: min(100%, 1250px);
 	margin-top: 8px;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0.5rem;
 	text-align: center;
 	border-radius: 10px;
-	@include crt-text-orange();
 }
 
 #footer-nav {
 	display: flex;
 	flex-direction: row;
-	gap: .5rem 2rem;
-	column-rule: 2px solid var(--text-orange);
 	flex-wrap: wrap;
 	justify-content: center;
+	gap: .5rem 2rem;
+	column-rule: 2px solid var(--text-orange);
 }
 
 .rss {
 	display: flex;
 	align-items: center;
+	flex-basis: 100%;
 	flex-direction: row;
 	justify-content: center;
 	margin: 0;
 	gap: .5rem;
-	flex-basis: 100%
 }
 
 .rss img {
@@ -376,22 +376,22 @@ blockquote + p {
 
 @keyframes blinker {
 	50% {
-		opacity: 15%
+		opacity: 15%;
 	}
 }
 
 @keyframes wave-5 {
 	0% {
+		@include crt-boarder(var(--text-green));
 		color: var(--text-green);
 		background: var(--text-green);
-		@include crt-boarder(var(--text-green));
 		opacity: 5%;
 	}
 	80% {
+		@include crt-boarder(gold);
 		color: gold;
 		background: gold;
-		@include crt-boarder(gold);
-		opacity: 100%
+		opacity: 100%;
 	}
 }
 
@@ -412,8 +412,8 @@ blockquote + p {
 	}
 
 	.skip-link {
-		left: 0;
 		right: unset;
+		left: 0;
 	}
 
 	/* Site header styles */
@@ -454,9 +454,9 @@ blockquote + p {
 	}
 
 	#footer-nav {
+		align-items: flex-start;
 		flex-direction: column;
 		gap: 0.5rem;
-		align-items: flex-start;
 	}
 }
 
