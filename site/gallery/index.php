@@ -148,7 +148,7 @@ endif; ?>
         <h2>Photo Gallery</h2>
         <?php renderPhotoGallery(array_slice($photos, $start, $imagesPerPage), 4) ?>
         <?php if ($page == 404):?>
-            <section style="display: flex; flex-direction:column; align-items: center">
+            <section style="display: flex; flex-direction: column; align-items: center">
                 <p>Congrats! You found a secret page.</p>
                 <pre>
                         ,---,
@@ -163,9 +163,7 @@ endif; ?>
                 </pre>
                 <p><strong>404</strong></p>
                 <p>wrong, try again</p>
-
             </section>
-
         <?php endif;?>
         <div class="pagination">
             <button <?= ($page <= 1) ? "disabled" : ""?> class="" type="button" onclick="decreasePage(<?= $page ?>)">&lt;</button>

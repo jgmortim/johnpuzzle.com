@@ -43,7 +43,7 @@ function renderHeader(string $currentTab = ''): void
                 </div>
             </nav>
         </div>
-        <img id="header-logo" src="/images/trilobyte.svg" alt="ASCII art Trilobyte logo"/>
+        <img id="header-logo" src="/images/trilobyte.svg" fetchpriority="high" alt="ASCII art Trilobyte logo"/>
     </header>
     <?php
 }
