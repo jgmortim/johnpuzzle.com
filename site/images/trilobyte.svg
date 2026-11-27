@@ -1,28 +1,28 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" width="360" height="360">
 	<style>
-        @font-face {
-            font-family: 'courier';
-            src: url('data:font/woff2;base64,d09GMk9UVE8AAALgAAkAAAAAA/wAAAKbAAEAAwAAAAAAAAAAAAAAAAAAAAAAAAAADYNUBmAAgQABNgIkAyAEBgUGByAbWQNRlDChGuLnQeamp1nsohaP5q2LUzSPfiMrJaZLh4B7Hr72ez13NymS++BKgAqIJbNwHY+sMlVl1zpgT/SubKrorDeJz4DQIsH05jNRkLFKmUm7+3NS+h/aP+DTAylLWiBhhCG3djC+cKDfgS52wAOdD8Z3G0NvRwiEvK1GZWqSJEIqpPYOD7Q3D9RN3qiToKMUnWToJEeqmLOqkl8U48RfZIV6AZt14K6VyELqHzal79fo/6hOHDV134hPncW1zhbwaxAaa6qZ5looqRhqhAUWWW2H5klIsh5GmGypbY4666Jb6iIHtU7qoVLBbnxCl7kvd7s9kglejSFcuN/wG7S/ufb+xRAQwOvCyAvuVrb8w5eoYBnsaSyffM9ACpMElMA7WgRt95XgLljSlsb++tpL205fvnDo0sWmwytcVdgiFlCjpenB5VG0FB8RuP8P3XPFqIVE1ELq6NW/XXyIqD7hATpai1qeaNTy1D0LsQuGiAqcxGJaN4aWpleX9xCVcbRczLpVH/wQo2mJ6d9dMziMtnR2dmqCzbTnto1vZ7vY7sWZ+2bt27a+kU1hawv7a4STTeTIjb2nL7A9bGX6ed+73s3jm+wNO/96xxEBTOETupuf/sz2wGkCCvA/BTuuvMNiQElU+LetjZxmxxm1GqRj6T5OtCZe6xlJU73ahlI+LJqxcuxyI1TtytVigLl5YlQREBdTb1VVgYSMNrIA11g/204LWT1V7XXS3RDDzLfYDrsKWNgFFp1SvPHRSy888tAFisXilEBqYLSRZgLhwanr57rXNh/yTbDMn+HNzrsl1gdK3zz/63Q+T0QDyTCCPHGzuWl2kfPpfIxEmv2oTa6o88o8/fSzoGitzPTFbWbQHNSTgeKSXggCAA==');
-            font-weight: 400;
-            font-style: normal;
-        }
+		@font-face {
+			font-family: 'courier';
+			src: url('data:font/woff2;base64,d09GMk9UVE8AAALgAAkAAAAAA/wAAAKbAAEAAwAAAAAAAAAAAAAAAAAAAAAAAAAADYNUBmAAgQABNgIkAyAEBgUGByAbWQNRlDChGuLnQeamp1nsohaP5q2LUzSPfiMrJaZLh4B7Hr72ez13NymS++BKgAqIJbNwHY+sMlVl1zpgT/SubKrorDeJz4DQIsH05jNRkLFKmUm7+3NS+h/aP+DTAylLWiBhhCG3djC+cKDfgS52wAOdD8Z3G0NvRwiEvK1GZWqSJEIqpPYOD7Q3D9RN3qiToKMUnWToJEeqmLOqkl8U48RfZIV6AZt14K6VyELqHzal79fo/6hOHDV134hPncW1zhbwaxAaa6qZ5looqRhqhAUWWW2H5klIsh5GmGypbY4666Jb6iIHtU7qoVLBbnxCl7kvd7s9kglejSFcuN/wG7S/ufb+xRAQwOvCyAvuVrb8w5eoYBnsaSyffM9ACpMElMA7WgRt95XgLljSlsb++tpL205fvnDo0sWmwytcVdgiFlCjpenB5VG0FB8RuP8P3XPFqIVE1ELq6NW/XXyIqD7hATpai1qeaNTy1D0LsQuGiAqcxGJaN4aWpleX9xCVcbRczLpVH/wQo2mJ6d9dMziMtnR2dmqCzbTnto1vZ7vY7sWZ+2bt27a+kU1hawv7a4STTeTIjb2nL7A9bGX6ed+73s3jm+wNO/96xxEBTOETupuf/sz2wGkCCvA/BTuuvMNiQElU+LetjZxmxxm1GqRj6T5OtCZe6xlJU73ahlI+LJqxcuxyI1TtytVigLl5YlQREBdTb1VVgYSMNrIA11g/204LWT1V7XXS3RDDzLfYDrsKWNgFFp1SvPHRSy888tAFisXilEBqYLSRZgLhwanr57rXNh/yTbDMn+HNzrsl1gdK3zz/63Q+T0QDyTCCPHGzuWl2kfPpfIxEmv2oTa6o88o8/fSzoGitzPTFbWbQHNSTgeKSXggCAA==');
+			font-weight: 400;
+			font-style: normal;
+		}
 		tspan {
-            white-space: pre;
-            font-size: 32px;
-            fill: #ff5a00;
-            font-weight: 400;
-            font-family: 'courier', monospace;
-            text-shadow: 0 0 1px #ff5a00,
-                         0 0 3px #ff5a00,
-                         0 0 7px color-mix(in srgb, #ff5a00 90%,transparent),
-                         0 0 15px color-mix(in srgb, #ff5a00 50%,transparent),
-                         0 0 25px color-mix(in srgb, #ff5a00 30%,transparent)
-        }
+			white-space: pre;
+			font-size: 32px;
+			fill: #ff5a00;
+			font-weight: 400;
+			font-family: 'courier', monospace;
+			text-shadow: 0 0 1px #ff5a00,
+						 0 0 3px #ff5a00,
+						 0 0 7px color-mix(in srgb, #ff5a00 90%,transparent),
+						 0 0 15px color-mix(in srgb, #ff5a00 50%,transparent),
+						 0 0 25px color-mix(in srgb, #ff5a00 30%,transparent)
+		}
 	</style>
 	<g>
-        <rect x="2" y="2" width="356" height="356" rx="25" ry="25"/>
+		<rect x="2" y="2" width="356" height="356" rx="25" ry="25"/>
 		<text transform="translate(35,36)">
-            <tspan x="0" y="0">    _______</tspan>
+			<tspan x="0" y="0">    _______</tspan>
 			<tspan x="0" y="34">  ,'-./ \.-',</tspan>
 			<tspan x="0" y="68"> /_  |   |  _\</tspan>
 			<tspan x="0" y="102">|/ `'&lt; * &gt;`' \|</tspan>
