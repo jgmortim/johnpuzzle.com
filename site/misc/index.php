@@ -32,13 +32,14 @@ include('../includes/assets.php');
     </section>
     <hr>
     <section class="main-section">
-        <h2>Secret Pages</h2>
+        <h2>Secret Pages & Easter Eggs</h2>
         <p>
-            Being a puzzle maker, it should come as no surprise that I have hidden secret pages on this site. And I'll be adding more
-            as time goes on. You'll know when you found one because the page will generally say "You found a secret page" and
-            the site header will update in a special way. Feel free to look for them.
+            Being a puzzle maker, it should come as no surprise that I have hidden secret pages and Easter eggs on this site. And
+            I'll be adding more as time goes on. You'll know when you found one because the page will usually say "You found a
+            secret page" and the site header will update in a special way. However, this won't always be the case and not all
+            Easter eggs lead to secret pages. Happy hunting!
         </p>
-        <p>Secret Page Hints:</p>
+        <p>Hints:</p>
         <ol>
             <li>Double click</li>
             <li>Not Found, it shouldn't go this high</li>
@@ -46,6 +47,7 @@ include('../includes/assets.php');
             <li>Method Not Allowed</li>
             <li>RFC 2324 section-2.3.2</li>
             <li>Image with steganography, no password</li>
+            <li>A suspicious QR code</li>
         </ol>
     </section>
     <hr>
