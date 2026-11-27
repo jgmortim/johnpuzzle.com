@@ -53,10 +53,10 @@ function renderBlogs(): void {
             <h2>
                 <span class="article-date"><?= $blog["published"] ?></span> // <span class="article-title"><?= $blog["title"] ?></span>
             </h2>
-            <p class="article-summary indent-2">
+            <p class="article-summary indent-1">
                 <?= $blog["summary"] ?>
             </p>
-            <p class="indent-2">
+            <p class="indent-1">
                 <span class="blink">&gt;</span>
                 <a href="<?= $blog["link"] ?>" class="article-link">Continue Reading</a>
             </p>
