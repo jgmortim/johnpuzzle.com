@@ -49,7 +49,7 @@ include('../../includes/assets.php');
                 each color channel), the end result is an array of colors that falls on a scale moving incrementally from one end to
                 the other.
             </p>
-            <div class="inline-image">
+            <div class="float-image-block-s">
                 <?php renderExpandableImage(
                     '../../images/blogs/index-color/indexed-palette.svg',
                     'a visual explanation of index color',
@@ -82,7 +82,7 @@ include('../../includes/assets.php');
         <hr>
         <section class="main-section">
             <h2>Proof of Concept</h2>
-            <div class="inline-image">
+            <div class="float-image-block-s">
                 <?php renderExpandableImage(
                     '../../images/blogs/index-color/index-color-poc.webp',
                     'Original proof of concept image and the solved image shown side by side',
@@ -115,7 +115,7 @@ include('../../includes/assets.php');
                 Technically, this could have used a lower bit-depth (8-bits allows for 256 colors), but eight was chosen because it
                 wouldn't stand out as much a lower value. 3-bit color is very uncommon and would draw attention to itself.
             </p>
-            <div class="block-image-small-medium">
+            <div class="float-image-block-m">
                 <?php renderExpandableImage(
                     '../../images/blogs/index-color/index-color-blue.webp',
                     'Puzzle image and the solved image shown side by side',
@@ -142,7 +142,7 @@ include('../../includes/assets.php');
                 iteration, I wanted a puzzle that couldn't be solved just by randomizing the palette and I wanted to make sure
                 StegOnline couldn't trivialize it.
             </p>
-            <div class="block-image-small-medium">
+            <div class="float-image-block-m">
                 <?php renderExpandableImage(
                     '../../images/blogs/index-color/index-color-community-days.webp',
                     'Puzzle image compared to resized images and images with different palette applications',
@@ -196,7 +196,7 @@ include('../../includes/assets.php');
                 image. In order to progress, the file header needed to be updated to change its dimensions from 500x500 to 1000x1000.
                 This could be done in a hex editor such as <a href="https://hexed.it/" target="_blank">HexEd.it</a>.
             </p>
-            <div class="block-image-small-medium">
+            <div class="float-image-block-m">
                 <?php renderExpandableImage(
                     '../../images/blogs/index-color/index-color-community-days-hex.webp',
                     'Screenshot from HexEd.it showing the width and height bytes highlighted',
@@ -244,7 +244,7 @@ include('../../includes/assets.php');
                 that the color palette used a 0-based index instead of 1-based. Which meant the 64 indexes were numbered from 0-63
                 instead of from 1-64.
             </p>
-            <div class="block-image-small-medium">
+            <div class="float-image-block-m">
                 <?php renderExpandableImage(
                     '../../images/blogs/index-color/index-color-community-days.webp',
                     'Puzzle image compared to resized images and images with different palette applications',

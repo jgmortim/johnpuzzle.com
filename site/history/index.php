@@ -26,7 +26,7 @@ include('../includes/assets.php');
 <main id="main-content" tabindex="-1">
     <section class="main-section">
         <h2>0 // Puzzle Solver</h2>
-        <div class="inline-image">
+        <div class="float-image-block-s">
             <?php renderExpandableImage(
                     '../images/gallery/cicada-detroit-win.webp',
                     'From left-to-right: Shelby (2nd), Carl (host), and me (1st) at the closing celebration for Cicada Detroit.',

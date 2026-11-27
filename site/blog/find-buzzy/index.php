@@ -83,7 +83,7 @@ $puzzle9photos = [
         <section class="main-section">
             <h2>Puzzle 25</h2>
             <h3>Premise</h3>
-            <div class="inline-image">
+            <div class="float-image-block-s">
                 <?php renderExpandableImage(
                     '../../images/blogs/buzzy/buzzy-25.webp',
                     'The image from Find Buzzy Puzzle 25',
@@ -120,7 +120,7 @@ $puzzle9photos = [
                 difficult and likely the final puzzle to be solved.
             </p>
             <h4>Puzzle 14</h4>
-            <div class="inline-image">
+            <div class="float-image-block-s">
                 <?php renderExpandableImage(
                     '../../images/blogs/buzzy/buzzy-secrets.webp',
                     'secrets.png',

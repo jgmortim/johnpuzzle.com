@@ -21,10 +21,10 @@
 	place-items: center start;
 	grid-template-columns: auto auto auto 1fr;
 	gap: .5rem;
-}
 
-.cursor-showcase img {
-	background: dimgrey;
+	img {
+		background: dimgrey;
+	}
 }
 
 @media screen and (max-width: 850px) {
@@ -32,11 +32,11 @@
 	.cursor-showcase {
 		place-items: center;
 		grid-template-columns: repeat(3, auto);
-	}
 
-	.cursor-showcase figcaption {
-		text-align: center;
-		grid-column: 1 / 4;
+		figcaption {
+			text-align: center;
+			grid-column: 1 / 4;
+		}
 	}
 }
 

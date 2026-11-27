@@ -27,7 +27,7 @@ include('../../includes/assets.php');
     <article>
         <section class="main-section">
             <h2>Kheel Mouse Cursors</h2>
-            <div class="inline-image">
+            <div class="float-image-block-s">
                 <img src="logo.png" alt="Kheel logo">
             </div>
             <p>
